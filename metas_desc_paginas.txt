@@ -1,0 +1,38 @@
+++++++++++METATAG DESCRIPCION PAGINAS++++++++[120 caracteres permitidos]
+ 
+<?php $descPage="Si te perdiste o quieres ver cómo está organizado el sitio inflamigos, en esta página podrás ver el mapa de nuestro sitio en detalle.";?>
+
+
+
+INDEX:
+"Brincolines Inflamigos, renta de juegos inflables para fiestas y eventos en Playa del Carmen y toda la Riviera Maya. Entretenimiento Infantil."
+
+
+INFLABLES:
+
+"En inflamigos contamos con 6 modelos de brincolines para todos los gustos y edades, desde una alberca de pelotas hasta un gran interactivo."
+
+
+ACERCA DE:
+
+"Acerca de brincolines inflamigos, cuando nace, en donde estamos, y nuestros servicios de renta de inflables para niños."
+
+FAQ:
+
+"Si tienes dudas sobre nuestro servicio de renta de brincolines, aquí encontraras la respuesta a las preguntas frecuentes de nuestros clientes."
+
+
+CONTACTO:
+
+
+"¡Contáctanos!, en brincolines inflamigos, estamos al pendiente de tus comentarios o sugerencias acerca de nuestros servicios de renta de inflables."
+
+ENLACES:
+
+"Esta es nuestra página de intercambio de enlaces, tal vez encuentres algo interesante aquí, contáctanos si tienes algún enlace para intercambiar."
+
+
+
+MAPA DE SITIO:
+
+"Si te perdiste o quieres ver cómo está organizado el sitio inflamigos, en esta página podrás ver el mapa de nuestro sitio en detalle."

@@ -1,0 +1,313 @@
+@import "normalize.styl"
+
+@charset "utf-8"
+*
+	margin 0
+	padding 0
+
+body
+	background-color #fff
+	color #09f
+	font-family 'Noto Sans', sans-serif
+	font-size 16px
+	margin 0 auto
+	padding 0
+
+img
+	border 0
+
+h1,h2,h3,h4,h5,h6
+	margin 0 auto
+	font-family 'Wendy One', sans-serif
+	text-shadow 1px 1px 1px rgba(60,60,60,0.5)
+	text-align center
+	font-weight 60
+
+h1
+	color #FC3
+	font-size 3.0em
+	text-align center
+
+h2
+	text-align center
+
+h3
+	font-size 1.4em
+	color #fff
+	width 95%
+	display block
+	background-color #FF4900
+	padding 5px
+
+h4
+	color #333
+	font-size 1em
+
+h5
+	font-size 0.8em
+	text-align center
+	color #666
+
+h6
+	font-size 1.0em
+
+a
+	text-decoration none
+
+section, article, aside, nav, .lista, .lista img, .lista ol, .lista li, .boletin, .boletin p, .menu_inflables ul li, .menu_inflables imghover, .lista-imagenes ul, .lista-imagenes li, #ubicacion
+	box-sizing border-box
+	margin 2px auto
+	list-style-position inside
+	list-style-type disc
+	color #F30
+	padding 0 10px
+
+header
+	display block
+	margin 5px auto
+	width 100%
+	padding 5px 0
+	text-align center
+
+header p
+	width 80%
+
+header #logo
+	border 0
+	display inline-block
+	width 10%
+
+header #inflabletop
+	border 0
+	display inline-block
+	width 10%
+
+header #info
+	display inline-block
+	width 78%
+	text-align center
+	margin 0 auto
+
+
+header #logo img, header #inflabletop img
+	width 100%
+
+header ol
+	list-style none
+	text-decoration none
+	padding 0
+	margin 0 auto
+
+
+article
+	color #121212
+	margin 0 auto
+	padding 0
+	width 100%
+
+article p
+	font-size 1.1em
+	margin 15px auto
+	width 85%
+	padding 10px
+
+footer
+	background-color #FF4900
+	bottom 0%
+	margin 0 auto
+	padding 0
+	position relative
+	text-align center
+	z-index 1
+	width 100%
+
+section
+	background-color #FF9200
+	border-radius 10px
+	border 1px solid #FF4900
+	box-shadow 0 0 10px 2px rgba(60,60,60,0.8)
+	display block
+	margin 0 auto
+	width 96%
+	padding 20px 0
+
+#container
+	margin 5px auto
+	max-width 1000px
+	padding 0
+	position relative
+	text-align justify
+	z-index 3
+
+.bnt_ir
+	width 90%
+	display block
+	background-color #ddd
+	margin 2px auto
+	border-radius 2px
+
+.btn_ir a:link
+	color #ccc 
+
+.bnt_ir:hover
+	background-color #6ff
+
+.credits
+	margin 0 auto
+	color #ddd
+	text-align center
+
+
+.credits a:link
+	text-decoration none
+	padding 0
+	margin-top 0
+
+.credits p
+	margin 0 auto
+	padding 10px 0
+	text-align center
+	width 80%
+
+
+.menu_inflables
+	width 95%
+	margin 0 auto
+	text-align center
+
+
+figure
+	border 2px solid #eee
+	background-color #fff
+	color #333
+	padding 5px
+	margin 5px
+	width 22%
+	display inline-block
+	vertical-align top
+	transition all 1s ease
+	border-radius 5px
+	text-align center
+	box-shadow 0 0 2px 2px rgba(46, 49, 50, 0.3)
+
+figure a 
+	display block
+	border-radius 3px
+	background-color #FF4900
+	color #FFF
+
+figure a:hover
+	background-color #FFBB00	
+
+figure img
+	width 100%
+	padding 0
+	margin 0
+	border-radius 5px
+
+figure:hover
+	transform scale(1.08)
+
+.datos
+	display inline-block
+	vertical-align top
+	width 30%
+	padding 2%
+
+
+.cat
+	margin 5px auto
+	width 100%
+
+.cat
+	margin 0 auto
+
+.articborder
+	border-bottom 1px dashed #09F
+	margin 10px
+
+.fltrt
+ 	float right
+	margin-left 8px
+
+.fltlft
+ 	float left
+	margin-right 8px
+
+.clearfloat
+	clear both
+
+.lista-imagenes
+	display inline-block
+	vertical-align top
+	width 60%
+	padding 2%
+	text-align center
+	margin 0 auto
+
+.lista-imagenes h4
+	text-align left
+	margin 10px auto
+
+.lista-imagenes ul
+	padding 0
+	margin 0
+	text-align left
+
+.lista-imagenes li
+	display inline-block
+	list-style-type none
+	margin 2px
+	transition all 0.8s ease
+	width 30%
+
+.lista-imagenes li img
+	width 100%
+	padding 0
+	box-shadow 3px 3px 2px rgba(46, 49, 50, 0.3)
+	border 1px solid #D30
+	border-radius 5px
+
+.lista-imagenes li:hover
+	transform scale(1.08)
+
+.datos
+	display inline-block
+	vertical-align top
+	width 30%
+	padding 2%
+
+.menu_inflables_mini
+	margin 0 auto
+	padding 2%
+	width 96%
+	background-color #ffb600
+	border-radius 5px
+	border-bottom-left-radius 0
+	border-bottom-right-radius 10px
+
+.menu_inflables_mini li
+	list-style none
+	margin 0 1px
+	padding 0
+	text-decoration none
+	width 15%
+	display inline-block
+	text-align center
+
+.menu_inflables_mini li img
+	width 100%
+	padding 0
+	margin 1px
+	border 1px dotted #fff
+
+.menu_inflables_mini li img:hover
+	opacity: 0.7
+
+.uvideo
+	margin 10px auto
+	padding-top 10px
+	text-align center
+	width 80%
+
+@import "responsive.styl"

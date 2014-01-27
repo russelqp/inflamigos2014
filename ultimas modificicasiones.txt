@@ -1,0 +1,11 @@
+16/05/2012 7:15pm Russel QUiam
+
+Creacion de carpeta js para el lightbox
+
+cambio de tipo de galeria a lightbox con reconocimiento de imagenes dentro de carpeta
+
+carpeta images para imagenes de lightbox
+
+------------------------------
+
+modificaciones en archivo inflble.php. se agregaron datos de nuevos inflables, asi como la modificación del tipo de galeria. 

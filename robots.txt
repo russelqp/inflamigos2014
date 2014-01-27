@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /.
+Allow: /
+Disallow: /pruebas/
+Disallow: /p/
+Disallow: /olds/
+Disallow: /webim/
+Disallow: /email/
+Disallow: /*swf*
+Disallow: /*js*
