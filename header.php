@@ -3,7 +3,7 @@
 <?php
 flush();
 $url_a = "http://www.inflamigos.com.mx/";
-$url_r = "http://127.1.0.0/inflamigos5/";
+$url_r = "http://127.1.0.0/inflamigos2014/";
 $Myurl = $url_r;
 ?>
 <head>

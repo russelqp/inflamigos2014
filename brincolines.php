@@ -61,9 +61,10 @@
 			 				<a href="<?php echo $Myurl; ?>brincolines/escaladrilo/" title="ver imagenes de: Escaladrilo">Mas detalles</a>
 						</figure>
 
-							<figure class="fondoli-griz">
+							
+						<figure class="fondoli-griz">
 						 	<img src="<?php echo $Myurl; ?>inflables/escaladora_middle.jpg" alt="Nueva Escaladora"/>
-						 	<h4>Escaladora<br />(6 x 3)</h4>
+						 	<h4>Nueva Escaladora<br />(6 x 3)</h4>
 
 
 						 	<figcaption>Agregale más diversión a tu alberca</figcaption>
@@ -72,6 +73,7 @@
 						 	<div class="fb-like" data-href="http://www.inflamigos.com.mx/brincolines/escaladora/" data-width="450" data-layout="button_count" data-show-faces="true" data-send="true"></div>
 			 				<a href="<?php echo $Myurl; ?>brincolines/escaladora/" title="ver imagenes de: Nueva escaladora">Mas detalles</a>
 						</figure>
+
 
 						<!--<figure class="fondoli-griz">
 						 	<img src="http://www.inflamigos.com.mx/inflables/aventura-palmeras-middle.jpg" alt="Aventura-palmeras-middle"/>

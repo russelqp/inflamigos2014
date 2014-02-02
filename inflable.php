@@ -272,18 +272,23 @@ $url = $inflable;
 <!--Inicia lista-imagenes-->
 <div class="lista-imagenes">
 <?php
-   $ext=".jpg";
    $ruta="inflables/thumbs/".$brincolin."/";
-   $ruta2="inflables/g/".$brincolin."/";
-   $total_imagenes =count(glob($ruta."*_thumb*"));
-   $array_nombres = $total_imagenes;
-   $arr_ext=array("jpg","png","gif");
-   $mydir=opendir($ruta);
+   $ruta2="inflables/g/".$brincolin."/brincolin_inflable_";
+   $images = glob($ruta . "*");
    echo "<h4>Imagenes:</h4><ul>" ; 
-   for ($i=1; $i<=$total_imagenes;$i++){
-   echo '<li><a href="'.$ruta2."brincolin_inflable_".$brincolin."_0".$i.$ext.'" rel="lightbox[roadtrip]" title="'.$titulo.'"><img src="'.$ruta.$brincolin."_thumb_0".$i.$ext.'" alt="'.$brincolin."_thumb".'" /></a></li>';
+ 
+	  foreach($images as $image)
+	 { 
+	 	  
+	 	
+	 	$ext = ".jpg";/*pathinfo( $ruta2, PATHINFO_EXTENSION );*/
+	 	$name = pathinfo( $image, PATHINFO_FILENAME );
+	    $name = explode("thumb_",$name);
+	  
+	    echo '<li><a href="'.$Myurl.$ruta2.$name[0].$name[1].$ext.'" rel="lightbox[roadtrip]" title="'.$titulo.'"><img src="'.$Myurl.''.$image.'" alt="'.$brincolin."_thumb".'" /></a></li>';
+		
+	}
 
-}
 	echo "</ul>";
 ?>
 </div>
