@@ -80,8 +80,8 @@ map.addMarker({
         <?php
             $inflabletop ="ultra-cubo";
         ?>
-          <a href="<?php echo $Myurl; ?>/brincolines/<?php echo $inflabletop; ?>/" title="<?php echo $inflabletop; ?>">
-            <img src="<?php echo $Myurl; ?>/imagenes/inflable-top/<?php echo $inflabletop; ?>.png" class="inflable-top" alt="<?php echo $inflabletop; ?>" />
+          <a href="<?php echo $Myurl; ?>brincolines/<?php echo $inflabletop; ?>/" title="<?php echo $inflabletop; ?>">
+            <img src="<?php echo $Myurl; ?>imagenes/inflable-top/<?php echo $inflabletop; ?>.png" class="inflable-top" alt="<?php echo $inflabletop; ?>" />
           </a>
        </div>
             <?php $btn_activo;?>

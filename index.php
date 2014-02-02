@@ -8,27 +8,75 @@
 <section id="welcome">
 
     	<figure id="baners">
-    	<a href="http://www.inflamigos.com.mx/brincolines.php" title="ver los brincolines inflables">
+    	<a href="<?php echo $Myurl; ?>brincolines.php" title="ver los brincolines inflables">
     	<img src="imagenes/thumb-wall-1.jpg" alt="inflables"/></a>
     	</figure>
-      <!--<div id="box-sm">
-          <ul>
-             <li><a href="https://plus.google.com/108078750244157653212/"  class="icon-google-plus" title="Página Inflamigos en Google+"></a></li>
-            <li><a href="http://www.facebook.com/#!/pages/Inflamigos-Renta-de-Brincolines-Inflables/108059039214265"  class="icon-facebook" title="Fanpage Inflamigos" ></a></li> 
-            <li><a href="http://twitter.com/#!/inflamigos" class="icon-twitter" title="Sigue nuestros tweets"></a></li>
-            <li><a href="http://vimeo.com/user11306967"  class="icon-vimeo" title="Videos Inflamigos en Vimeo"></a></li>
-            <li><a href="http://www.youtube.com/user/inflamigos/"  class="icon-youtube" title="Videos de Inflamigos en Youtube"></a></li>
-                     </ul>
-      </div>-->
-    	<div id="box-ofer">¡Reserva ahora!<br /> cel. 9841416137</div>
+      
+    	<div id="box-ofer">
+            
+            <form>
+                  <p>¡Reserva ahora!</p>
+                  <label>Email:
+                  <input type="email" id="user-email" placeholder="e.j. russelqp@gmail.com" required/>
+                  </label>
+                  <label>Comentario:
+                  <input type="text" id="user-comment"  required/>
+                 </label>
+                 <p/><strong class="icon-phone"> 9841416137</strong></p>
+            </form>
+
+            <div id="box-sm">
+                <ul>
+                     <li><a href="https://plus.google.com/108078750244157653212/"  class="icon-google-plus" title="Página Inflamigos en Google+"></a></li>
+                     <li><a href="http://www.facebook.com/#!/pages/Inflamigos-Renta-de-Brincolines-Inflables/108059039214265"  class="icon-facebook" title="Fanpage Inflamigos" ></a></li> 
+                      <li><a href="http://twitter.com/#!/inflamigos" class="icon-twitter" title="Sigue nuestros tweets"></a></li>
+                     <li><a href="http://vimeo.com/user11306967"  class="icon-vimeo" title="Videos Inflamigos en Vimeo"></a></li>
+                     <li><a href="http://www.youtube.com/user/inflamigos/"  class="icon-youtube" title="Videos de Inflamigos en Youtube"></a></li>
+                </ul>
+            </div>
+
+      </div>
 
 </section>
 
 <section id="servicios">
 <article>
-<figure class="miniserv"><img src="<?php echo $Myurl; ?>/imagenes/inflamigos-renta-de-brincolines.jpg" alt="" /><figcaption>Tenemos una variedad de brincolines</figcaption><a class="btn-miniserv" href="" title="">Ver más</a></figure>
-<figure class="miniserv"><img src="<?php echo $Myurl; ?>/imagenes/inflamigos-toldos.jpg" alt="" /><figcaption>Contamos con toldos de diferentes medidas</figcaption><a class="btn-miniserv" href="" title="">Ver más</a></figure>
-<figure class="miniserv"><img src="<?php echo $Myurl; ?>/imagenes/inflamigos-sillasymesas.jpg" alt="" /><figcaption>Alquiler de sillas y mesas</figcaption><a class="btn-miniserv" href="" title="">Ver más</a></figure>
+<figure class="miniserv">
+  <img src="<?php echo $Myurl; ?>/imagenes/inflamigos-renta-de-brincolines.jpg" alt="" />
+  <figcaption>Tenemos una variedad de brincolines</figcaption>
+   <p><a href="" title="">Ver más</a><p><br />
+  <p class="compartir">Compartir:</p>
+  <ul class="compartir">
+  <li><a href="https://plus.google.com/108078750244157653212/"  class="icon-google-plus" title="Página Inflamigos en Google+"></a></li>
+  <li><a href="http://www.facebook.com/#!/pages/Inflamigos-Renta-de-Brincolines-Inflables/108059039214265"  class="icon-facebook" title="Fanpage Inflamigos" ></a></li> 
+  <li><a href="http://twitter.com/#!/inflamigos" class="icon-twitter" title="Sigue nuestros tweets"></a></li>
+  </ul>
+
+</figure>
+<figure class="miniserv">
+  <img src="<?php echo $Myurl; ?>/imagenes/inflamigos-toldos.jpg" alt="" />
+  <figcaption>Contamos con toldos de diferentes medidas</figcaption>
+  <p><a href="" title="">Ver más</a><p><br />
+  <p class="compartir">Compartir:</p>
+  <ul class="compartir">
+  <li><a href="https://plus.google.com/108078750244157653212/"  class="icon-google-plus" title="Página Inflamigos en Google+"></a></li>
+  <li><a href="http://www.facebook.com/#!/pages/Inflamigos-Renta-de-Brincolines-Inflables/108059039214265"  class="icon-facebook" title="Fanpage Inflamigos" ></a></li> 
+  <li><a href="http://twitter.com/#!/inflamigos" class="icon-twitter" title="Sigue nuestros tweets"></a></li>
+  </ul>
+  
+</figure>
+<figure class="miniserv">
+  <img src="<?php echo $Myurl; ?>/imagenes/inflamigos-sillasymesas.jpg" alt="" />
+  <figcaption>Alquiler de sillas y mesas</figcaption>
+   <p><a href="" title="">Ver más</a><p><br />
+  <p class="compartir">Compartir:</p>
+  <ul class="compartir">
+  <li><a href="https://plus.google.com/108078750244157653212/"  class="icon-google-plus" title="Página Inflamigos en Google+"></a></li>
+  <li><a href="http://www.facebook.com/#!/pages/Inflamigos-Renta-de-Brincolines-Inflables/108059039214265"  class="icon-facebook" title="Fanpage Inflamigos" ></a></li> 
+  <li><a href="http://twitter.com/#!/inflamigos" class="icon-twitter" title="Sigue nuestros tweets"></a></li>
+  </ul>
+  
+</figure>
 </article>
 </section>
 
