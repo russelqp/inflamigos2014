@@ -68,8 +68,8 @@ img{border:0}
 h1,h2,h3,h4,h5,h6{margin:0 auto;font-family:'Wendy One',sans-serif;text-shadow:1px 1px 1px rgba(60,60,60,0.5)}
 h1{color:#fc3;font-size:3em;text-align:center}
 h2{text-align:center}
-h3{font-size:2em;padding-left:30px;color:#fc0;background:#ff4900;width:100%;border-top-right-radius:10px;box-sizing:border-box}
-h4{color:#36e;font-size:1.6em;padding:0 20px}
+h3{font-size:2em;padding-left:30px;color:#fc0;background-color:#fe4900;width:100%;box-sizing:border-box;text-align:left}
+h4{color:#ffd700;font-size:1.6em;padding:2px 10px;background-color:#fe4900;margin:2px auto 10px auto}
 h5{font-size:1.2em;text-align:center}
 h6{font-size:1em}
 a{text-decoration:none}
@@ -88,17 +88,20 @@ article{color:#121212;margin:0 auto;padding:0;text-align:center;vertical-align:t
 aside{width:29%;margin:0 auto;text-align:center;padding:0;color:#fff}
 article .lista li p{width:75%;margin:5px auto;text-align:justify;padding:0;color:#39f}
 article p{font-size:1.1em;margin:15px auto;width:85%}
-#servicios{width:100%;margin:0 auto;padding:15px;background:rgba(255,255,255,0.2)}
-#welcome{margin:5px auto;width:100%;padding:15px;background:none;border:0;box-shadow:none;background:rgba(255,255,255,0.2)}
-#welcome figure{width:68%;margin:0 15px 0 0;display:inline-block;vertical-align:top;background:rgba(255,255,255,0.2)}
-#welcome figure img{width:100%;padding:0;margin:0}
+#servicios{width:100%;margin:0 auto;padding:15px;background:rgba(255,255,255,0.1);border-bottom-right-radius:5px;border-bottom-left-radius:5px}
+#welcome{margin:5px auto;width:100%;padding:15px;background:none;border:0;box-shadow:none;background:rgba(255,255,255,0.9)}
+#welcome #banners{width:65%;margin:0 15px 0 0;display:inline-block;vertical-align:top;background:rgba(255,255,255,0.2);position:relative}
+#welcome #banners figure,position absolute,top 10px,left 10px,right 10px,bottom 10px,#welcome figure img{width:100%;padding:0;margin:0}
 #welcome #box-ofer{width:30%;margin:0 auto;padding:0;display:inline-block;vertical-align:top;right:0}
-#welcome #box-ofer form{display:block;margin:0 auto 15px auto;padding:2px;height:40%;background:rgba(255,255,255,0.7);width:100%;text-align:center}
+#welcome #box-ofer form{display:block;margin:0 auto 5px auto;padding:2px;height:40%;width:100%;text-align:center;background-color:#ffd700}
+#welcome #box-ofer form	input{border-radius:5px;border:solid 1px #fff;margin:2px auto;height:2em;width:90%;transition:.7s ease all;color:#fe4900;padding:5px 2px}
+#welcome #box-ofer form	.user-submit{box-shadow:0 0 5px #888;background-color:#f00;width:80%;color:#eee}
+#welcome #box-ofer form	.user-submit:hover{background-color:#8eeb00;color:#fff;box-shadow:0 0 5px #888}
 #welcome #box-sm{margin:0 auto;text-align:center;padding:2px 0;background:rgba(255,255,255,0.7);display:inline-block;vertical-align:top;height:40%;width:100%}
 #welcome #box-sm ul li{margin:2px;padding:0;display:inline-block}
 #welcome #box-sm ul li a{display:inline-block;vertical-align:top;padding:0;font-size:1.8em;color:#d20033;text-shadow:0 0 2px rgba(60,60,60,0.5);transition:all .5s ease}
 #welcome #box-sm ul li a:hover{color:#00af64;transform:scale(1.1)}
-.miniserv{border-radius:5px;border:2px solid #eee;background-color:#fff;color:#333;padding:10px;margin:5px;width:29%;display:inline-block;vertical-align:top;transition:all 1s ease;text-align:center;box-shadow:0 0 2px 2px rgba(46,49,50,0.3);}
+.miniserv{border-radius:5px;border:5px solid #eee;background-color:#fff;color:#333;padding:10px;margin:2px 5px;width:29%;display:inline-block;vertical-align:top;transition:all 1s ease;text-align:center;box-shadow:0 0 2px 2px rgba(46,49,50,0.3);}
 .miniserv p{width:80%;margin:0;padding:0;text-align:right}
 .miniserv .compartir{width:40%;margin:0 2px;padding:0;display:inline-block;vertical-align:top}
 .miniserv ul{padding:0;list-style-type:none;text-align:right}
@@ -146,7 +149,7 @@ section{display:block;margin:0 auto;width:100%;padding:20px 0}
 .lista .img-list{width:15%}
 .lista .img-list img{width:100%;padding:0}
 .lista ol{width:75%;list-style:none;background-color:#fc3;border-radius:5px;border:2px solid #f90;padding:10px 0}
-.lista ol li{color:#f80012;text-align:left}
+.lista ol li{color:#f80012;text-align:left;font-size:1.2em}
 .ubicacion{background-color:#f90;margin:0 auto;padding:0;width:948px}
 .ubicacion p{margin:auto;text-align:left}
 .uvideo{margin:10px auto;padding-top:10px;text-align:center;width:80%}

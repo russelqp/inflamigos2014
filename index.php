@@ -6,20 +6,32 @@
  <?php include('header.php');?>
 <!--<div class="ubicacion"><p>Inicio</p></div>-->
 <section id="welcome">
-
-    	<figure id="baners">
+		<div id="banners">
+    	<figure>
     	<a href="<?php echo $Myurl; ?>brincolines.php" title="ver los brincolines inflables">
-    	<img src="imagenes/thumb-wall-1.jpg" alt="inflables"/></a>
+    	<img src="<?php echo $Myurl; ?>banners/banner_1.jpg" alt="inflables"/></a>
     	</figure>
+
+    	<figure>
+    	<a href="<?php echo $Myurl; ?>brincolines.php" title="ver los brincolines inflables">
+    	<img src="<?php echo $Myurl; ?>banners/banner_2.jpg" alt="inflables"/></a>
+    	</figure>
+
+    	<figure>
+    	<a href="<?php echo $Myurl; ?>brincolines.php" title="ver los brincolines inflables">
+    	<img src="<?php echo $Myurl; ?>banners/banner_3.jpg" alt="inflables"/></a>
+    	</figure>
+    	</div>
       
     	<div id="box-ofer">
             
             <form>
                   <h4>¡Reserva ahora!</h4>
                  	<input type="email" id="user-email" placeholder="Email" required/>
-                  <input type="text" id="user-comment"  placeholder="Mensaje" required/>
-
+                  	<input type="text" id="user-comment"  placeholder="Mensaje" required/>
+                   	<input class="user-submit" type="submit" name="submit" value="Enviar" />
                  <p><strong class="icon-phone"> 9841416137</strong></p>
+
             </form>
 
             <div id="box-sm">
@@ -38,6 +50,7 @@
 
 <section id="servicios">
 <article>
+<h3>Nuestros servicios</h3>
 <figure class="miniserv">
   <img src="<?php echo $Myurl; ?>imagenes/inflamigos-renta-de-brincolines.jpg" alt="" />
   <figcaption>Tenemos una variedad de brincolines</figcaption>
