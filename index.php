@@ -15,14 +15,11 @@
     	<div id="box-ofer">
             
             <form>
-                  <p>¡Reserva ahora!</p>
-                  <label>Email:
-                  <input type="email" id="user-email" placeholder="e.j. russelqp@gmail.com" required/>
-                  </label>
-                  <label>Comentario:
-                  <input type="text" id="user-comment"  required/>
-                 </label>
-                 <p/><strong class="icon-phone"> 9841416137</strong></p>
+                  <h4>¡Reserva ahora!</h4>
+                 	<input type="email" id="user-email" placeholder="Email" required/>
+                  <input type="text" id="user-comment"  placeholder="Mensaje" required/>
+
+                 <p><strong class="icon-phone"> 9841416137</strong></p>
             </form>
 
             <div id="box-sm">
@@ -42,9 +39,9 @@
 <section id="servicios">
 <article>
 <figure class="miniserv">
-  <img src="<?php echo $Myurl; ?>/imagenes/inflamigos-renta-de-brincolines.jpg" alt="" />
+  <img src="<?php echo $Myurl; ?>imagenes/inflamigos-renta-de-brincolines.jpg" alt="" />
   <figcaption>Tenemos una variedad de brincolines</figcaption>
-   <p><a href="" title="">Ver más</a><p><br />
+   <p><a href="<?php echo $Myurl; ?>brincolines/" title="">Ver más</a><p><br />
   <p class="compartir">Compartir:</p>
   <ul class="compartir">
   <li><a href="https://plus.google.com/108078750244157653212/"  class="icon-google-plus" title="Página Inflamigos en Google+"></a></li>
@@ -54,9 +51,9 @@
 
 </figure>
 <figure class="miniserv">
-  <img src="<?php echo $Myurl; ?>/imagenes/inflamigos-toldos.jpg" alt="" />
+  <img src="<?php echo $Myurl; ?>imagenes/inflamigos-toldos.jpg" alt="" />
   <figcaption>Contamos con toldos de diferentes medidas</figcaption>
-  <p><a href="" title="">Ver más</a><p><br />
+  <p><a href="<?php echo $Myurl; ?>servicios/toldos/" title="">Ver más</a><p><br />
   <p class="compartir">Compartir:</p>
   <ul class="compartir">
   <li><a href="https://plus.google.com/108078750244157653212/"  class="icon-google-plus" title="Página Inflamigos en Google+"></a></li>
@@ -66,9 +63,9 @@
   
 </figure>
 <figure class="miniserv">
-  <img src="<?php echo $Myurl; ?>/imagenes/inflamigos-sillasymesas.jpg" alt="" />
+  <img src="<?php echo $Myurl; ?>imagenes/inflamigos-sillasymesas.jpg" alt="" />
   <figcaption>Alquiler de sillas y mesas</figcaption>
-   <p><a href="" title="">Ver más</a><p><br />
+   <p><a href="<?php echo $Myurl; ?>servicios/mesas-y-sillas/" title="">Ver más</a><p><br />
   <p class="compartir">Compartir:</p>
   <ul class="compartir">
   <li><a href="https://plus.google.com/108078750244157653212/"  class="icon-google-plus" title="Página Inflamigos en Google+"></a></li>
@@ -94,7 +91,7 @@
 -->
 
 <div class="lista">
-<div class="img-list"><img src="http://www.inflamigos.com.mx/imagenes/punching-bag.png" alt="alegria"/></div>
+<div class="img-list"><img src="<?php echo $Myurl; ?>/imagenes/punching-bag.png" alt="alegria"/></div>
 <ol>
 <li>El alquiler es por todo el día.</li>
 <li>Nuestros precios son accesibles.</li>

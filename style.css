@@ -29,7 +29,7 @@ legend{border:0;padding:0;}
 button,input,select,textarea{font-family:inherit;font-size:100%;margin:0;}
 button,input{line-height:normal}
 button,select{text-transform:none}
-button,html input[type="button"],* 1 */,input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer;}
+button,html input[type="button"],/* 1 */,input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer;}
 button[disabled],html input[disabled]{cursor:default}
 input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;}
 input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}
@@ -65,7 +65,7 @@ table{border-collapse:collapse;border-spacing:0}
 *{margin:0;padding:0}
 body{background-color:#cef;background-repeat:repeat-x;color:#fff;font-family:'Noto Sans',sans-serif;font-size:16px;margin:0 auto;padding:0}
 img{border:0}
-h1,h2,h3,h4,h5,h6{margin:0 auto;font-family:'Wendy One',sans-serif;text-shadow:1px 1px 1px rgba(60,60,60,0.5);text-align:left}
+h1,h2,h3,h4,h5,h6{margin:0 auto;font-family:'Wendy One',sans-serif;text-shadow:1px 1px 1px rgba(60,60,60,0.5)}
 h1{color:#fc3;font-size:3em;text-align:center}
 h2{text-align:center}
 h3{font-size:2em;padding-left:30px;color:#fc0;background:#ff4900;width:100%;border-top-right-radius:10px;box-sizing:border-box}
@@ -93,7 +93,7 @@ article p{font-size:1.1em;margin:15px auto;width:85%}
 #welcome figure{width:68%;margin:0 15px 0 0;display:inline-block;vertical-align:top;background:rgba(255,255,255,0.2)}
 #welcome figure img{width:100%;padding:0;margin:0}
 #welcome #box-ofer{width:30%;margin:0 auto;padding:0;display:inline-block;vertical-align:top;right:0}
-#welcome #box-ofer form{display:block;margin:0 auto 15px auto;height:40%;background:rgba(255,255,255,0.7);width:100%}
+#welcome #box-ofer form{display:block;margin:0 auto 15px auto;padding:2px;height:40%;background:rgba(255,255,255,0.7);width:100%;text-align:center}
 #welcome #box-sm{margin:0 auto;text-align:center;padding:2px 0;background:rgba(255,255,255,0.7);display:inline-block;vertical-align:top;height:40%;width:100%}
 #welcome #box-sm ul li{margin:2px;padding:0;display:inline-block}
 #welcome #box-sm ul li a{display:inline-block;vertical-align:top;padding:0;font-size:1.8em;color:#d20033;text-shadow:0 0 2px rgba(60,60,60,0.5);transition:all .5s ease}
@@ -165,7 +165,7 @@ section{display:block;margin:0 auto;width:100%;padding:20px 0}
 .boletin .btn-bol:hover{background-color:#00bf32;color:#fff}
 .boletin #tlemail{width:90%;font-size:1.2em;color:#09f}
 .submenu{background-color:#fc3;color:#9c0;padding:0;text-align:center}
-margin 0 auto,.submenu ul{margin:0 auto;width:80%;padding:0}
+margin 0auto,.submenu ul{margin:0 auto;width:80%;padding:0}
 .submenu li{border-left:2px solid #ff9;border-right:2px solid #f90;display:inline-block;vertical-align:top;height:30px;list-style-type:none;margin:0;padding:0}
 .submenu li.nb-left{border-left:0}
 .submenu li.nb-right{border-right:0}
