@@ -6,21 +6,21 @@
  <?php include('header.php');?>
 <!--<div class="ubicacion"><p>Inicio</p></div>-->
 <section id="welcome">
-		<div id="slideshow">
-    	<div>
+		<div id="banners">
+    	<figure>
     	<a href="<?php echo $Myurl; ?>brincolines.php" title="ver los brincolines inflables">
     	<img src="<?php echo $Myurl; ?>banners/banner_1.jpg" alt="inflables"/></a>
-    	</div>
+    	</figure>
 
-    <div>
+    	<figure>
     	<a href="<?php echo $Myurl; ?>brincolines.php" title="ver los brincolines inflables">
     	<img src="<?php echo $Myurl; ?>banners/banner_2.jpg" alt="inflables"/></a>
-    	</div>
+    	</figure>
 
-    	<div>
+    	<figure>
     	<a href="<?php echo $Myurl; ?>brincolines.php" title="ver los brincolines inflables">
     	<img src="<?php echo $Myurl; ?>banners/banner_3.jpg" alt="inflables"/></a>
-    	</div>
+    	</figure>
     	</div>
       
     	<div id="box-ofer">
