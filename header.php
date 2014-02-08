@@ -24,6 +24,9 @@ $Myurl = $url_r;
 <script src="<?php echo $Myurl; ?>prefixfree.min.js"></script>
 <link href="<?php echo $Myurl; ?>css/lightbox.css" rel="stylesheet" />
 <script type="text/javascript" src="[JS library]"></script>
+
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
 <!--[if (gte IE 6)&(lte IE 8)]>
   <script type="text/javascript" src="selectivizr-min.js"></script>
   <noscript><link rel="stylesheet" href="[fallback css]" /></noscript>

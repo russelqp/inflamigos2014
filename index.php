@@ -6,23 +6,25 @@
  <?php include('header.php');?>
 <!--<div class="ubicacion"><p>Inicio</p></div>-->
 <section id="welcome">
-		<div id="banners">
-    	<figure>
-    	<a href="<?php echo $Myurl; ?>brincolines.php" title="ver los brincolines inflables">
-    	<img src="<?php echo $Myurl; ?>banners/banner_1.jpg" alt="inflables"/></a>
-    	</figure>
 
-    	<figure>
-    	<a href="<?php echo $Myurl; ?>brincolines.php" title="ver los brincolines inflables">
-    	<img src="<?php echo $Myurl; ?>banners/banner_2.jpg" alt="inflables"/></a>
-    	</figure>
+      <!-- Start WOWSlider.com BODY section -->
+  <div id="wowslider-container1">
+  <div class="ws_images"><ul>
+<li><img src="data1/images/banner_1.jpg" alt="banner_1" title="Eventos en Hoteles" id="wows1_0"/></li>
+<li><img src="data1/images/banner_2.jpg" alt="Aquaticos" title="Diversión Acuática" id="wows1_1"/></li>
+<li><img src="data1/images/banner_3.jpg" alt="Cenotes" title="Grandes Eventos" id="wows1_2"/>ninguna</li>
+</ul></div>
+<div class="ws_bullets"><div>
+<a href="#" title="Eventos en Hoteles"><img src="data1/tooltips/banner_1.jpg" alt="banner_1"/>1</a>
+<a href="#" title="Diversión Acuática"><img src="data1/tooltips/banner_2.jpg" alt="Aquaticos"/>2</a>
+<a href="#" title="Grandes Eventos"><img src="data1/tooltips/banner_3.jpg" alt="Cenotes"/>3</a>
+</div></div>
+  <div class="ws_shadow"></div>
+  </div>
+  <script type="text/javascript" src="engine1/wowslider.js"></script>
+  <script type="text/javascript" src="engine1/script.js"></script>
+  <!-- End WOWSlider.com BODY section -->
 
-    	<figure>
-    	<a href="<?php echo $Myurl; ?>brincolines.php" title="ver los brincolines inflables">
-    	<img src="<?php echo $Myurl; ?>banners/banner_3.jpg" alt="inflables"/></a>
-    	</figure>
-    	</div>
-      
     	<div id="box-ofer">
             
             <form>
