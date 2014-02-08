@@ -10,14 +10,14 @@
       <!-- Start WOWSlider.com BODY section -->
   <div id="wowslider-container1">
   <div class="ws_images"><ul>
-<li><img src="data1/images/banner_1.jpg" alt="banner_1" title="Eventos en Hoteles" id="wows1_0"/></li>
-<li><img src="data1/images/banner_2.jpg" alt="Aquaticos" title="Diversión Acuática" id="wows1_1"/></li>
-<li><img src="data1/images/banner_3.jpg" alt="Cenotes" title="Grandes Eventos" id="wows1_2"/>ninguna</li>
+<li><img src="data1/images/banner_1.jpg" alt="Inflamigos_banner_1" title="Eventos Hoteleros" id="wows1_0"/></li>
+<li><img src="data1/images/banner_2.jpg" alt="Inflamigos_banner_2" title="Diversión Acuática" id="wows1_1"/></li>
+<li><img src="data1/images/banner_3.jpg" alt="Inflamigos_banner_3" title="Al aire libre" id="wows1_2"/></li>
 </ul></div>
 <div class="ws_bullets"><div>
-<a href="#" title="Eventos en Hoteles"><img src="data1/tooltips/banner_1.jpg" alt="banner_1"/>1</a>
-<a href="#" title="Diversión Acuática"><img src="data1/tooltips/banner_2.jpg" alt="Aquaticos"/>2</a>
-<a href="#" title="Grandes Eventos"><img src="data1/tooltips/banner_3.jpg" alt="Cenotes"/>3</a>
+<a href="#" title="Eventos Hoteleros"><img src="data1/tooltips/banner_1.jpg" alt="_banner_1"/>1</a>
+<a href="#" title="Diversión Acuática"><img src="data1/tooltips/banner_2.jpg" alt="_banner2"/>2</a>
+<a href="#" title="Al aire libre"><img src="data1/tooltips/banner_3.jpg" alt="_banner_3"/>3</a>
 </div></div>
   <div class="ws_shadow"></div>
   </div>
@@ -55,6 +55,7 @@
 <h3>Nuestros servicios</h3>
 <figure class="miniserv">
   <img src="<?php echo $Myurl; ?>imagenes/inflamigos-renta-de-brincolines.jpg" alt="" />
+  <h4>Renta de Brincolines</h4>
   <figcaption>Tenemos una variedad de brincolines</figcaption>
    <p><a href="<?php echo $Myurl; ?>brincolines/" title="">Ver más</a><p><br />
   <p class="compartir">Compartir:</p>
@@ -67,7 +68,8 @@
 </figure>
 <figure class="miniserv">
   <img src="<?php echo $Myurl; ?>imagenes/inflamigos-toldos.jpg" alt="" />
-  <figcaption>Contamos con toldos de diferentes medidas</figcaption>
+   <h4>Renta de Toldos</h4>
+  <figcaption>Contamos con toldos de diferentes medidas: 3 x 6, 6 x 6 y 6 x 12.</figcaption>
   <p><a href="<?php echo $Myurl; ?>servicios/toldos/" title="">Ver más</a><p><br />
   <p class="compartir">Compartir:</p>
   <ul class="compartir">
@@ -79,7 +81,8 @@
 </figure>
 <figure class="miniserv">
   <img src="<?php echo $Myurl; ?>imagenes/inflamigos-sillasymesas.jpg" alt="" />
-  <figcaption>Alquiler de sillas y mesas</figcaption>
+   <h4>Alquiler de sillas y mesas</h4>
+  <figcaption>Manejamos paquetes de un tablón con 10 sillas, para niños y adultos.</figcaption>
    <p><a href="<?php echo $Myurl; ?>servicios/mesas-y-sillas/" title="">Ver más</a><p><br />
   <p class="compartir">Compartir:</p>
   <ul class="compartir">
@@ -105,14 +108,7 @@
 <p class="p4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contamos con 10 modelos diferentes, entre ellos: <a href="http://www.inflamigos.com.mx/inflable/castillo-aventura/" title="ver el castillo inflable">castillos inflables</a>, <a href="http://www.inflamigos.com.mx/inflable/aqualand/" title="ver aqualand">chapoteaderos</a>, <a href="http://www.inflamigos.com.mx/inflable/escaladora/" title="ver el inflable escaladora inflable">escaladora</a>, un <a href="http://www.inflamigos.com.mx/inflable/space-lab/" title="ver Inflable: SpaceLab">laboratorio espacial</a>, una <a href="http://www.inflamigos.com.mx/inflable/escaladrilo/" title="ver el inflable escaladrilo">resbaladilla</a> para la piscina y un interactivo <a href="http://www.inflamigos.com.mx/inflable/ultra-cubo/" title="ver el inflable ultra cubo">ultracubo</a>. </p>
 -->
 
-<div class="lista">
-<div class="img-list"><img src="<?php echo $Myurl; ?>/imagenes/punching-bag.png" alt="alegria"/></div>
-<ol>
-<li>El alquiler es por todo el día.</li>
-<li>Nuestros precios son accesibles.</li>
-<li>Si tienes dudas visita la sección de <a href="http://www.inflamigos.com.mx/faq.php" title="ir a las preguntas frecuentes">P.M.F.</a>(preguntas más frecuentes) o la sección de <a href="http://www.inflamigos.com.mx/contacto.php" title="ir a la seccion de contacto">contacto</a></li>
-</ol>
-</div>
+
 <blockquote>Brincolines <strong>Inflamigos</strong>, los más divertidos amigos inflables para tus niños.</blockquote>
 
 

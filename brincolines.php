@@ -1,4 +1,4 @@
-			 <?php
+ GV			 <?php
 			 $titlePage="Inflables - Inflamigos";
 			 $descPage="En inflamigos contamos con 11 modelos de brincolines para todos los gustos y edades, desde una alberca de pelotas hasta un gran interactivo.";
 			   $btn_activo="brincolines";
@@ -169,15 +169,14 @@
 					</p>
 
 				<div class="lista">
-					<h4>Reglas b&aacute;sicas para el uso de los brincolines inflables:</h4>
-					<img src="<?php echo $Myurl; ?>imagenes/punching-bag.png" title="alegria" class="img-list" />
-					<ol>
-						<li>No subir con juguetes u objetos punzo cortantes.</li>
-						<li>No subir con alimentos, dulces y/o bebidas.</li>
-						<li>No subir con zapatos, tenis u otro calzado de material r&iacute;gido o que pueda   da&ntilde;ar el equipo.</li>
-						<li>No arrastrar el brincolin para transladarlo a otro lugar.</li>
-					</ol>
-				</div>
+<div class="img-list"><img src="<?php echo $Myurl; ?>/imagenes/punching-bag.png" alt="alegria"/></div>
+<ol>
+<li>El alquiler es por todo el día.</li>
+<li>Nuestros precios son accesibles.</li>
+<li>Si tienes dudas visita la sección de <a href="http://www.inflamigos.com.mx/faq.php" title="ir a las preguntas frecuentes">P.M.F.</a>(preguntas más frecuentes) o la sección de <a href="http://www.inflamigos.com.mx/contacto.php" title="ir a la seccion de contacto">contacto</a></li>
+</ol>
+</div>
+				
 				<div class="lista">
 					<div class="img-list"><img src="<?php echo $Myurl; ?>imagenes/punching-bag.png" title="alegria"/></div>
 					<ol>

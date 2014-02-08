@@ -322,6 +322,7 @@ if ($id_video!=""){ echo('<div class="uvideo"><iframe class="youtube-player" typ
 <br />
 <p>-------------------------------------------------------------------------------------</p>
 <!--Inicia menu_inflables_mini-->
+
 <div class="menu_inflables_mini">
 <h4>Ver los otros inflables</h4>
     <ul>
@@ -339,7 +340,17 @@ if ($id_video!=""){ echo('<div class="uvideo"><iframe class="youtube-player" typ
     </ul>
   </div><!--End menu_inflables_mini--> 
 
-
+<div class="lista">
+					<h4>Reglas b&aacute;sicas para el uso de los brincolines inflables:</h4>
+					<img src="<?php echo $Myurl; ?>imagenes/punching-bag.png" title="alegria" class="img-list" />
+					<ol>
+						<li>No subir con juguetes u objetos punzo cortantes.</li>
+						<li>No subir con alimentos, dulces y/o bebidas.</li>
+						<li>No subir con zapatos, tenis u otro calzado de material r&iacute;gido o que pueda   da&ntilde;ar el equipo.</li>
+						<li>No arrastrar el brincolin para transladarlo a otro lugar.</li>
+					</ol>
+				</div>
+				
 </article>
 <?php include('aside.php');?>
 </section>
