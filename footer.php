@@ -20,6 +20,8 @@
 
 <div class="credits">
  www.inflamigos.com.mx v4.0 &copy; 2008 - 2013   | SEO, Design &amp; Developed by <a href="http://www.russelquiam.mx" title="Web del autor">Russtin</a>
+<br />
+<div class="fb-like" data-href="https://www.facebook.com/inflamigos" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
 <div class="validators">
   <br /><br />
 

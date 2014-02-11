@@ -352,7 +352,6 @@ if ($id_video!=""){ echo('<div class="uvideo"><iframe class="youtube-player" typ
 				</div>
 				
 </article>
-<?php include('aside.php');?>
 </section>
 <?php include('footer.php');?>
  <?php //Limpia el posible bucle, es decir, se puede volver a hacer el envío.

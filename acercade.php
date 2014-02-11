@@ -28,6 +28,6 @@
    <blockquote>Brincolines <strong>Inflamigos</strong>, los m&aacute;s divertidos amigos inflables para tus ni&ntilde;os.</p></blockquote>
 <p>&nbsp;</p>
  </article>
-<?php include('aside.php');?>
+
 </section>
 <?php include('footer.php');?>

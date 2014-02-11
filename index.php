@@ -58,12 +58,9 @@
   <h4>Renta de Brincolines</h4>
   <figcaption>Tenemos una variedad de brincolines</figcaption>
    <p><a href="<?php echo $Myurl; ?>brincolines/" title="">Ver más</a><p><br />
-  <p class="compartir">Compartir:</p>
-  <ul class="compartir">
-  <li><a href="https://plus.google.com/108078750244157653212/"  class="icon-google-plus" title="Página Inflamigos en Google+"></a></li>
-  <li><a href="http://www.facebook.com/#!/pages/Inflamigos-Renta-de-Brincolines-Inflables/108059039214265"  class="icon-facebook" title="Fanpage Inflamigos" ></a></li> 
-  <li><a href="http://twitter.com/#!/inflamigos" class="icon-twitter" title="Sigue nuestros tweets"></a></li>
-  </ul>
+  <p class="compartir">
+   <div class="fb-like" data-href="http://www.inflamigos.com.mx/brincolines/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+  </p>
 
 </figure>
 <figure class="miniserv">
@@ -71,26 +68,19 @@
    <h4>Renta de Toldos</h4>
   <figcaption>Contamos con toldos de diferentes medidas: 3 x 6, 6 x 6 y 6 x 12.</figcaption>
   <p><a href="<?php echo $Myurl; ?>servicios/toldos/" title="">Ver más</a><p><br />
-  <p class="compartir">Compartir:</p>
-  <ul class="compartir">
-  <li><a href="https://plus.google.com/108078750244157653212/"  class="icon-google-plus" title="Página Inflamigos en Google+"></a></li>
-  <li><a href="http://www.facebook.com/#!/pages/Inflamigos-Renta-de-Brincolines-Inflables/108059039214265"  class="icon-facebook" title="Fanpage Inflamigos" ></a></li> 
-  <li><a href="http://twitter.com/#!/inflamigos" class="icon-twitter" title="Sigue nuestros tweets"></a></li>
-  </ul>
+  <p class="compartir">
+   <div class="fb-like" data-href="http://www.inflamigos.com.mx/servicios/toldos/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+  </p>
   
 </figure>
 <figure class="miniserv">
   <img src="<?php echo $Myurl; ?>imagenes/inflamigos-sillasymesas.jpg" alt="" />
    <h4>Alquiler de sillas y mesas</h4>
   <figcaption>Manejamos paquetes de un tablón con 10 sillas, para niños y adultos.</figcaption>
-   <p><a href="<?php echo $Myurl; ?>servicios/mesas-y-sillas/" title="">Ver más</a><p><br />
-  <p class="compartir">Compartir:</p>
-  <ul class="compartir">
-  <li><a href="https://plus.google.com/108078750244157653212/"  class="icon-google-plus" title="Página Inflamigos en Google+"></a></li>
-  <li><a href="http://www.facebook.com/#!/pages/Inflamigos-Renta-de-Brincolines-Inflables/108059039214265"  class="icon-facebook" title="Fanpage Inflamigos" ></a></li> 
-  <li><a href="http://twitter.com/#!/inflamigos" class="icon-twitter" title="Sigue nuestros tweets"></a></li>
-  </ul>
-  
+   <p><a href="<?php echo $Myurl; ?>servicios/sillas-y-mesas/" title="">Ver más</a><p><br />
+  <p class="compartir">
+   <div class="fb-like" data-href="http://www.inflamigos.com.mx/servicios/sillas-y-mesas/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+  </p>
 </figure>
 </article>
 </section>

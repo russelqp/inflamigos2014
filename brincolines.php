@@ -189,7 +189,7 @@
 
 
 		</article>
-		<?php include('aside.php');?>
+		
 
 		</section>
 		<!-- Este elemento de eliminación siempre debe ir inmediatamente después del div #mainContent para forzar al div #container a que contenga todos los elementos flotantes hijos -->
