@@ -168,21 +168,14 @@
 						Versión PDF: <a href="<?php echo $Myurl; ?>/downloads/catalogo_inflamigos_2013.pdf" title="Descarga el catálogo versión .pdf"><img src="<?php echo $Myurl; ?>/imagenes/pdf.png" width="45" height="47" alt="ico-pdf-download" /></a>
 					</p>
 
-				<div class="lista">
-<div class="img-list"><img src="<?php echo $Myurl; ?>/imagenes/punching-bag.png" alt="alegria"/></div>
-<ol>
-<li>El alquiler es por todo el día.</li>
-<li>Nuestros precios son accesibles.</li>
-<li>Si tienes dudas visita la sección de <a href="http://www.inflamigos.com.mx/faq.php" title="ir a las preguntas frecuentes">P.M.F.</a>(preguntas más frecuentes) o la sección de <a href="http://www.inflamigos.com.mx/contacto.php" title="ir a la seccion de contacto">contacto</a></li>
-</ol>
-</div>
-				
+			
 				<div class="lista">
 					<div class="img-list"><img src="<?php echo $Myurl; ?>imagenes/punching-bag.png" title="alegria"/></div>
 					<ol>
-						<li>Tomese un tiempo para medir el área que va a designar para  el brincolin inflable y de esta manera poder darle el producto que se pueda adaptar al  lugar.</li>
-						<li>Tenga el área lista y limpia para poder instalar y empezar a  inflar el brincolin y puedan disfrutarlo de inmediato.</li>
-						<li>Asegurarse de que el suministro eléctrico se encuentre en  condiciones optimas, el motor que usamos es de 110V (1hp).</li>
+						<li>Mida el área que va a designar para  el brincolin inflable, para facilitarle la elección del equipo adecuado.</li>
+						<li>Tenga el área lista y limpia, para instalar el brincolin y puedan disfrutarlo de inmediato.</li>
+						<li>Asegurece de que el suministro eléctrico se encuentre en óptimas condiciones, el motor que usamos es de 110V (1hp).</li>
+						<li>Si tiene más dudas visite la sección de <a href="http://www.inflamigos.com.mx/faq/" title="ir a las preguntas frecuentes">P.M.F.</a>(preguntas más frecuentes) o la sección de <a href="http://www.inflamigos.com.mx/contacto.php" title="ir a la seccion de contacto">contacto.</a></li>
 					</ol>
 
 				</div>

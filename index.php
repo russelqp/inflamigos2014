@@ -8,8 +8,8 @@
 <section id="welcome">
 
       <!-- Start WOWSlider.com BODY section -->
-  <div id="wowslider-container1">
-  <div class="ws_images"><ul>
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
 <li><img src="data1/images/banner_1.jpg" alt="Inflamigos_banner_1" title="Eventos Hoteleros" id="wows1_0"/></li>
 <li><img src="data1/images/banner_2.jpg" alt="Inflamigos_banner_2" title="Diversión Acuática" id="wows1_1"/></li>
 <li><img src="data1/images/banner_3.jpg" alt="Inflamigos_banner_3" title="Al aire libre" id="wows1_2"/></li>
@@ -85,8 +85,9 @@
 </article>
 </section>
 
-<section>
-<article>
+<section id="boletin_video">
+
+<?php include('aside.php');?>
 <!--
     <h3>Bienvenida al Sitio</h3>
     <p><strong>Playa del Carmen, Quintana Roo, Mexico</strong></p>
@@ -98,11 +99,10 @@
 <p class="p4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contamos con 10 modelos diferentes, entre ellos: <a href="http://www.inflamigos.com.mx/inflable/castillo-aventura/" title="ver el castillo inflable">castillos inflables</a>, <a href="http://www.inflamigos.com.mx/inflable/aqualand/" title="ver aqualand">chapoteaderos</a>, <a href="http://www.inflamigos.com.mx/inflable/escaladora/" title="ver el inflable escaladora inflable">escaladora</a>, un <a href="http://www.inflamigos.com.mx/inflable/space-lab/" title="ver Inflable: SpaceLab">laboratorio espacial</a>, una <a href="http://www.inflamigos.com.mx/inflable/escaladrilo/" title="ver el inflable escaladrilo">resbaladilla</a> para la piscina y un interactivo <a href="http://www.inflamigos.com.mx/inflable/ultra-cubo/" title="ver el inflable ultra cubo">ultracubo</a>. </p>
 -->
 
-
-<blockquote>Brincolines <strong>Inflamigos</strong>, los más divertidos amigos inflables para tus niños.</blockquote>
-
+<article id="banner_video">
+<iframe id="vp1XqISc" title="Video Player" width="432" height="243" frameborder="0" src="https://s3.amazonaws.com/embed.animoto.com/play.html?w=swf/production/vp1&e=1391897476&f=XqIScB4M20jd1Db100j1Vg&d=0&m=a&r=360p&volume=100&start_res=360p&i=m&asset_domain=s3-p.animoto.com&animoto_domain=animoto.com&options=" allowfullscreen></iframe>
 
 </article>
-
+<blockquote>Brincolines <strong>Inflamigos</strong>, los más divertidos amigos inflables para tus niños.</blockquote>
 </section>
 <?php include('footer.php');?>
