@@ -29,7 +29,7 @@ legend{border:0;padding:0;}
 button,input,select,textarea{font-family:inherit;font-size:100%;margin:0;}
 button,input{line-height:normal}
 button,select{text-transform:none}
-button,html input[type="button"],/* 1 */,input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer;}
+button,html input[type="button"],* 1 */,input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer;}
 button[disabled],html input[disabled]{cursor:default}
 input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;}
 input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}
@@ -91,10 +91,10 @@ article p{font-size:1.1em;margin:15px auto;width:85%}
 #banner_video{width:60%;padding:5px;margin:0 auto;display:inline-block;vertical-align:top;background-color:#fff}
 #boletin_video{margin:5px auto;width:100%;padding:15px;background:none;border:0;box-shadow:none;background:rgba(255,255,255,0.1);text-align:center}
 #servicios{width:100%;margin:0 auto;padding:15px;background:rgba(255,255,255,0.1);border-bottom-right-radius:5px;border-bottom-left-radius:5px}
-#welcome{margin:5px auto;width:100%;padding:15px;background:none;border:0;box-shadow:none;background:rgba(255,255,255,0.9)}
-#welcome #wowslider-container1{width:65%;margin:0 15px 0 0;display:inline-block;vertical-align:top;background:rgba(255,255,255,0.2);position:relative}
+#welcome{margin:5px auto;width:100%;padding:15px;background:none;border:0;box-shadow:none;background:rgba(255,255,255,0.9);text-align:center}
+#welcome #wowslider-container1{width:67%;margin:0 auto;display:inline-block;vertical-align:top;background:rgba(255,255,255,0.2);position:relative}
 #welcome figure img{width:100%;padding:0;margin:0}
-#welcome #box-ofer{width:30%;margin:0 auto;padding:0;display:inline-block;vertical-align:top;right:0}
+#welcome #box-ofer{width:30%;margin:0 auto;padding:0;display:inline-block;vertical-align:top}
 #welcome #box-ofer form{display:block;margin:0 auto 5px auto;padding:2px;height:40%;width:100%;text-align:center;background-color:#ffd700}
 #welcome #box-ofer form	input{border-radius:5px;border:solid 1px #fff;margin:2px auto;height:2em;width:90%;transition:.7s ease all;color:#fe4900;padding:5px 2px}
 #welcome #box-ofer form	.user-submit{box-shadow:0 0 5px #888;background-color:#f00;width:80%;color:#eee}
@@ -116,13 +116,13 @@ footer{background-color:#ff4900;bottom:0%;margin:0 auto;padding:0;position:relat
 .submenu a{display:block;text-decoration:none;height:25px;padding:5px 5px 0 5px;transition:all .5s ease;width:100%}
 .submenu a:hover{display:block;background-color:#ee3;width:100%}
 blockquote{font-size:18px;color:#ff4933;font-weight:600;margin:10px auto;width:80%;text-align:center;text-shadow:-1px -1px 1px rgba(60,60,60,0.5)}
-nav{margin:5px auto;text-align:center;width:100%;display:block;padding:0}
+nav{margin:0 auto;text-align:center;width:100%;display:block;padding:0}
 nav ul{padding:0;background-color:#fe4900;font-size:0}
 nav ul li{background-color:#ff9500;border:1px solid #d30;border-radius:2px;color:#fff;display:inline-block;font-size:16px;height:45px;line-height:45px;margin:2px;text-align:right;width:16%}
 nav ul li a{display:block;color:#fff;transition:all 1s ease}
 nav ul li a:hover{background-color:#ff0;text-align:center;color:#e00;font-weight:bold}
 nav ul li a:visited{border:1px solid #d30}
-section{display:block;margin:0 auto;width:100%;padding:20px 0}
+section{display:block;margin:0 auto;width:100%;padding:15px 0;background-color:#efefef}
 #bk-home,#bk-brincolines,#bk-acercade,#bk-faq,#bk-contacto,#bk-blog{background-repeat:no-repeat;background-size:25%}
 #bk-home{background-image:url("img/menu/ico_inicio.png")}
 #bk-brincolines{background-image:url("img/menu/ico_brincolines.png")}
@@ -170,7 +170,7 @@ section{display:block;margin:0 auto;width:100%;padding:20px 0}
 .boletin .btn-bol:hover{background-color:#00bf32;color:#fff}
 .boletin #tlemail{width:90%;font-size:1.2em;color:#09f}
 .submenu{background-color:#fc3;color:#9c0;padding:0;text-align:center}
-margin 0auto,.submenu ul{margin:0 auto;width:80%;padding:0}
+margin 0 auto,.submenu ul{margin:0 auto;width:80%;padding:0}
 .submenu li{border-left:2px solid #ff9;border-right:2px solid #f90;display:inline-block;vertical-align:top;height:30px;list-style-type:none;margin:0;padding:0}
 .submenu li.nb-left{border-left:0}
 .submenu li.nb-right{border-right:0}
