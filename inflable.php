@@ -264,7 +264,7 @@ $url = $inflable;
  
 
 <section>
-  <article>
+  <article id="brincolin">
 
 <?php echo "<h3>".$titulo. "</h3>";?>
 
@@ -288,10 +288,25 @@ $url = $inflable;
 	    echo '<li><a href="'.$Myurl.$ruta2.$name[0].$name[1].$ext.'" rel="lightbox[roadtrip]" title="'.$titulo.'"><img src="'.$Myurl.''.$image.'" alt="'.$brincolin."_thumb".'" /></a></li>';
 		
 	}
+	if ($id_video !="")
+		{ 
+			
+			
+
+
+			echo '<li><a href="http://www.youtube.com/embed/'.$id_video.'" title="Video de '.$titulo.'" rel="LightFrame" rel="lightbox[roadtrip]"><img src="images/video.png" alt ="video_'.$brincolin.'" /></a></li>';
+			//echo '<li><a href="http://www.youtube.com/embed/'.$id_video.'" rel="LightFrame" title="Video de '.$titulo.'"><img src="images/video.png" alt ="video_'.$brincolin.'" /></a></li>' ;
+
+ 		}
+
+		//echo('<div class="uvideo"><iframe class="youtube-player" type="text/html" width="100%" height="50%" src="http://www.youtube.com/embed/'.$id_video.'" frameborder="0"></iframe></div>');}
 
 	echo "</ul>";
 ?>
 </div>
+
+			
+	 
 <div class="datos">
 <?php
 echo "<p>";
@@ -312,15 +327,14 @@ echo "</p>";
 ?>
 </div>
 <?php
+
 echo "<p>";
-echo "Detalles: <br />".$detalles;
+echo "Características: <br />".$detalles;
 echo "</p>";
-
-if ($id_video!=""){ echo('<div class="uvideo"><iframe class="youtube-player" type="text/html" width="100%" height="50%" src="http://www.youtube.com/embed/'.$id_video.'" frameborder="0"></iframe></div>');}?>
-
+?>
 <div class="fb-comments" data-href="http://www.inflamigos.com.mx/brincolines/<?php echo $inflable.'/';?>"></div>
 <br />
-
+</article>
 <div class="lista">
 					<h4>Reglas b&aacute;sicas para el uso de los brincolines inflables:</h4>
 					<img src="<?php echo $Myurl; ?>imagenes/punching-bag.png" title="alegria" class="img-list" />

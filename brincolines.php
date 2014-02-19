@@ -1,4 +1,4 @@
- GV			 <?php
+		 <?php
 			 $titlePage="Inflables - Inflamigos";
 			 $descPage="En inflamigos contamos con 11 modelos de brincolines para todos los gustos y edades, desde una alberca de pelotas hasta un gran interactivo.";
 			   $btn_activo="brincolines";

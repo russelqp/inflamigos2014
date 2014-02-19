@@ -2,7 +2,7 @@
 <html lang="es">
 <?php
 flush();
-$url_a = "http://www.inflamigos.com.mx/";
+$url_a = "http://www.inflamigos.com.mx/prueba2014/";
 $url_r = "http://127.1.0.0/inflamigos2014/";
 $Myurl = $url_r;
 ?>
@@ -26,7 +26,7 @@ $Myurl = $url_r;
 <script type="text/javascript" src="[JS library]"></script>
 
 <link rel="stylesheet" type="text/css" href="engine1/style.css" />
-<script type="text/javascript" src="engine1/jquery.js"></script>
+
 <!--[if (gte IE 6)&(lte IE 8)]>
   <script type="text/javascript" src="selectivizr-min.js"></script>
   <noscript><link rel="stylesheet" href="[fallback css]" /></noscript>
@@ -67,7 +67,10 @@ map.addMarker({
   js = d.createElement(s); js.id = id;
   js.src = "//connect.facebook.net/es_LA/all.js#xfbml=1&appId=478839412179968";
   fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+}(document, 'script', 'facebook-jssdk'));
+  
+
+</script>
 
 <div id="container">
 <!--<div class="ayudaonline"><a href="#">Ayuda en Linea</a></div>-->
