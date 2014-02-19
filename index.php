@@ -27,11 +27,11 @@
 
     	<div id="box-ofer">
             
-            <form>
+            <form action="reservacion/envio.php" method="post">
                   <h4>¡Reserva ahora!</h4>
-                 	<input type="email" id="user-email" placeholder="Email" required/>
-                  	<input type="text" id="user-comment"  placeholder="Mensaje" required/>
-                   	<input class="user-submit" type="submit" name="submit" value="Enviar" />
+                 	<input type="email" id="user-email" name="email" placeholder="Email" required/>
+                  	<input type="text" id="user-mensaje"  name="mensaje" placeholder="Mensaje" required/>
+                   	<input id="user-submit" type="submit" name="submit" value="Enviar" />
                  <p><strong class="icon-phone"> 9841416137</strong></p>
 
             </form>
