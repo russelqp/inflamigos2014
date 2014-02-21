@@ -91,7 +91,7 @@ article p{font-size:1.1em;margin:15px auto;width:85%}
 #banner_video{width:60%;padding:5px;margin:0 auto;display:inline-block;vertical-align:top;background-color:#fff}
 #boletin_video{margin:5px auto;width:100%;padding:15px;background:none;border:0;box-shadow:none;background:rgba(255,255,255,0.1);text-align:center}
 #detalle-brincolin{background-color:#ededed;margin:5px auto;padding:5px;width:92%;box-sizing:border-box;text-align:left;border-bottom-left-radius:5px;border-bottom-right-radius:5px;border:1px solid #dedede}
-#servicios{width:100%;margin:0 auto;padding:15px;background:rgba(255,255,255,0.1);border-bottom-right-radius:5px;border-bottom-left-radius:5px}
+#welcome-servicios{width:100%;margin:0 auto;padding:15px;background:rgba(255,255,255,0.1);border-bottom-right-radius:5px;border-bottom-left-radius:5px}
 #welcome{margin:5px auto;width:100%;padding:15px;background:none;border:0;box-shadow:none;background:rgba(255,255,255,0.9);text-align:center}
 #welcome #wowslider-container1{width:67%;margin:0 auto;display:inline-block;vertical-align:top;background:rgba(255,255,255,0.2);position:relative}
 #welcome figure img{width:100%;padding:0;margin:0}
@@ -121,7 +121,7 @@ footer{background-color:#ff4900;bottom:0%;margin:0 auto;padding:0;position:relat
 blockquote{font-size:18px;color:#ff4933;font-weight:600;margin:10px auto;width:80%;text-align:center;text-shadow:-1px -1px 1px rgba(60,60,60,0.5)}
 nav{margin:0 auto;text-align:center;width:100%;display:block;padding:0}
 nav ul{padding:0;background-color:#fe4900;font-size:0}
-nav ul li{background-color:#ff9500;border:1px solid #d30;border-radius:2px;color:#fff;display:inline-block;font-size:16px;height:45px;line-height:45px;margin:1px;text-align:right;width:24.5%}
+nav ul li{background-color:#ff9500;border:1px solid #d30;border-radius:2px;color:#fff;display:inline-block;font-size:16px;height:45px;line-height:45px;margin:1px;text-align:right;width:19%}
 nav ul li a{display:block;color:#fff;transition:all 1s ease}
 nav ul li a:hover{background-color:#ff0;text-align:center;color:#e00;font-weight:bold}
 nav ul li a:visited{border:1px solid #d30}
@@ -137,8 +137,11 @@ section{display:block;margin:0 auto;width:100%;padding:15px 0;background-color:#
 #background{box-sizing:border-box;height:100%;margin:0;padding:0;position:absolute;top:0%;width:100%;z-index:0}
 #container{margin:5px auto;max-width:1024px;padding:0;position:relative;text-align:justify;z-index:3}
 #pasto_agua{bottom:0%;height:450px;margin:0;padding:0;position:relative;width:100%;z-index:1}
-#brincolin{border:1px solid #cdcdcd;width:96%;margin:0 auto;background:rgba(255,255,255,0.6);border-radius:5px;}
-#brincolin h3{font-size:2em;padding:2px;padding-left:30px;color:#fc0;background-color:#fe4900;width:96%;margin:15px auto 0 auto;box-sizing:border-box;text-align:left;border-radius:5px}
+#producto{border:1px solid #cdcdcd;width:96%;margin:0 auto;background:rgba(255,255,255,0.6);border-radius:5px;}
+#producto h3{font-size:2em;padding:2px;padding-left:30px;color:#fc0;background-color:#fe4900;width:96%;margin:15px auto 0 auto;box-sizing:border-box;text-align:left;border-radius:5px}
+#producto figure{width:60%;margin:0;padding:5px;vertical-align:top;display:inline-block;border:1px solid #cdcdcd;border-radius:5px;background-color:#efefef;}
+#producto figure img{width:100%;padding:0;margin:0}
+#producto figure p{text-align:left}
 #contact-area{background-color:#ff8c00;border-radius:5px;margin:10px auto;width:80%;padding:20px}
 #contact-area h4{width:100%;padding:0;margin:0}
 #contact-area p{font-size:1.4em;margin:5px auto;width:90%;text-align:left}
@@ -199,7 +202,7 @@ margin 0 auto,.submenu ul{margin:0 auto;width:80%;padding:0}
 #mapadesitio{margin:0 auto;width:80%;padding:0}
 #mapadesitio li{color:#f60;float:none;font-size:1.2em;list-style:disc;margin-left:20px}
 #mapadesitio a,#mapadesitio a:link,#mapadesitio a:visited{text-decoration:underline}
-.fb-comments,.fb-comments span,.fb-comments.fb_iframe_widget span iframe{width:100% !important;text-align:center;padding:0}
+.fb-comments,.fb-comments span,.fb-comments.fb_iframe_widget span iframe{width:100% !important;text-align:center;padding:0;margin:5px}
 .fb-comments{width:90% !important}
 fan_widget{background-color:#008000}
 .fltrt,float right{margin-left:8px}

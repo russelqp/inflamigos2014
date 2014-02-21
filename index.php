@@ -50,7 +50,7 @@
 
 </section>
 
-<section id="servicios">
+<section id="welcome-servicios">
 <article>
 <h3>Nuestros servicios</h3>
 <figure class="miniserv">
