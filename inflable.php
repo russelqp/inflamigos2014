@@ -285,7 +285,7 @@ $url = $inflable;
 	 	$name = pathinfo( $image, PATHINFO_FILENAME );
 	    $name = explode("thumb_",$name);
 	  
-	    echo '<li><a href="'.$Myurl.$ruta2.$name[0].$name[1].$ext.'" rel="lightbox[roadtrip]" title="'.$titulo.'"><img src="'.$Myurl.''.$image.'" alt="'.$brincolin."_thumb".'" /></a></li>';
+	    echo '<li><a href="'.$Myurl.$ruta2.$name[0].$name[1].$ext.'" data-target="flare" data-flare-gallery="gallery1" data-flare-thumb="'.$Myurl.''.$image.'" title="'.$titulo.'"><img src="'.$Myurl.''.$image.'" alt="'.$brincolin."_thumb".'" /></a></li>';
 		
 	}
 	if ($id_video !="")
@@ -294,9 +294,9 @@ $url = $inflable;
 			
 
 
-			echo '<li><a href="http://www.youtube.com/embed/'.$id_video.'" title="Video de '.$titulo.'" rel="LightFrame" rel="lightbox[roadtrip]"><img src="images/video.png" alt ="video_'.$brincolin.'" /></a></li>';
+			echo '<li><a data-target="flare" data-flare-gallery="gallery1" data-flare-thumb="images/video.png" href="http://www.youtube.com/watch?v='.$id_video.'" title="Video de '.$titulo.'" ><img src="images/video.png" alt ="video_'.$brincolin.'" /></a></li>';
 			//echo '<li><a href="http://www.youtube.com/embed/'.$id_video.'" rel="LightFrame" title="Video de '.$titulo.'"><img src="images/video.png" alt ="video_'.$brincolin.'" /></a></li>' ;
-
+		  
  		}
 
 		//echo('<div class="uvideo"><iframe class="youtube-player" type="text/html" width="100%" height="50%" src="http://www.youtube.com/embed/'.$id_video.'" frameborder="0"></iframe></div>');}
@@ -325,32 +325,23 @@ echo "Edad recomendada: ".$edades." años";
 echo "<br />";
 echo "</p>";
 ?>
+<button class="btn_reservar" type="button">Reservar</button>
 </div>
+<div id ="detalle-brincolin">
 <?php
 
 echo "<p>";
 echo "Características: <br />".$detalles;
 echo "</p>";
 ?>
+</div>
 <div class="fb-comments" data-href="http://www.inflamigos.com.mx/brincolines/<?php echo $inflable.'/';?>"></div>
 <br />
-</article>
-<div class="lista">
-					<h4>Reglas b&aacute;sicas para el uso de los brincolines inflables:</h4>
-					<img src="<?php echo $Myurl; ?>imagenes/punching-bag.png" title="alegria" class="img-list" />
-					<ol>
-						<li>No subir con juguetes u objetos punzo cortantes.</li>
-						<li>No subir con alimentos, dulces y/o bebidas.</li>
-						<li>No subir con zapatos, tenis u otro calzado de material r&iacute;gido o que pueda   da&ntilde;ar el equipo.</li>
-						<li>No arrastrar el brincolin para transladarlo a otro lugar.</li>
-					</ol>
-</div>
 
-<p>-------------------------------------------------------------------------------------</p>
 <!--Inicia menu_inflables_mini-->
 
 <div class="menu_inflables_mini">
-<h4>Ver los otros inflables</h4>
+<h4>Ver otro inflable</h4>
     <ul>
     <li><?php echo '<a href='.$Myurl.'brincolines/angry-box/>'; ?><img src="<?php echo $Myurl; ?>inflables/thumbs/angry_box.jpg"  alt="angry-box" title="Angry Box" /></a></li>
     <li><?php echo '<a href='.$Myurl.'brincolines/castillo-aventura/>'; ?><img src="<?php echo $Myurl; ?>inflables/thumbs/caventura_thumb.png" alt="castillo_aventura_middle" title="Castillo Aventura"/></a></li>
@@ -364,7 +355,24 @@ echo "</p>";
     <li><?php echo '<a href='.$Myurl.'brincolines/aqualand/>'; ?><img src="<?php echo $Myurl; ?>inflables/thumbs/aqualand_thumb.png" alt="aqualand-middle" title="Aqualand" /></a></li>
     <li><?php echo '<a href='.$Myurl.'brincolines/splash-pool/>'; ?><img src="<?php echo $Myurl; ?>inflables/thumbs/splashpool_thumb.png" alt="splash-pool-middle" title="Splash Pool" /></a></li>
     </ul>
-  </div><!--End menu_inflables_mini--> 
+  </div><!--End menu_inflables_mini-->
+</article>
+
+ 
+
+<div class="lista">
+					<h4>Reglas b&aacute;sicas para el uso de los brincolines inflables:</h4>
+					<img src="<?php echo $Myurl; ?>imagenes/punching-bag.png" title="alegria" class="img-list" />
+					<ol>
+						<li>No subir con juguetes u objetos punzo cortantes.</li>
+						<li>No subir con alimentos, dulces y/o bebidas.</li>
+						<li>No subir con zapatos, tenis u otro calzado de material r&iacute;gido o que pueda   da&ntilde;ar el equipo.</li>
+						<li>No arrastrar el brincolin para transladarlo a otro lugar.</li>
+					</ol>
+</div>
+
+
+
 
 
 				

@@ -3,7 +3,6 @@
   {lang: 'es';}
 </script>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="<?php echo $Myurl; ?>/js/lightbox.min.js"></script>
 <footer>
 
 <div class="submenu">

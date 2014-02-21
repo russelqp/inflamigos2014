@@ -68,13 +68,13 @@ img{border:0}
 h1,h2,h3,h4,h5,h6{margin:0 auto;font-family:'Wendy One',sans-serif;text-shadow:1px 1px 1px rgba(60,60,60,0.5)}
 h1{color:#fc3;font-size:3em;text-align:center}
 h2{text-align:center}
-h3{font-size:2em;padding-left:30px;color:#fc0;background-color:#fe4900;width:100%;box-sizing:border-box;text-align:left}
-h4{color:#ffd700;font-size:1.6em;padding:2px 10px;background-color:#fe4900;margin:2px auto 10px auto}
+h3{font-size:2em;padding:2px;padding-left:30px;color:#fc0;background-color:#fe4900;width:96%;margin:15px auto 0 auto;box-sizing:border-box;text-align:left;border-radius:5px}
+h4{color:#efefef;font-size:1.6em;padding:2px 10px;background-color:#fe4900;margin:2px auto 10px auto;border-radius:2px}
 h5{font-size:1.2em;text-align:center}
 h6{font-size:1em}
 a{text-decoration:none}
-section,article,aside,nav,.lista,.lista img,.lista ol,.lista li,.boletin,.boletin p,.menu_inflables ul li,.menu_inflables imghover,.lista-imagenes ul,.lista-imagenes li,#ubicacion{box-sizing:border-box;margin:2px auto;list-style-position:inside;list-style-type:disc;color:#f30;padding:0 10px}
-section{margin-top:0;padding:15px;background:rgba(255,255,255,0.1)}
+section,article,aside,nav,.lista,.lista img,.lista ol,.lista li,.boletin,.boletin p,.menu_inflables ul li,.lista-imagenes ul,.lista-imagenes li,#ubicacion{box-sizing:border-box;margin:2px auto;list-style-position:inside;list-style-type:disc;color:#f30;padding:0 10px}
+section{margin-top:0;padding:15px;background:rgba(255,255,255,0.1);border-bottom-right-radius:5px;border-bottom-left-radius:5px}
 h3 img{float:right;padding-right:20px}
 header{display:block;margin:0 auto;width:100%;padding:0;text-align:center}
 header p{width:80%}
@@ -90,6 +90,7 @@ article .lista li p{width:75%;margin:5px auto;text-align:justify;padding:0;color
 article p{font-size:1.1em;margin:15px auto;width:85%}
 #banner_video{width:60%;padding:5px;margin:0 auto;display:inline-block;vertical-align:top;background-color:#fff}
 #boletin_video{margin:5px auto;width:100%;padding:15px;background:none;border:0;box-shadow:none;background:rgba(255,255,255,0.1);text-align:center}
+#detalle-brincolin{background-color:#ededed;margin:5px auto;padding:5px;width:92%;box-sizing:border-box;text-align:left;border-bottom-left-radius:5px;border-bottom-right-radius:5px;border:1px solid #dedede}
 #servicios{width:100%;margin:0 auto;padding:15px;background:rgba(255,255,255,0.1);border-bottom-right-radius:5px;border-bottom-left-radius:5px}
 #welcome{margin:5px auto;width:100%;padding:15px;background:none;border:0;box-shadow:none;background:rgba(255,255,255,0.9);text-align:center}
 #welcome #wowslider-container1{width:67%;margin:0 auto;display:inline-block;vertical-align:top;background:rgba(255,255,255,0.2);position:relative}
@@ -113,12 +114,14 @@ article p{font-size:1.1em;margin:15px auto;width:85%}
 .miniserv img{width:100%;margin:0}
 .miniserv:hover{transform:scale(1.08)}
 footer{background-color:#ff4900;bottom:0%;margin:0 auto;padding:0;position:relative;text-align:center;z-index:1;width:100%}
+.btn_reservar{width:80%;background:#f00;padding:8px 14px 10px;border:1px solid #f00;cursor:pointer;font-size:1.5em;font-family:Oswald,sans-serif;letter-spacing:.1em;text-shadow:0 -1px 0 rgba(0,0,0,0.3);color:#fff;box-shadow:inset 0 1px 0 rgba(255,100,255,0.5),0 5px 0 0 rgba(255,160,200,0.9),0 10px 5px #999;border-radius:10px}
+.btn_reservar:hover,.btn_reservar:focus{color:#dfe7ea;box-shadow:inset 0 1px 0 rgba(255,255,255,0.5),0 2px 0 0 rgba(255,255,255,0.5),0 2px 5px #999}
 .submenu a{display:block;text-decoration:none;height:25px;padding:5px 5px 0 5px;transition:all .5s ease;width:100%}
 .submenu a:hover{display:block;background-color:#ee3;width:100%}
 blockquote{font-size:18px;color:#ff4933;font-weight:600;margin:10px auto;width:80%;text-align:center;text-shadow:-1px -1px 1px rgba(60,60,60,0.5)}
 nav{margin:0 auto;text-align:center;width:100%;display:block;padding:0}
 nav ul{padding:0;background-color:#fe4900;font-size:0}
-nav ul li{background-color:#ff9500;border:1px solid #d30;border-radius:2px;color:#fff;display:inline-block;font-size:16px;height:45px;line-height:45px;margin:2px;text-align:right;width:16%}
+nav ul li{background-color:#ff9500;border:1px solid #d30;border-radius:2px;color:#fff;display:inline-block;font-size:16px;height:45px;line-height:45px;margin:1px;text-align:right;width:24.5%}
 nav ul li a{display:block;color:#fff;transition:all 1s ease}
 nav ul li a:hover{background-color:#ff0;text-align:center;color:#e00;font-weight:bold}
 nav ul li a:visited{border:1px solid #d30}
@@ -134,7 +137,8 @@ section{display:block;margin:0 auto;width:100%;padding:15px 0;background-color:#
 #background{box-sizing:border-box;height:100%;margin:0;padding:0;position:absolute;top:0%;width:100%;z-index:0}
 #container{margin:5px auto;max-width:1024px;padding:0;position:relative;text-align:justify;z-index:3}
 #pasto_agua{bottom:0%;height:450px;margin:0;padding:0;position:relative;width:100%;z-index:1}
-#brincolin{border:1px solid #cdcdcd;width:96%;margin:0 auto;background:rgba(255,255,255,0.6);border-radius:5px}
+#brincolin{border:1px solid #cdcdcd;width:96%;margin:0 auto;background:rgba(255,255,255,0.6);border-radius:5px;}
+#brincolin h3{font-size:2em;padding:2px;padding-left:30px;color:#fc0;background-color:#fe4900;width:96%;margin:15px auto 0 auto;box-sizing:border-box;text-align:left;border-radius:5px}
 #contact-area{background-color:#ff8c00;border-radius:5px;margin:10px auto;width:80%;padding:20px}
 #contact-area h4{width:100%;padding:0;margin:0}
 #contact-area p{font-size:1.4em;margin:5px auto;width:90%;text-align:left}
@@ -179,23 +183,25 @@ margin 0 auto,.submenu ul{margin:0 auto;width:80%;padding:0}
 .credits alink{text-decoration:none;padding:0;margin-top:0}
 .credits p{margin:0 auto;padding:10px 0;text-align:center;width:80%}
 .lista-imagenes{display:inline-block;vertical-align:top;width:60%;padding:2%;text-align:center;margin:0 auto}
-.lista-imagenes h4{text-align:left;margin:10px auto}
+.lista-imagenes h4{text-align:left;margin:5px auto}
 .lista-imagenes ul{padding:0;margin:0;text-align:left}
-.lista-imagenes li{display:inline-block;list-style-type:none;margin:2px;transition:all .8s ease;width:30%}
-.lista-imagenes li img{width:100%;padding:0;box-shadow:3px 3px 2px rgba(46,49,50,0.3);border:1px solid #d30;border-radius:5px}
-.lista-imagenes li:hover{transform:scale(1.08)}
+.lista-imagenes li{display:inline-block;list-style-type:none;margin:2px;transition:all .3s ease;width:25%}
+.lista-imagenes li img{width:100%;padding:0;box-shadow:3px 3px 2px rgba(46,49,50,0.3);border:1px solid #ccc;border-radius:5px}
+.lista-imagenes li:hover{width:31%}
 .datos{display:inline-block;vertical-align:top;width:30%;padding:2%}
-.menu_inflables_mini{margin:0 auto;padding:2%;width:96%;background-color:#ffb600;border-radius:5px;border-bottom-left-radius:0;border-bottom-right-radius:10px}
-.menu_inflables_mini li{list-style:none;margin:0 1px;padding:0;text-decoration:none;width:15%;display:inline-block;text-align:center}
-.menu_inflables_mini li img{width:100%;padding:0;margin:1px;border:1px dotted #fff}
-.menu_inflables_mini li img:hover{opacity:.7}
+.menu_inflables_mini{margin:0 auto 20px auto;padding:2%;width:92%;background-color:#ffb600;border-radius:5px;text-align:center}
+.menu_inflables_mini li{list-style:none;margin:0;padding:0;text-decoration:none;width:13%;display:inline-block;text-align:center;transition:all .5s ease}
+.menu_inflables_mini li img{width:100%;padding:0;margin:0}
+.menu_inflables_mini li:hover{width:12%;padding:0;margin:0}
 .cat{margin:5px auto;width:100%}
 .cat{margin:0 auto}
 .articborder{border-bottom:1px dashed #09f;margin:10px}
 #mapadesitio{margin:0 auto;width:80%;padding:0}
 #mapadesitio li{color:#f60;float:none;font-size:1.2em;list-style:disc;margin-left:20px}
 #mapadesitio a,#mapadesitio a:link,#mapadesitio a:visited{text-decoration:underline}
-.fb-comments{width:80%;text-align:center;margin:0 auto}
+.fb-comments,.fb-comments span,.fb-comments.fb_iframe_widget span iframe{width:100% !important;text-align:center;padding:0}
+.fb-comments{width:90% !important}
+fan_widget{background-color:#008000}
 .fltrt,float right{margin-left:8px}
 .fltlft,float left{margin-right:8px}
 .clearfloat{clear:both}

@@ -3,7 +3,7 @@
 <?php
 flush();
 $url_a = "http://www.inflamigos.com.mx/prueba2014/";
-$url_r = "http://127.1.0.0/inflamigos2014/";
+$url_r = "http://192.168.0.4/inflamigos2014/";
 $Myurl = $url_r;
 ?>
 <head>
@@ -22,10 +22,22 @@ $Myurl = $url_r;
 <link href="<?php echo $Myurl; ?>style.css" rel="stylesheet" type="text/css" />
 <link href="<?php echo $Myurl; ?>gradientbg.css" rel="stylesheet" type="text/css" />
 <script src="<?php echo $Myurl; ?>prefixfree.min.js"></script>
-<link href="<?php echo $Myurl; ?>css/lightbox.css" rel="stylesheet" />
+
 <script type="text/javascript" src="[JS library]"></script>
 
 <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+
+
+
+
+  <!-- jquery -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+
+
+  <!-- include plugin -->
+  <link href="js/pe.flare/jquery.pixelentity.flare.min.css" rel="stylesheet"/>
+    <script type="text/javascript" src="js/pe.flare/jquery.pixelentity.flare.min.js"></script>
+
 
 <!--[if (gte IE 6)&(lte IE 8)]>
   <script type="text/javascript" src="selectivizr-min.js"></script>
@@ -58,7 +70,7 @@ map.addMarker({
 
 </head>
 
-<body>
+<body onload="prettyPrint()">
 <?php $dir_home=""; ?>
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
@@ -71,6 +83,12 @@ map.addMarker({
   
 
 </script>
+  <script type="text/javascript">
+      jQuery(function($){
+              $('a[data-target="flare"]').peFlareLightbox();
+          });
+    </script>
+
 
 <div id="container">
 <!--<div class="ayudaonline"><a href="#">Ayuda en Linea</a></div>-->
@@ -95,8 +113,6 @@ map.addMarker({
                 <ul>
                     <li id="bk-home" <?php if ($btn_activo == "index") {echo 'class="btn_activo"';} ?> ><a href="<?php echo $Myurl; ?>" title="ir al inicio ;)" >Inicio</a></li>
                     <li id="bk-brincolines" <?php if ($btn_activo == "brincolines") {echo 'class="btn_activo"';} ?>><a href="<?php echo $Myurl; ?>brincolines/" title="ver los brincolines :D" >Brincolines</a></li>
-                    <li id="bk-acercade" <?php if ($btn_activo == "acercade") {echo 'class="btn_activo"';} ?>><a href="<?php echo $Myurl; ?>acercade/" title="ver quienes somos ?">Acercade</a></li>
-                    <li id="bk-faq" <?php if ($btn_activo == "faq") {echo 'class="btn_activo"';} ?>><a href="<?php echo $Myurl; ?>faq/" title="ver las preguntas frecuentes ?">Faq</a></li>
                     <li id="bk-contacto" <?php if ($btn_activo == "contacto") {echo 'class="btn_activo"';} ?>><a href="<?php echo $Myurl; ?>contacto/" title="contactanos =)">Contacto</a></li>
                     <li id="bk-blog" <?php if ($btn_activo == "blog") {echo 'class="btn_activo"';} ?>><a href="<?php echo $Myurl; ?>blog/" title="Blog" >Blog</a></li>
                       <!--
@@ -105,3 +121,5 @@ map.addMarker({
               </nav>
 
 </header>  <!-- end #header -->
+
+
