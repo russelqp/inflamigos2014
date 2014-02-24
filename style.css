@@ -29,7 +29,7 @@ legend{border:0;padding:0;}
 button,input,select,textarea{font-family:inherit;font-size:100%;margin:0;}
 button,input{line-height:normal}
 button,select{text-transform:none}
-button,html input[type="button"],* 1 */,input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer;}
+button,html input[type="button"],/* 1 */,input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer;}
 button[disabled],html input[disabled]{cursor:default}
 input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;}
 input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}
@@ -137,11 +137,11 @@ section{display:block;margin:0 auto;width:100%;padding:15px 0;background-color:#
 #background{box-sizing:border-box;height:100%;margin:0;padding:0;position:absolute;top:0%;width:100%;z-index:0}
 #container{margin:5px auto;max-width:1024px;padding:0;position:relative;text-align:justify;z-index:3}
 #pasto_agua{bottom:0%;height:450px;margin:0;padding:0;position:relative;width:100%;z-index:1}
-#producto{border:1px solid #cdcdcd;width:96%;margin:0 auto;background:rgba(255,255,255,0.6);border-radius:5px;}
-#producto h3{font-size:2em;padding:2px;padding-left:30px;color:#fc0;background-color:#fe4900;width:96%;margin:15px auto 0 auto;box-sizing:border-box;text-align:left;border-radius:5px}
-#producto figure{width:60%;margin:0;padding:5px;vertical-align:top;display:inline-block;border:1px solid #cdcdcd;border-radius:5px;background-color:#efefef;}
-#producto figure img{width:100%;padding:0;margin:0}
-#producto figure p{text-align:left}
+#item{border:1px solid #cdcdcd;width:96%;margin:0 auto;background:rgba(255,255,255,0.6);border-radius:5px;}
+#item h3{font-size:2em;padding:2px;padding-left:30px;color:#fc0;background-color:#fe4900;width:96%;margin:15px auto 0 auto;box-sizing:border-box;text-align:left;border-radius:5px}
+#item figure{width:60%;margin:0;padding:5px;vertical-align:top;display:inline-block;border:1px solid #cdcdcd;border-radius:5px;background-color:#efefef;}
+#item figure img{width:100%;padding:0;margin:0}
+#item figure p{text-align:left}
 #contact-area{background-color:#ff8c00;border-radius:5px;margin:10px auto;width:80%;padding:20px}
 #contact-area h4{width:100%;padding:0;margin:0}
 #contact-area p{font-size:1.4em;margin:5px auto;width:90%;text-align:left}
@@ -178,7 +178,7 @@ section{display:block;margin:0 auto;width:100%;padding:15px 0;background-color:#
 .boletin .btn-bol:hover{background-color:#00bf32;color:#fff}
 .boletin #tlemail{width:90%;font-size:1.2em;color:#09f}
 .submenu{background-color:#fc3;color:#9c0;padding:0;text-align:center}
-margin 0 auto,.submenu ul{margin:0 auto;width:80%;padding:0}
+margin 0auto,.submenu ul{margin:0 auto;width:80%;padding:0}
 .submenu li{border-left:2px solid #ff9;border-right:2px solid #f90;display:inline-block;vertical-align:top;height:30px;list-style-type:none;margin:0;padding:0}
 .submenu li.nb-left{border-left:0}
 .submenu li.nb-right{border-right:0}

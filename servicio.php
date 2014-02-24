@@ -31,27 +31,19 @@ return $url;
 
 }
 ?>
-
 <?php
 $servicio=$_GET['servicio'];
-if($servicio=="toldo"){
-	$servicio = "toldo";
+if($servicio=="toldos"){
 	$titulo = "Renta de Toldos";
 	$miniDesc = "Toldos de: 3x6, 6x6 y 6x12";
-	$capacidad="de 4 a 12 mesas redondas";
-	$precio = "3 x 6 en $600.00<br /> 6 x 6 en $1,500.00 <br />y 6 x 12 en $2,500.00.";
-	$detalles ="Contamos con toldos de 3 x 6, 6 x 6 y de 6 x 12";
-	$id_video = "";
 }
 if($servicio=="sillas-y-mesas"){
-	$servicio = "sillas-y-mesas";
 	$titulo = "Sillas y Mesas ";
-	$miniDesc = "Tenemos alquiler de mesas y sillas para niños y adultos";
-	$precio = "";
-	$detalles ="Contamos con varios modelos de sillas y mesas para adulto y también para niño, en varios colores. Incluye mantel.";
+	$miniDesc = "Sillas y mesas para niños y adultos";
 }
 
 ?>
+
 
 <?php 
 $titlePage=$titulo." - Inflamigos";
@@ -70,40 +62,93 @@ $url = $servicio;
  
 
 <section>
- <article id="producto">
 
-<?php echo "<h3>".$titulo. "</h3>";?>
+<?php 
+	if ($servicio = "toldos")
+	
+	{
+		$modelo = array("3x6", "6x6", "6x12");
+		
+			$i = 0;
+		
+		for ($i=0; $i<count($modelo); $i++)
+			{
 
-<br />
-<!--Inicia lista-imagenes-->
-<figure>
-	<img src="<?php echo $Myurl ; ?>imagenes/<?php echo $servicio; ?>.jpg''" alt="inflamigos-toldos"/>
-	<figcaption>
-		<?php
+				if($modelo[$i] == $modelo[0])
+						{
+							$h3 = "Toldo de 3 x 6";
+							$capacidad="3 mesas tablones";
+							$precio = "$600.00";
+							$detalles ="Recomendado para espacios pequeños, para talleres u otros juegos.";
+							$id_video = "";
+						}
+				if($modelo[$i] == $modelo[1])
+						{
+							$h3= "Toldo de 6 x 6";
+							$capacidad="4 mesas redondas";
+							$precio = "$1,500.00";
+							$detalles ="Para casi cualquier espacio";
+							$id_video = "";
+						}
+				if($modelo[$i] == $modelo[2])
+						{
+							$h3= "Toldo de 6 x 12";
+							$capacidad="8";
+							$precio = "$2,500.00";
+							$detalles ="Patra espacios amplios, tus invitados estaran bien resguardados de el sol o la lluvia.";
+							$id_video = "";
+						}
 
-			echo "<p>";
-			echo "Características: <br />".$detalles;
-			echo "</p>";
-		?>
-	</figcaption>
-</figure>
-	 
-<div class="datos">
-<?php
-echo "<p>";
-echo '<g:plusone href="http://www.inflamigos.com.mx/brincolines/'.$servicio.'/"></g:plusone>';
-echo '<div class="fb-like" data-href="http://www.inflamigos.com.mx/brincolines/'.$servicio.'/" data-width="450" data-layout="button_count" data-show-faces="true" data-send="true"></div>';
-echo "<br />";
-echo "<br />";
-echo "Precio: ".$precio;
-echo "<br />";
-echo "</p>";
+
+				echo '
+			
+			
+					<article id="item">
+
+					<h3>'.$h3.'</h3>
+
+					<br />
+					<!--Inicia lista-imagenes-->
+					<figure>
+						<img src="'.$Myurl.'imagenes/servicios/inflamigos_'. $servicio.'_'.$modelo[$i].'.jpg" alt="inflamigos-toldos"/>
+						<figcaption>
+							
+
+								<p>
+								Características: <br />'.$detalles.'
+								</p>
+							
+						</figcaption>
+					</figure>
+						 
+					<div class="datos">
+
+					<p>
+					<g:plusone href="http://www.inflamigos.com.mx/brincolines/'.$servicio.'/"></g:plusone>
+					<div class="fb-like" data-href="http://www.inflamigos.com.mx/brincolines/'.$servicio.'/" data-width="450" data-layout="button_count" data-show-faces="true" data-send="true"></div>
+					<br />
+					<br />
+					Precio: '.$precio.'
+					<br />
+					</p>
+					<button class="btn_reservar" type="button">Reservar</button>
+					</div>
+
+					<div class="fb-comments" data-href="http://www.inflamigos.com.mx/servicios/'.$servicio.'/"></div>
+					<br />
+
+
+
+
+			';}
+		
+
+	} 
 ?>
-<button class="btn_reservar" type="button">Reservar</button>
-</div>
 
-<div class="fb-comments" data-href="http://www.inflamigos.com.mx/servicios/<?php echo $servicio.'/';?>"></div>
-<br />
+
+
+
 
 <!--Inicia menu_inflables_mini-->
 
