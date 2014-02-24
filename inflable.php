@@ -264,7 +264,7 @@ $url = $inflable;
  
 
 <section>
-  <article id="producton">
+  <article id="item">
 
 <?php echo "<h3>".$titulo. "</h3>";?>
 

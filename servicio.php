@@ -64,9 +64,8 @@ $url = $servicio;
 <section>
 
 <?php 
-	if ($servicio = "toldos")
-	
-	{
+	if ($servicio == "toldos")
+		{
 		$modelo = array("3x6", "6x6", "6x12");
 		
 			$i = 0;
@@ -105,45 +104,135 @@ $url = $servicio;
 			
 					<article id="item">
 
-					<h3>'.$h3.'</h3>
+						<h3>'.$h3.'</h3>
 
-					<br />
-					<!--Inicia lista-imagenes-->
-					<figure>
-						<img src="'.$Myurl.'imagenes/servicios/inflamigos_'. $servicio.'_'.$modelo[$i].'.jpg" alt="inflamigos-toldos"/>
-						<figcaption>
-							
+						<br />
+						<!--Inicia lista-imagenes-->
+						<figure>
+							<img src="'.$Myurl.'imagenes/servicios/inflamigos_'. $servicio.'_'.$modelo[$i].'.jpg" alt="inflamigos-toldos"/>
+							<figcaption>
+								
 
-								<p>
-								Características: <br />'.$detalles.'
-								</p>
-							
-						</figcaption>
-					</figure>
-						 
-					<div class="datos">
+									<p>
+									Características: <br />'.$detalles.'
+									</p>
+								
+							</figcaption>
+						</figure>
+							 
+						<div class="datos">
 
-					<p>
-					<g:plusone href="http://www.inflamigos.com.mx/brincolines/'.$servicio.'/"></g:plusone>
-					<div class="fb-like" data-href="http://www.inflamigos.com.mx/brincolines/'.$servicio.'/" data-width="450" data-layout="button_count" data-show-faces="true" data-send="true"></div>
-					<br />
-					<br />
-					Precio: '.$precio.'
-					<br />
-					</p>
-					<button class="btn_reservar" type="button">Reservar</button>
-					</div>
-
-					<div class="fb-comments" data-href="http://www.inflamigos.com.mx/servicios/'.$servicio.'/"></div>
-					<br />
-
-
+						<p>
+						<g:plusone href="http://www.inflamigos.com.mx/brincolines/'.$servicio.'/"></g:plusone>
+						<div class="fb-like" data-href="http://www.inflamigos.com.mx/brincolines/'.$servicio.'/" data-width="450" data-layout="button_count" data-show-faces="true" data-send="true"></div>
+						<br />
+						<br />
+						Precio: '.$precio.'
+						<br />
+						</p>
+						<button class="btn_reservar" type="button">Reservar</button>
+						</div>
+						
+						<div class="fb-comments" data-href="http://www.inflamigos.com.mx/servicios/'.$servicio.'/"></div>
+						<br />
+					</article>
 
 
 			';}
-		
 
-	} 
+	}
+	if ($servicio == "sillas-y-mesas")
+		{
+		$modelo = array("silla_adulto_plegable", "silla_infantil_plegable", "mesa_adulto_tablon", "mesa_adulto_redonda", "mesa_infantil");
+		
+			$i = 0;
+		
+		for ($i=0; $i<count($modelo); $i++)
+			{
+
+				if($modelo[$i] == $modelo[0])
+						{
+							$h3 = "Silla adulto plegable";
+							$precio = "$7.00";
+							$detalles ="Silla plegable, de plastico con metal, en color negro.";
+							$id_video = "";
+						}
+				if($modelo[$i] == $modelo[1])
+						{
+							$h3= "Silla infantil plegable";
+							$precio = "$7";
+							$detalles ="Silla infantil plegable. Contamos con varios colores.";
+							$id_video = "";
+						}
+				if($modelo[$i] == $modelo[2])
+						{
+							$h3= "Mesa adulto Tablón";
+							$capacidad="10 sillas";
+							$precio = "$70.00";
+							$detalles ="Mesa para adulto, modelo tablón, de acero y fibra de vidrio.";
+							$id_video = "";
+						}
+			
+				if($modelo[$i] == $modelo[3])
+						{
+							$h3= "Mesa adulto redonda";
+							$capacidad="10 sillas";
+							$precio = "$70.00";
+							$detalles ="Mesa para adulto, modelo redonda, de acero y fibra de vidrio.";
+							$id_video = "";
+						}
+
+				if($modelo[$i] == $modelo[4])
+						{
+							$h3= "Mesa infantil Tablón";
+							$capacidad="10 sillas infantiles";
+							$precio = "$70.00";
+							$detalles ="Mesa para niños, modelo tablón, de acero y fibra de vidrio.";
+							$id_video = "";
+						}
+				
+				echo '
+			
+			
+					<article id="item">
+
+						<h3>'.$h3.'</h3>
+
+						<br />
+						<!--Inicia lista-imagenes-->
+						<figure>
+							<img src="'.$Myurl.'imagenes/servicios/inflamigos_'. $servicio.'_'.$modelo[$i].'.jpg" alt="inflamigos-toldos"/>
+							<figcaption>
+								
+
+									<p>
+									Características: <br />'.$detalles.'
+									</p>
+								
+							</figcaption>
+						</figure>
+							 
+						<div class="datos">
+
+						<p>
+						<g:plusone href="http://www.inflamigos.com.mx/brincolines/'.$servicio.'/"></g:plusone>
+						<div class="fb-like" data-href="http://www.inflamigos.com.mx/brincolines/'.$servicio.'/" data-width="450" data-layout="button_count" data-show-faces="true" data-send="true"></div>
+						<br />
+						<br />
+						Precio: '.$precio.'
+						<br />
+						</p>
+						<button class="btn_reservar" type="button">Reservar</button>
+						</div>
+						
+						<div class="fb-comments" data-href="http://www.inflamigos.com.mx/servicios/'.$servicio.'/"></div>
+						<br />
+					</article>
+
+
+			';}
+
+	}
 ?>
 
 
