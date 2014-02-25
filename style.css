@@ -140,7 +140,8 @@ section{display:block;margin:0 auto;width:100%;padding:15px 0;background-color:#
 #item{border:1px solid #cdcdcd;width:96%;margin:5px auto;background:rgba(255,255,255,0.6);border-radius:5px;}
 #item h3{font-size:2em;padding:2px;padding-left:30px;color:#fc0;background-color:#fe4900;width:96%;margin:15px auto 0 auto;box-sizing:border-box;text-align:left;border-radius:5px}
 #item figure{width:60%;margin:0;padding:5px;vertical-align:top;display:inline-block;border:1px solid #cdcdcd;border-radius:5px;background-color:#efefef;}
-#item figure img{width:100%;padding:0;margin:0}
+#item figure figcaption{border-top:1px solid #ddd}
+#item figure img{max-width:500px;width:100%;padding:0;margin:5px}
 #item figure p{text-align:left}
 #contact-area{background-color:#ff8c00;border-radius:5px;margin:10px auto;width:80%;padding:20px}
 #contact-area h4{width:100%;padding:0;margin:0}
