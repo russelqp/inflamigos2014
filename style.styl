@@ -67,7 +67,7 @@ a
 
 section, article, aside, nav, .lista, .lista img, .lista ol, .lista li, .boletin, .boletin p, .menu_inflables ul li, .lista-imagenes ul, .lista-imagenes li, #ubicacion
 	box-sizing border-box
-	margin 2px auto
+	margin 0 auto
 	list-style-position inside
 	list-style-type disc
 	color #F30
@@ -77,8 +77,6 @@ section
 	margin-top 0
 	padding 15px
 	background rgba(255,255,255,0.1)
-	border-bottom-right-radius 5px
-	border-bottom-left-radius 5px
 
 h3 img
 	float right
@@ -188,7 +186,7 @@ article p
 	border-bottom-left-radius 5px
 
 #welcome
-	margin 5px auto
+	margin 0 auto
 	width 100%
 	padding 15px
 	background none
@@ -196,6 +194,7 @@ article p
 	box-shadow none
 	background rgba(255,255,255,0.9)
 	text-align center
+	border-top 1px solid #fff
 
 #welcome #wowslider-container1
 		width 67%
@@ -389,29 +388,29 @@ blockquote
 	text-shadow -1px -1px 1px rgba(60,60,60,0.5)
 
 nav
-	margin 0 auto
+	margin 0
 	text-align center
 	width 100%
 	display block
 	padding 0
+	border-bottom 1px solid #BF6230
 
 nav ul
 	padding 0
 	background-color #FE4900
 	font-size  0
+	padding-bottom 5px
 
 nav ul li
-	background-color #FF9500
-	border 1px solid #D30
-	border-radius 2px
+	background-color #FFBC00
 	color #FFF
 	display inline-block
 	font-size 16px
 	height 45px
 	line-height 45px
-	margin 1px
+	margin 0
 	text-align right
-	width 19%
+	width 19.8%
 
 nav ul li a
 		display block
@@ -425,7 +424,6 @@ nav ul li a:hover
 	font-weight: bold
 
 nav ul li a:visited
-	border 1px solid #D30
 
 section
 	display block
@@ -434,27 +432,37 @@ section
 	padding 15px 0
 	background-color #EFEFEF
 
-#bk-home,#bk-brincolines,#bk-acercade,#bk-faq,#bk-contacto,#bk-blog
+#bk-home,#bk-brincolines,#bk-mobiliarioytoldos,#bk-faq,#bk-contacto,#bk-blog
 	background-repeat no-repeat
 	background-size 25%
 
 #bk-home
 	background-image url(img/menu/ico_inicio.png)
+	border-right 1px solid #BF6230
 
 #bk-brincolines
 	background-image url(img/menu/ico_brincolines.png)
+	border-left 1px solid #FFDC73
+	border-right 1px solid #BF6230
 
-#bk-acercade
+#bk-mobiliarioytoldos
 	background-image url(img/menu/ico_acercade.png)
+	border-left 1px solid #FFDC73
+	border-right 1px solid #BF6230
 
 #bk-faq
 	background-image url(img/menu/ico_faq.png)
+	border-left 1px solid #FFDC73
+	border-right 1px solid #BF6230
 
 #bk-contacto
 	background-image url(img/menu/ico_contacto.png)
+	border-left 1px solid #FFDC73
+	border-right 1px solid #BF6230
 
 #bk-blog
 	background-image url(img/menu/ico_blog.png)
+	border-left 1px solid #FFDC73
 
 #mapa
 	width 80%
@@ -590,9 +598,9 @@ section
 	color orange
 
 .btn_activo
-	background-color #FFBC00
-	box-shadow 1px 1px 2px rgba(60,60,60,0.5)
-
+	background-color #FE4900
+	border-left 0
+	
 .submenu a link
 	color #09F
 
