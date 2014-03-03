@@ -93,22 +93,12 @@ map.addMarker({
 <div id="container">
 <!--<div class="ayudaonline"><a href="#">Ayuda en Linea</a></div>-->
 <header>
-       <div id="logo">
-        <a href="<?php echo $Myurl; ?>"><img src="<?php echo $Myurl; ?>/imagenes/logoinflamigos.png" alt="logo_inflamigos" title="ir al home"/></a>
-       </div>
-       <div id="info"><h1>Inflamigos</h1>
+       
+       <div id="info"><h1> <a href="<?php echo $Myurl; ?>"><img src="<?php echo $Myurl; ?>/imagenes/mini_logo_inflamigos.png" alt="logo_inflamigos" title="ir al home"/>Inflamigos</a></h1>
          <h2>Renta de brincolines en Playa del Carmen</h2>
          <p>Y toda la Riviera Maya | <strong class="icon-phone"> 9841416137</strong></p>
        </div>
-       <div id="inflabletop">
-        <?php
-            $inflabletop ="ultra-cubo";
-        ?>
-          <a href="<?php echo $Myurl; ?>brincolines/<?php echo $inflabletop; ?>/" title="<?php echo $inflabletop; ?>">
-            <img src="<?php echo $Myurl; ?>imagenes/inflable-top/<?php echo $inflabletop; ?>.png" class="inflable-top" alt="<?php echo $inflabletop; ?>" />
-          </a>
-       </div>
-            <?php $btn_activo;?>
+              <?php $btn_activo;?>
               <nav>
                 <ul>
                     <li id="bk-home" <?php if ($btn_activo == "index") {echo 'class="btn_activo"';} ?> ><a href="<?php echo $Myurl; ?>" title="ir al inicio ;)" >Inicio</a></li>

@@ -66,7 +66,7 @@ table{border-collapse:collapse;border-spacing:0}
 body{background-color:#cef;background-repeat:repeat-x;color:#fff;font-family:'Noto Sans',sans-serif;font-size:16px;margin:0 auto;padding:0}
 img{border:0}
 h1,h2,h3,h4,h5,h6{margin:0 auto;font-family:'Wendy One',sans-serif;text-shadow:1px 1px 1px rgba(60,60,60,0.5)}
-h1{color:#fc3;font-size:3em;text-align:center}
+h1{color:#fc3;font-size:3em;text-align:center;vertical-align:bottom}
 h2{text-align:center}
 h3{font-size:2em;padding:2px;padding-left:30px;color:#fc0;background-color:#fe4900;width:96%;margin:15px auto 0 auto;box-sizing:border-box;text-align:left;border-radius:5px}
 h4{color:#efefef;font-size:1.6em;padding:2px 10px;background-color:#fe4900;margin:2px auto 10px auto;border-radius:2px}
@@ -76,11 +76,13 @@ a{text-decoration:none}
 section,article,aside,nav,.lista,.lista img,.lista ol,.lista li,.boletin,.boletin p,.menu_inflables ul li,.lista-imagenes ul,.lista-imagenes li,#ubicacion{box-sizing:border-box;margin:0 auto;list-style-position:inside;list-style-type:disc;color:#f30;padding:0 10px}
 section{margin-top:0;padding:15px;background:rgba(255,255,255,0.1)}
 h3 img{float:right;padding-right:20px}
-header{display:block;margin:0 auto;width:100%;padding:0;text-align:center}
+header{display:block;margin:0 auto;width:100%;padding:0;text-align:center;}
+header h1{padding:2px 0}
+header h1 img{padding:0;margin:0}
 header p{width:80%}
 header #logo{border:0;display:inline-block;width:10}
 header #inflabletop{border:0;display:inline-block;width:10%}
-header #info{display:inline-block;width:78%;text-align:center;margin:0 auto}
+header #info{display:inline-block;width:78%;text-align:center;margin:0 auto;vertical-align:bottom}
 header #logo img,header #inflabletop img{width:100%}
 header h1 a:visited{color:#fc3}
 header ol{list-style:none;text-decoration:none;padding:0;margin:0 auto}
@@ -95,7 +97,7 @@ article p{font-size:1.1em;margin:15px auto;width:85%}
 #welcome-servicios{width:100%;margin:0 auto;padding:15px;background:rgba(255,255,255,0.1);border-bottom-right-radius:5px;border-bottom-left-radius:5px}
 #welcome{margin:0 auto;width:100%;padding:15px;background:none;border:0;box-shadow:none;background:rgba(255,255,255,0.9);text-align:center;border-top:1px solid #fff}
 #welcome #wowslider-container1{width:67%;margin:0 auto;display:inline-block;vertical-align:top;background:rgba(255,255,255,0.2);position:relative}
-#welcome figure img{width:100%;padding:0;margin:0}
+#welcome #wowslider-container1  img{width:100%;padding:0;margin:0;max-width:600px}
 #welcome #box-ofer{width:30%;margin:0 auto;padding:0;display:inline-block;vertical-align:top}
 #welcome #box-ofer form{display:block;margin:0 auto 5px auto;padding:2px;height:40%;width:100%;text-align:center;background-color:#ffd700}
 #welcome #box-ofer form	input{border-radius:5px;border:solid 1px #fff;margin:2px auto;height:2em;width:90%;transition:.7s ease all;color:#fe4900;padding:5px 2px}
