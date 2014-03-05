@@ -325,7 +325,18 @@ echo "Edad recomendada: ".$edades." años";
 echo "<br />";
 echo "</p>";
 ?>
-<button class="btn_reservar" type="button">Reservar</button>
+<!--<button class="btn_reservar" type="button">Reservar</button>-->
+<form id ="reserva-form" action="reservacion/envio.php" method="post">
+			                  <h4>¡Reserva ahora!</h4>
+			                 	<input type="email" id="user-email" name="email" placeholder="Email" required/>
+			                  	<input type="text" id="user-mensaje"  name="mensaje" placeholder="Mensaje" required/>
+			                   	<input id="user-submit" type="submit" name="submit" value="Enviar" />
+			                  	<input type="hidden" value="'.$servicio.'_'.$modelo[$i].'" name="Item">
+			                    <p><strong class="icon-phone"> 9841416137</strong></p>
+
+           				 </form>
+
+
 </div>
 <div id ="detalle-brincolin">
 <?php

@@ -32,6 +32,7 @@
                  	<input type="email" id="user-email" name="email" placeholder="Email" required/>
                   	<input type="text" id="user-mensaje"  name="mensaje" placeholder="Mensaje" required/>
                    	<input id="user-submit" type="submit" name="submit" value="Enviar" />
+                    <input type="hidden" value="Página principal" name="item">
                  <p><strong class="icon-phone"> 9841416137</strong></p>
 
             </form>
@@ -64,7 +65,7 @@
 
 </figure>
 <figure class="miniserv">
-  <img src="<?php echo $Myurl; ?>imagenes/inflamigos-toldos.jpg" alt="" />
+  <img src="<?php echo $Myurl; ?>imagenes/servicios/inflamigos_toldos_6x6.jpg" alt="" />
    <h4>Renta de Toldos</h4>
   <figcaption>Contamos con toldos de diferentes medidas: 3 x 6, 6 x 6 y 6 x 12.</figcaption>
   <p><a href="<?php echo $Myurl; ?>servicios/toldos/" title="">Ver más</a><p><br />
@@ -74,7 +75,7 @@
   
 </figure>
 <figure class="miniserv">
-  <img src="<?php echo $Myurl; ?>imagenes/inflamigos-sillasymesas.jpg" alt="" />
+  <img src="<?php echo $Myurl; ?>imagenes/servicios/inflamigos_sillas-y-mesas_silla_adulto_plegable.jpg" alt="" />
    <h4>Alquiler de sillas y mesas</h4>
   <figcaption>Manejamos paquetes de un tablón con 10 sillas, para niños y adultos.</figcaption>
    <p><a href="<?php echo $Myurl; ?>servicios/sillas-y-mesas/" title="">Ver más</a><p><br />
