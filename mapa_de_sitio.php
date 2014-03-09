@@ -1,6 +1,8 @@
 <?php 
   $titlePage="Mapa de sitio - Inflamigos";
-  $descPage="Si te perdiste o quieres ver cómo está organizado el sitio inflamigos, en esta página podrás ver el mapa de nuestro sitio en detalle."; ?>
+  $descPage="Si te perdiste o quieres ver cómo está organizado el sitio inflamigos, en esta página podrás ver el mapa de nuestro sitio en detalle."; 
+  $btn_activo = "none";
+  ?>
  <?php include('header.php');?>
 
  <section>
@@ -43,6 +45,6 @@
         <br />
         <p>Última actualización<!--21/04/10 05:12 pm, 21/06/2011 4:21 pm, 23/08/11 4:51pm, 17/05/12 4:22pm 27/01/2013 1:45 am 09/05/13 07:00 pm-->29072013-03:24pm </p>
     </article>
-<?php include('aside.php');?>
+
 </section>
 <?php include('footer.php');?>

@@ -71,6 +71,6 @@
     </ol>
     </div>
   </article>
-<?php include('aside.php');?>
+
 </section>
 <?php include('footer.php');?>

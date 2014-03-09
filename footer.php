@@ -13,7 +13,7 @@
 		<li><a href="<?php echo $Myurl; ?>faq/">Faq</a></li>
 		<li><a href="<?php echo $Myurl; ?>contacto/">Contacto</a></li>
 		<li><a href="<?php echo $Myurl; ?>enlaces/">Enlaces</a></li>
-		<li class="nb-right"><a href="<?php echo $Myurl; ?>/mapa_de_sitio/">Mapa de sitio</a></li>
+		<li class="nb-right"><a href="<?php echo $Myurl; ?>mapa_de_sitio/">Mapa de sitio</a></li>
 	</ul>
 </div>
 

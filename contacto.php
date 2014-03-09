@@ -59,6 +59,6 @@
 <p>&nbsp;</p>
 <!--<div class="fb-like-box" data-href="http://www.facebook.com/108059039214265" data-width="240" data-height="232" data-show-faces="true" data-stream="false" data-header="false"></div>-->
  </article>
-<?php include('aside.php');?>
+
 </section>
 <?php include('footer.php');?>

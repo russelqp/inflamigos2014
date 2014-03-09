@@ -303,6 +303,14 @@ $url = $inflable;
 
 	echo "</ul>";
 ?>
+<div id ="detalle-brincolin">
+
+<?php
+echo "<p>";
+echo "Características: <br />".$detalles;
+echo "</p>";
+?>
+</div>
 </div>
 
 			
@@ -325,30 +333,11 @@ echo "Edad recomendada: ".$edades." años";
 echo "<br />";
 echo "</p>";
 ?>
-<!--<button class="btn_reservar" type="button">Reservar</button>-->
-<form id ="reserva-form" action="reservacion/envio.php" method="post">
-			                  <h4>¡Reserva ahora!</h4>
-			                 	<input type="email" id="user-email" name="email" placeholder="Email" required/>
-			                  	<input type="text" id="user-mensaje"  name="mensaje" placeholder="Mensaje" required/>
-			                   	<input id="user-submit" type="submit" name="submit" value="Enviar" />
-			                  	<input type="hidden" value="'.$servicio.'_'.$modelo[$i].'" name="Item">
-			                    <p><strong class="icon-phone"> 9841416137</strong></p>
-
-           				 </form>
-
-
+<!--<button class="btn_reservar" type="button">Reservar</button><button class="btn_reservar" type="button">Condiciones</button>-->
 </div>
-<div id ="detalle-brincolin">
-<?php
 
-echo "<p>";
-echo "Características: <br />".$detalles;
-echo "</p>";
-?>
-</div>
 <div class="fb-comments" data-href="http://www.inflamigos.com.mx/brincolines/<?php echo $inflable.'/';?>"></div>
 <br />
-
 <!--Inicia menu_inflables_mini-->
 
 <div class="menu_inflables_mini">
@@ -370,7 +359,7 @@ echo "</p>";
 </article>
 
  
-
+<article>
 <div class="lista">
 					<h4>Reglas b&aacute;sicas para el uso de los brincolines inflables:</h4>
 					<img src="<?php echo $Myurl; ?>imagenes/punching-bag.png" title="alegria" class="img-list" />
@@ -381,14 +370,9 @@ echo "</p>";
 						<li>No arrastrar el brincolin para transladarlo a otro lugar.</li>
 					</ol>
 </div>
-
-
-
-
-
-				
 </article>
 </section>
+
 <?php include('footer.php');?>
  <?php //Limpia el posible bucle, es decir, se puede volver a hacer el envío.
  $_SESSION['Listo']=0;

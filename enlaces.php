@@ -1,6 +1,7 @@
  <?php 
  $titlePage="Enlaces - Inflamigos";
  $descPage="Esta es nuestra página de intercambio de enlaces, tal vez encuentres algo interesante aquí, contáctanos si tienes algún enlace para intercambiar.";
+ $btn_activo ="lol";
  ?>
  <?php include('header.php');?>
 
@@ -171,6 +172,6 @@
 
 </article>
 
-<?php include('aside.php');?>
+
 </section>
 <?php include('footer.php');?>

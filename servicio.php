@@ -53,7 +53,7 @@ if($servicio=="sillas-y-mesas"){
 <?php 
 $titlePage=$titulo." - Inflamigos";
 $descPage= $miniDesc;
- $btn_activo="servicios";
+ $btn_activo="mobiliario-y-toldos";
 
 
 // La variable del título de la noticia 
@@ -71,7 +71,7 @@ $url = $servicio;
 <?php 
 	if ($servicio == "toldos")
 		{
-		$modelo = array("3x6", "6x6", "6x12");
+		$modelo = array("toldo-3x6", "toldo-6x6", "toldo-6x12");
 		
 			$i = 0;
 		
@@ -85,6 +85,7 @@ $url = $servicio;
 							$precio = "$600.00";
 							$detalles ="Recomendado para espacios pequeños, para talleres u otros juegos.";
 							$id_video = "";
+							$img = "toldo_3x6";
 						}
 				if($modelo[$i] == $modelo[1])
 						{
@@ -93,6 +94,7 @@ $url = $servicio;
 							$precio = "$1,500.00";
 							$detalles ="Para casi cualquier espacio";
 							$id_video = "";
+							$img = "toldo_6x6";
 						}
 				if($modelo[$i] == $modelo[2])
 						{
@@ -101,6 +103,7 @@ $url = $servicio;
 							$precio = "$2,500.00";
 							$detalles ="Patra espacios amplios, tus invitados estaran bien resguardados de el sol o la lluvia.";
 							$id_video = "";
+							$img = "toldo_6x12";
 						}
 
 
@@ -114,7 +117,7 @@ $url = $servicio;
 						<br />
 						<!--Inicia lista-imagenes-->
 						<figure>
-							<img src="'.$Myurl.'imagenes/servicios/inflamigos_'. $servicio.'_'.$modelo[$i].'.jpg" alt="inflamigos-toldos"/>
+							<img src="'.$Myurl.'imagenes/servicios/inflamigos_'.$img.'.jpg" alt="inflamigos-toldos"/>
 							<figcaption>
 								
 
@@ -128,25 +131,18 @@ $url = $servicio;
 						<div class="datos">
 
 						<p>
-						<g:plusone href="http://www.inflamigos.com.mx/brincolines/'.$servicio.'/"></g:plusone>
-						<div class="fb-like" data-href="http://www.inflamigos.com.mx/brincolines/'.$servicio.'/" data-width="450" data-layout="button_count" data-show-faces="true" data-send="true"></div>
+						<g:plusone href="http://www.inflamigos.com.mx/servicios/'.$modelo[$i].'/"></g:plusone>
+						<div class="fb-like" data-href="http://www.inflamigos.com.mx/servicios/'.$modelo[$i].'/" data-width="450" data-layout="button_count" data-show-faces="true" data-send="true"></div>
 						<br />
 						<br />
 						Precio: '.$precio.'
 						<br />
 						</p>
-						 <form id ="reserva-form" action="reservacion/envio.php" method="post">
-			                  <h4>¡Reserva ahora!</h4>
-			                 	<input type="email" id="user-email" name="email" placeholder="Email" required/>
-			                  	<input type="text" id="user-mensaje"  name="mensaje" placeholder="Mensaje" required/>
-			                   	<input id="user-submit" type="submit" name="submit" value="Enviar" />
-			                  	<input type="hidden" value="'.$servicio.'_'.$modelo[$i].'" name="Item">
-			                    <p><strong class="icon-phone"> 9841416137</strong></p>
-
-           				 </form>
-						</div>
 						
-						<div class="fb-comments" data-href="http://www.inflamigos.com.mx/servicios/'.$servicio.'/"></div>
+						<!--<button class="btn_reservar" type="button">Reservar</button><button class="btn_reservar" type="button">Condiciones</button>-->
+						</div>
+
+						<div class="fb-comments" data-href="http://www.inflamigos.com.mx/servicios/'.$modelo[$i].'/"></div>
 						<br />
 					</article>
 
@@ -156,7 +152,7 @@ $url = $servicio;
 	}
 	if ($servicio == "sillas-y-mesas")
 		{
-		$modelo = array("silla_adulto_plegable", "silla_infantil_plegable", "mesa_adulto_tablon", "mesa_adulto_redonda", "mesa_infantil");
+		$modelo = array("silla-adulto-plegable", "silla-infantil-plegable", "mesa-adulto-tablon", "mesa-adulto-redonda", "mesa-infantil");
 		
 			$i = 0;
 		
@@ -169,6 +165,7 @@ $url = $servicio;
 							$precio = "$7.00";
 							$detalles ="Silla plegable, de plastico con metal, en color negro.";
 							$id_video = "";
+							$img = "silla_adulto_plegable"; 
 						}
 				if($modelo[$i] == $modelo[1])
 						{
@@ -176,6 +173,7 @@ $url = $servicio;
 							$precio = "$7";
 							$detalles ="Silla infantil plegable. Contamos con varios colores.";
 							$id_video = "";
+							$img = "silla_infantil_plegable";
 						}
 				if($modelo[$i] == $modelo[2])
 						{
@@ -184,6 +182,7 @@ $url = $servicio;
 							$precio = "$70.00";
 							$detalles ="Mesa para adulto, modelo tablón, de acero y fibra de vidrio.";
 							$id_video = "";
+							$img ="mesa_adulto_tablon";
 						}
 			
 				if($modelo[$i] == $modelo[3])
@@ -193,6 +192,7 @@ $url = $servicio;
 							$precio = "$70.00";
 							$detalles ="Mesa para adulto, modelo redonda, de acero y fibra de vidrio.";
 							$id_video = "";
+							$img ="mesa_adulto_redonda";
 						}
 
 				if($modelo[$i] == $modelo[4])
@@ -202,6 +202,7 @@ $url = $servicio;
 							$precio = "$70.00";
 							$detalles ="Mesa para niños, modelo tablón, de acero y fibra de vidrio.";
 							$id_video = "";
+							$img = "mesa_infantil";
 						}
 				
 				echo '
@@ -214,7 +215,7 @@ $url = $servicio;
 						<br />
 						<!--Inicia lista-imagenes-->
 						<figure>
-							<img src="'.$Myurl.'imagenes/servicios/inflamigos_'. $servicio.'_'.$modelo[$i].'.jpg" alt="inflamigos-toldos"/>
+							<img src="'.$Myurl.'imagenes/servicios/inflamigos_'.$img.'.jpg" alt="inflamigos-toldos"/>
 							<figcaption>
 								
 
@@ -228,26 +229,19 @@ $url = $servicio;
 						<div class="datos">
 
 						<p>
-						<g:plusone href="http://www.inflamigos.com.mx/brincolines/'.$servicio.'/"></g:plusone>
-						<div class="fb-like" data-href="http://www.inflamigos.com.mx/brincolines/'.$servicio.'/" data-width="450" data-layout="button_count" data-show-faces="true" data-send="true"></div>
+						<g:plusone href="http://www.inflamigos.com.mx/servicios/'.$modelo[$i].'/"></g:plusone>
+						<div class="fb-like" data-href="http://www.inflamigos.com.mx/servicios/'.$modelo[$i].'/" data-width="450" data-layout="button_count" data-show-faces="true" data-send="true"></div>
 						<br />
 						<br />
 						Precio: '.$precio.'
 						<br />
 						</p>
-						<form id ="reserva-form" action="reservacion/envio.php" method="post">
-			                  <h4>¡Reserva ahora!</h4>
-			                 	<input type="email" id="user-email" name="email" placeholder="Email" required/>
-			                  	<input type="text" id="user-mensaje"  name="mensaje" placeholder="Mensaje" required/>
-			                   	<input id="user-submit" type="submit" name="submit" value="Enviar" />
-			                  	<input type="hidden" value="'.$servicio.'_'.$modelo[$i].'" name="Item">
-			                    <p><strong class="icon-phone"> 9841416137</strong></p>
-
-           				 </form>
-						</div>
-						</div>
 						
-						<div class="fb-comments" data-href="http://www.inflamigos.com.mx/servicios/'.$servicio.'/"></div>
+						<!--<button class="btn_reservar" type="button">Reservar</button><button class="btn_reservar" type="button">Condiciones</button>-->
+						</div>
+					
+						
+						<div class="fb-comments" data-href="http://www.inflamigos.com.mx/servicios/'.$modelo[$i].'/"></div>
 						<br />
 					</article>
 
@@ -262,7 +256,7 @@ $url = $servicio;
 
 
 <!--Inicia menu_inflables_mini-->
-
+<article>
 <div class="menu_inflables_mini">
 <h4>Otros servicios</h4>
     <ul>

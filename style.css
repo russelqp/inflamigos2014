@@ -69,7 +69,7 @@ h1,h2,h3,h4,h5,h6{margin:0 auto;font-family:'Wendy One',sans-serif;text-shadow:1
 h1{color:#fc3;font-size:3em;text-align:center;vertical-align:bottom}
 h2{text-align:center}
 h3{font-size:2em;padding:2px;padding-left:30px;color:#fc0;background-color:#fe4900;width:96%;margin:15px auto 0 auto;box-sizing:border-box;text-align:left;border-radius:5px}
-h4{color:#efefef;font-size:1.6em;padding:2px 10px;background-color:#fe4900;margin:2px auto 10px auto;border-radius:2px}
+h4{color:#efefef;font-size:1.6em;padding:2px 10px;background-color:#fe4900;margin:2px auto 10px auto;border-radius:2px;width:90%}
 h5{font-size:1.2em;text-align:center}
 h6{font-size:1em}
 a{text-decoration:none}
@@ -93,9 +93,10 @@ article .lista li p{width:75%;margin:5px auto;text-align:justify;padding:0;color
 article p{font-size:1.1em;margin:15px auto;width:85%}
 #banner_video{width:60%;padding:5px;margin:0 auto;display:inline-block;vertical-align:top;background-color:#fff}
 #boletin_video{margin:5px auto;width:100%;padding:15px;background:none;border:0;box-shadow:none;background:rgba(255,255,255,0.1);text-align:center}
-#detalle-brincolin{background-color:#ededed;margin:5px auto;padding:5px;width:92%;box-sizing:border-box;text-align:left;border-bottom-left-radius:5px;border-bottom-right-radius:5px;border:1px solid #dedede}
+#detalle-brincolin{background-color:#ededed;margin:5px auto;padding:5px;width:100%;box-sizing:border-box;text-align:left;border-bottom-left-radius:5px;border-bottom-right-radius:5px;border:1px solid #dedede}
 #welcome-servicios{width:100%;margin:0 auto;padding:15px 10px;background:rgba(255,255,255,0.1);border-bottom-right-radius:5px;border-bottom-left-radius:5px}
-#welcome-servicios article h3{width:95%}
+#welcome-servicios article{width:95%}
+#welcome-servicios article h3{width:100%}
 #welcome{margin:0 auto;width:100%;padding:15px 10px;background:none;border:0;box-shadow:none;background:rgba(255,255,255,0.9);text-align:center;border-top:1px solid #fff}
 #welcome #wowslider-container1{width:67%;margin:0 auto;display:inline-block;vertical-align:top;background:rgba(255,255,255,0.2);position:relative}
 #welcome #wowslider-container1  img{width:100%;padding:0;margin:0;max-width:600px}
@@ -123,7 +124,7 @@ footer{background-color:#ff4900;bottom:0%;margin:0 auto;padding:0;position:relat
 .btn_reservar:hover,.btn_reservar:focus{color:#dfe7ea;box-shadow:inset 0 1px 0 rgba(255,255,255,0.5),0 2px 0 0 rgba(255,255,255,0.5),0 2px 5px #999}
 .submenu a{display:block;text-decoration:none;height:25px;padding:5px 5px 0 5px;transition:all .5s ease;width:100%}
 .submenu a:hover{display:block;background-color:#ee3;width:100%}
-blockquote{font-size:18px;color:#ff4933;font-weight:600;margin:10px auto;width:80%;text-align:center;text-shadow:-1px -1px 1px rgba(60,60,60,0.5)}
+blockquote{font-size:18px;color:#09f;font-weight:600;margin:10px auto;width:80%;text-align:center;text-shadow:-1px -1px 1px rgba(60,60,60,0.5)}
 nav{margin:0;text-align:center;width:100%;display:block;padding:0;border-bottom:1px solid #bf6230}
 nav ul{padding:0;background-color:#fe4900;font-size:0;padding-bottom:5px}
 nav ul li{background-color:#ffbc00;color:#fff;display:inline-block;font-size:16px;height:45px;line-height:45px;margin:0;text-align:right;width:19.8%}
@@ -147,10 +148,10 @@ nav ul li a:visited,section{display:block;margin:0 auto;width:100%;padding:15px 
 #item figure figcaption{border-top:1px solid #ddd}
 #item figure img{max-width:500px;width:100%;padding:0;margin:5px}
 #item figure p{text-align:left}
-#contact-area{background-color:#ff8c00;border-radius:5px;margin:10px auto;width:80%;padding:20px}
-#contact-area h4{width:100%;padding:0;margin:0}
+#contact-area{background-color:#ff8c00;border-radius:5px;margin:10px auto;width:70%;padding:20px}
+#contact-area h4{width:90%;padding:0;margin:0}
 #contact-area p{font-size:1.4em;margin:5px auto;width:90%;text-align:left}
-#contact-area .nombre,.telefono,.email,textarea{border:1px solid #ccc;color:#09f;font-family:Helvetica,sans-serif;font-size:1.6em;width:100%;height:1.6em}
+#contact-area .nombre,.telefono,.email,textarea{border:1px solid #ccc;color:#09f;font-family:Helvetica,sans-serif;font-size:1.8em;width:100%;height:1.6em}
 #contact-area textarea{font-size:1.4em}
 #contact-area .opinion{border:1px dashed #fff}
 #contact-area textarea focus,#contact-area input focus{border:2px solid #f60}
@@ -207,10 +208,8 @@ margin 0auto,.submenu ul{margin:0 auto;width:80%;padding:0}
 #mapadesitio{margin:0 auto;width:80%;padding:0}
 #mapadesitio li{color:#f60;float:none;font-size:1.2em;list-style:disc;margin-left:20px}
 #mapadesitio a,#mapadesitio a:link,#mapadesitio a:visited{text-decoration:underline}
-.fb-comments,.fb-comments span,.fb-comments.fb_iframe_widget span iframe{width:100% !important;text-align:center;padding:0;margin:5px}
-.fb-comments{width:90% !important}
-fan_widget{background-color:#008000}
-.fltrt,float right{margin-left:8px}
+.fb-comments{width:95% !important;background-color:#efefef;margin:5px auto}
+#fb-root,display none,.fb_iframe_widget,.fb_iframe_widget span,.fb_iframe_widget span iframe[style],max-width 100%,width 100%,.fltrt,float right{margin-left:8px}
 .fltlft,float left{margin-right:8px}
 .clearfloat{clear:both}
 @media screen and (max-width:945px){nav ul li{width:15%}
