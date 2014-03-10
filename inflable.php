@@ -294,7 +294,7 @@ $url = $inflable;
 			
 
 
-			echo '<li><a data-target="flare" data-flare-gallery="gallery1" data-flare-thumb="images/video.png" href="http://www.youtube.com/watch?v='.$id_video.'" title="Video de '.$titulo.'" ><img src="images/video.png" alt ="video_'.$brincolin.'" /></a></li>';
+			echo '<li><a data-target="flare" data-flare-gallery="gallery1" data-flare-thumb="images/video.png" href="http://www.youtube.com/watch?v='.$id_video.'" title="Video de '.$titulo.'" ><img src="'.$Myurl.'images/video.png" alt ="video_'.$brincolin.'" /></a></li>';
 			//echo '<li><a href="http://www.youtube.com/embed/'.$id_video.'" rel="LightFrame" title="Video de '.$titulo.'"><img src="images/video.png" alt ="video_'.$brincolin.'" /></a></li>' ;
 		  
  		}

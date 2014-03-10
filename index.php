@@ -62,15 +62,15 @@
   <p class="compartir">
    <div class="fb-like" data-href="http://www.inflamigos.com.mx/brincolines/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
   </p>
-
 </figure>
+
 <figure class="miniserv">
   <img src="<?php echo $Myurl; ?>imagenes/servicios/inflamigos_toldo_6x6.jpg" alt="" />
    <h4>Renta de Toldos</h4>
   <figcaption>Contamos con toldos de diferentes medidas: 3 x 6, 6 x 6 y 6 x 12.</figcaption>
-  <p><a href="<?php echo $Myurl; ?>servicios/toldos/" title="">Ver más</a><p><br />
+  <p><a href="<?php echo $Myurl; ?>mobiliario-y-toldos/toldos/" title="">Ver más</a><p><br />
   <p class="compartir">
-   <div class="fb-like" data-href="http://www.inflamigos.com.mx/servicios/toldos/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+   <div class="fb-like" data-href="http://www.inflamigos.com.mx/mobiliario-y-toldos/toldos/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
   </p>
   
 </figure>
@@ -78,9 +78,9 @@
   <img src="<?php echo $Myurl; ?>imagenes/servicios/inflamigos_silla_adulto_plegable.jpg" alt="" />
    <h4>Alquiler de sillas y mesas</h4>
   <figcaption>Manejamos paquetes de un tablón con 10 sillas, para niños y adultos.</figcaption>
-   <p><a href="<?php echo $Myurl; ?>servicios/sillas-y-mesas/" title="">Ver más</a><p><br />
+   <p><a href="<?php echo $Myurl; ?>mobiliario-y-toldos/sillas-y-mesas/" title="">Ver más</a><p><br />
   <p class="compartir">
-   <div class="fb-like" data-href="http://www.inflamigos.com.mx/servicios/sillas-y-mesas/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+   <div class="fb-like" data-href="http://www.inflamigos.com.mx/mobiliario-y-toldos/sillas-y-mesas/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
   </p>
 </figure>
 </article>

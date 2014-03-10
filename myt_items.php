@@ -131,8 +131,8 @@ $url = $servicio;
 						<div class="datos">
 
 						<p>
-						<g:plusone href="http://www.inflamigos.com.mx/servicios/'.$modelo[$i].'/"></g:plusone>
-						<div class="fb-like" data-href="http://www.inflamigos.com.mx/servicios/'.$modelo[$i].'/" data-width="450" data-layout="button_count" data-show-faces="true" data-send="true"></div>
+						<g:plusone href="http://www.inflamigos.com.mx/mobiliario-y-toldos/'.$modelo[$i].'/"></g:plusone>
+						<div class="fb-like" data-href="http://www.inflamigos.com.mx/mobiliario-y-toldos/'.$modelo[$i].'/" data-width="450" data-layout="button_count" data-show-faces="true" data-send="true"></div>
 						<br />
 						<br />
 						Precio: '.$precio.'
@@ -142,7 +142,7 @@ $url = $servicio;
 						<!--<button class="btn_reservar" type="button">Reservar</button><button class="btn_reservar" type="button">Condiciones</button>-->
 						</div>
 
-						<div class="fb-comments" data-href="http://www.inflamigos.com.mx/servicios/'.$modelo[$i].'/"></div>
+						<div class="fb-comments" data-href="http://www.inflamigos.com.mx/mobiliario-y-toldos/'.$modelo[$i].'/"></div>
 						<br />
 					</article>
 
@@ -229,8 +229,8 @@ $url = $servicio;
 						<div class="datos">
 
 						<p>
-						<g:plusone href="http://www.inflamigos.com.mx/servicios/'.$modelo[$i].'/"></g:plusone>
-						<div class="fb-like" data-href="http://www.inflamigos.com.mx/servicios/'.$modelo[$i].'/" data-width="450" data-layout="button_count" data-show-faces="true" data-send="true"></div>
+						<g:plusone href="http://www.inflamigos.com.mx/mobiliario-y-toldos/'.$modelo[$i].'/"></g:plusone>
+						<div class="fb-like" data-href="http://www.inflamigos.com.mx/mobiliario-y-toldos/'.$modelo[$i].'/" data-width="450" data-layout="button_count" data-show-faces="true" data-send="true"></div>
 						<br />
 						<br />
 						Precio: '.$precio.'
@@ -241,7 +241,7 @@ $url = $servicio;
 						</div>
 					
 						
-						<div class="fb-comments" data-href="http://www.inflamigos.com.mx/servicios/'.$modelo[$i].'/"></div>
+						<div class="fb-comments" data-href="http://www.inflamigos.com.mx/mobiliario-y-toldos/'.$modelo[$i].'/"></div>
 						<br />
 					</article>
 

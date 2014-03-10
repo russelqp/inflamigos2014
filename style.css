@@ -127,10 +127,10 @@ footer{background-color:#ff4900;bottom:0%;margin:0 auto;padding:0;position:relat
 blockquote{font-size:18px;color:#09f;font-weight:600;margin:10px auto;width:80%;text-align:center;text-shadow:-1px -1px 1px rgba(60,60,60,0.5)}
 nav{margin:0;text-align:center;width:100%;display:block;padding:0;border-bottom:1px solid #bf6230}
 nav ul{padding:0;background-color:#fe4900;font-size:0;padding-bottom:5px}
-nav ul li{background-color:#ffbc00;color:#fff;display:inline-block;font-size:16px;height:45px;line-height:45px;margin:0;text-align:right;width:19.8%}
-nav ul li a{display:block;color:#fff;transition:all 1s ease}
+nav ul li{background-color:#ffbc00;color:#fff;display:inline-block;font-size:16px;height:45px;line-height:45px;margin:0;text-align:right;width:19.8%;vertical-align:top}
+nav ul li a{display:block;color:#fff;transition:all 1s ease;height:100%;padding:0;margin:0;font-size:100%}
 nav ul li a:hover{background-color:#ff0;text-align:center;color:#e00;font-weight:bold}
-nav ul li a:visited,section{display:block;margin:0 auto;width:100%;padding:15px 0;background-color:#efefef}
+section{display:block;margin:0 auto;width:100%;padding:15px 0;background-color:#efefef}
 #bk-home,#bk-brincolines,#bk-mobiliarioytoldos,#bk-faq,#bk-contacto,#bk-blog{background-repeat:no-repeat;background-size:25%}
 #bk-home{background-image:url("img/menu/ico_inicio.png");border-right:1px solid #bf6230}
 #bk-brincolines{background-image:url("img/menu/ico_brincolines.png");border-left:1px solid #ffdc73;border-right:1px solid #bf6230}
@@ -212,29 +212,43 @@ margin 0auto,.submenu ul{margin:0 auto;width:80%;padding:0}
 #fb-root,display none,.fb_iframe_widget,.fb_iframe_widget span,.fb_iframe_widget span iframe[style],max-width 100%,width 100%,.fltrt,float right{margin-left:8px}
 .fltlft,float left{margin-right:8px}
 .clearfloat{clear:both}
-@media screen and (max-width:945px){nav ul li{width:15%}
+@media screen and (max-width:945px){nav ul li{vertical-align:top;text-align:center}
+nav ul{text-align:left}
 }@media screen and (max-width:800px){.p2,.p3{display:none}
+nav ul li{width:19.7%}
 .menu_inflables figure{width:38%}
-}@media screen and (max-width:650px){header nav ul li{width:32%}
+}@media screen and (max-width:650px){header nav ul li{width:33%;padding:0}
 h3{text-align:left}
 .lista-imagenes,.datos{width:100%;display:block;margin:auto}
 article,aside{width:100%;display:block}
 aside{margin-top:10px;text-align:center}
 .submenu{display:none}
-}@media screen and (max-width:600px){.menu_inflables figure{width:40%}
-}@media screen and (max-width:500px){header nav ul li{width:45%}
+#welcome{padding:0;margin:0;}
+#welcome #wowslider-container1{display:block;width:98%;padding:0;margin:0}
+#welcome #box-ofer{display:none}
+}figure .fb-like{display:none}
+#banner_video #vp1XqISc{text-align:center;padding:0;margin:0;width:100%}
+@media screen and (max-width:600px){.menu_inflables figure{width:40%}
+}@media screen and (max-width:520px){header,header nav{padding:0;margin:0}
+header nav ul{padding:2px;margin:0 auto}
+header nav ul li{border:0;width:49.1%;margin:2px}
+header nav #bk-home,#bk-brincolines,#bk-mobiliarioytoldos,#bk-faq,#bk-contacto,#bk-blog{background-image:none;border:0}
 header{text-align:center;margin:0 auto}
-header #inflabletop{display:none}
-header #logo{display:block;width:25%;text-align:center;margin:0 auto}
+#wowslider-container1{display:block;width:100%}
+figure{padding:0}
+h4{padding:0;margin:0;display:none}
 #social-holder{width:auto;margin:auto;text-align:center}
 .p1{display:none}
 .menu_inflables figure{width:40%}
 .lista-imagenes ul li{width:45%}
-}@media screen and (max-width:450px){article .lista{display:none}
-.validators{display:none}
+}@media screen and (max-width:480px){header nav ul{padding:0}
+header nav ul li{width:48.5%}
+#welcome-servicios{padding:0;margin:0 auto;text-align:center}
+.miniserv{padding:0;margin:5px auto;width:70%;display:block}
 }@media screen and (max-width:320px){h1{font-size:2.4em}
 #bk-home,#bk-brincolines,#bk-acercade,#bk-faq,#bk-contacto,#bk-blog{background-image:none}
 header nav ul li a{text-align:center}
+nav ul li{width:40%}
 p{text-align:center}
 li{text-align:left}
 .menu_inflables figure{width:90%}

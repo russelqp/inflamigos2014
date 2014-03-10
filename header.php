@@ -2,9 +2,9 @@
 <html lang="es">
 <?php
 flush();
-$url_a = "http://www.inflamigos.com.mx/prueba2014/";
+$url_a = "http://www.inflamigos.com.mx/";
 $url_r = "http://127.1.0.0/inflamigos2014/";
-$Myurl = $url_r;
+$Myurl = $url_a;
 ?>
 <head>
 <meta charset="utf-8">
@@ -25,18 +25,18 @@ $Myurl = $url_r;
 
 <script type="text/javascript" src="[JS library]"></script>
 
-<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<link rel="stylesheet" type="text/css" href="<?php echo $Myurl; ?>engine1/style.css" />
 
 
 
 
   <!-- jquery -->
-    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="<?php echo $Myurl; ?>js/jquery.js"></script>
 
 
   <!-- include plugin -->
-  <link href="js/pe.flare/jquery.pixelentity.flare.min.css" rel="stylesheet"/>
-    <script type="text/javascript" src="js/pe.flare/jquery.pixelentity.flare.min.js"></script>
+  <link href="<?php echo $Myurl; ?>js/pe.flare/jquery.pixelentity.flare.min.css" rel="stylesheet"/>
+    <script type="text/javascript" src="<?php echo $Myurl; ?>js/pe.flare/jquery.pixelentity.flare.min.js"></script>
 
 
 <!--[if (gte IE 6)&(lte IE 8)]>

@@ -1,6 +1,7 @@
 RewriteEngine on
 RewriteBase /
 Rewriterule ^brincolines/(.*)/$ inflable.php?inflable=$1
+Rewriterule ^mobiliario-y-toldos/(.*)/$ myt_items.php?servicio=$1
 RewriteCond %{SCRIPT_FILENAME} !-d
 RewriteCond %{SCRIPT_FILENAME} !-f
 RewriteRule ^(.*)/$ $1.php [L,QSA]
@@ -14,6 +15,7 @@ RewriteRule ^index\.php$ http://www.inflamigos.com.mx/ [R=301,L]
 #RewriteEngine On
 #RewriteBase /
 #RewriteRule ^brincolines/(.*)/$ inflable.php?inflable=$1
+#Rewriterule ^mobiliario-y-toldos/(.*)/$ myt_items.php?servicio=$1
 #</IfModule>
 
 
