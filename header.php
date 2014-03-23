@@ -4,7 +4,7 @@
 flush();
 $url_a = "http://www.inflamigos.com.mx/";
 $url_r = "http://127.1.0.0/inflamigos2014/";
-$Myurl = $url_a;
+$Myurl = $url_r;
 ?>
 <head>
 <meta charset="utf-8">
@@ -93,9 +93,9 @@ map.addMarker({
 <!--<div class="ayudaonline"><a href="#">Ayuda en Linea</a></div>-->
 <header>
        
-       <div id="info"><h1> <a href="<?php echo $Myurl; ?>"><img src="<?php echo $Myurl; ?>/imagenes/mini_logo_inflamigos.png" alt="logo_inflamigos" title="ir al home"/>Inflamigos</a></h1>
+       <div id="info"> <h1> <a href="<?php echo $Myurl; ?>"><img src="<?php echo $Myurl; ?>/imagenes/mini_logo_inflamigos.png" alt="logo_inflamigos" title="ir al home"/>Inflamigos</a></h1>
          <h2>Renta de brincolines en Playa del Carmen</h2>
-         <p>Y toda la Riviera Maya | <strong class="icon-phone"> 9841416137</strong></p>
+         <p>Y toda la Riviera Maya | <strong class="icon-phone">9841416137</strong></p>
        </div>
               <?php $btn_activo;?>
               <nav>

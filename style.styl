@@ -1,18 +1,10 @@
 @charset "utf-8"
-
 @import "normalize.styl"
-
 @import "iconos.styl"
-
 @import "style-catalogo.styl"
-
-*
-	margin 0
-	padding 0
 
 body
 	background-color #CCEEFF
-	background-repeat repeat-x
 	color #FFF
 	font-family 'Noto Sans', sans-serif
 	font-size 16px
@@ -26,27 +18,27 @@ h1,h2,h3,h4,h5,h6
 	margin 0 auto
 	font-family 'Wendy One', sans-serif
 	text-shadow 1px 1px 1px rgba(60,60,60,0.5)
+	text-align center
 
 h1
 	color #FC3
 	font-size 3em
-	text-align center
-	vertical-align bottom
-
+	display inline-block
+	margin 0 auto
 h2
 	text-align center
 
 h3
-		font-size 2.0em
-		padding 2px
-		padding-left 30px
-		color #FC0
-		background-color #FE4900
-		width 96%
-		margin 15px auto 0 auto
-		box-sizing border-box
-		text-align left
-		border-radius 5px
+	font-size 2.0em
+	padding 2px
+	padding-left 30px
+	color #FC0
+	background-color #FE4900
+	width 96%
+	margin 15px auto 0 auto
+	box-sizing border-box
+	text-align left
+	border-radius 5px
 
 h4
 	color #EFEFEF
@@ -59,7 +51,6 @@ h4
 
 h5
 	font-size 1.2em
-	text-align center
 
 h6
 	font-size 1.0em
@@ -67,11 +58,9 @@ h6
 a
 	text-decoration none
 
-section, article, aside, nav, .lista, .lista img, .lista ol, .lista li, .boletin, .boletin p, .menu_inflables ul li, .lista-imagenes ul, .lista-imagenes li, #ubicacion
+section, article, aside, .lista, .lista img, .lista ol, .lista li, .boletin, .boletin p, .menu_inflables ul li, .lista-imagenes ul, .lista-imagenes li, #ubicacion
 	box-sizing border-box
 	margin 0 auto
-	list-style-position inside
-	list-style-type disc
 	color #F30
 	padding 0 10px
 
@@ -80,10 +69,6 @@ section
 	padding 15px
 	background rgba(255,255,255,0.1)
 
-h3 img
-	float right
-	padding-right 20px
-
 header
 	display block
 	margin 0 auto
@@ -91,48 +76,70 @@ header
 	padding 0
 	text-align center
 
-	h1
-		padding 2px 0
-
 	h1 img
 			padding 0
 			margin 0
+			vertical-align top
+			display inline-block
 
-header p
+p
 	width 80%
 
-header #logo
-	border 0
-	display inline-block
-	width 10
-
-header #inflabletop
-	border 0
-	display inline-block
-	width 10%
-
 header #info
-	display inline-block
-	width 78%
-	text-align center
-	margin 0 auto
-	vertical-align bottom
+			display block
+			width 100%
+			text-align center
+			margin 0 auto
+			vertical-align bottom
 
-
-header #logo img, header #inflabletop img
-	width 100%
+header #logo img
+				width 100%
 
 header h1 a:visited
-			color: #FC3
+				color #FC3
 
-header ol
-	list-style none
-	text-decoration none
-	padding 0
-	margin 0 auto
+	nav
+		margin 0
+		text-align center
+		width 100%
+		display block
+		padding 0
+		border-bottom 1px solid #BF6230
+
+	nav ul
+			padding 0
+			background-color #FE4900
+			font-size  0
+			padding-bottom 5px
+
+	nav ul li
+			background-color #FFBC00
+			color #FFF
+			display inline-block
+			font-size 16px
+			height 45px
+			line-height 45px
+			margin 0
+			text-align right
+			width 19.8%
+
+	nav ul li a
+				display block
+				color #FFF
+				transition all 1s ease
+				height 100%
+
+	nav ul li a:hover
+				background-color yellow
+				text-align center
+				color #ee0000
+				font-weight bold
+
+	nav ul li a:visited
+				border 1px solid #D30
 
 #boletin_video article, aside
-	display inline-block
+							display inline-block
 
 article
 	color #121212
@@ -150,53 +157,53 @@ aside
 	color #FFF
 
  article .lista li p
-	width 75%
-	margin 5px auto
-	text-align justify
-	padding 0
-	color #39F
+					width 75%
+					margin 5px auto
+					text-align justify
+					padding 0
+					color #39F
 
 article p
-	font-size 1.1em
-	margin 15px auto
-	width 85%
+			font-size 1.1em
+			margin 15px auto
+			width 85%
 
 #banner_video
-	width 60%
-	padding 5px
-	margin 0 auto
-	display inline-block
-	vertical-align top
-	background-color #FFF
+			width 60%
+			padding 5px
+			margin 0 auto
+			display inline-block
+			vertical-align top
+			background-color #FFF
 
 #boletin_video
-	margin 5px auto
-	width 100%
-	padding 15px
-	background none
-	border 0
-	box-shadow none
-	background rgba(255,255,255,0.1)
-	text-align center
+			margin 5px auto
+			width 100%
+			padding 15px
+			background none
+			border 0
+			box-shadow none
+			background rgba(255,255,255,0.1)
+			text-align center
 
 #detalle-brincolin
-	background-color #ededed
-	margin 5px auto
-	padding 5px
-	width 100%
-	box-sizing border-box
-	text-align left
-	border-bottom-left-radius 5px
-	border-bottom-right-radius 5px
-	border 1px solid #dedede
+				background-color #ededed
+				margin 5px auto
+				padding 5px
+				width 100%
+				box-sizing border-box
+				text-align left
+				border-bottom-left-radius 5px
+				border-bottom-right-radius 5px
+				border 1px solid #dedede
 
 #welcome-servicios
-	width 100%
-	margin 0 auto
-	padding 15px 10px
-	background rgba(255,255,255,0.1)
-	border-bottom-right-radius 5px
-	border-bottom-left-radius 5px
+			width 100%
+			margin 0 auto
+			padding 15px 10px
+			background rgba(255,255,255,0.1)
+			border-bottom-right-radius 5px
+			border-bottom-left-radius 5px
 
 #welcome-servicios article
 							width 95%
@@ -208,7 +215,6 @@ article p
 	margin 0 auto
 	width 100%
 	padding 15px 10px
-	background none
 	border 0
 	box-shadow none
 	background rgba(255,255,255,0.9)
@@ -216,12 +222,12 @@ article p
 	border-top 1px solid #fff
 
 #welcome #wowslider-container1
-		width 67%
-		margin 0 auto
-		display inline-block
-		vertical-align top
-		background rgba(255,255,255,0.2)
-		position relative
+					width 67%
+					margin 0 auto
+					display inline-block
+					vertical-align top
+					background rgba(255,255,255,0.2)
+					position relative
 
 #welcome #wowslider-container1  img 
 									width 100%
@@ -232,11 +238,11 @@ article p
 
 
 #welcome #box-ofer
-		width 30%
-		margin 0 auto
-		padding 0	
-		display inline-block
-		vertical-align top
+			width 30%
+			margin 0 auto
+			padding 0	
+			display inline-block
+			vertical-align top
 
 #welcome #box-ofer	form
 					display block
@@ -305,7 +311,6 @@ article p
 	color #00AF64
 	transform scale(1.1)
 
-
 .miniserv
 	border-radius 5px
 	border 5px solid #eee
@@ -327,40 +332,40 @@ article p
 		text-align right
 
 .miniserv .compartir 
-		width 40%
-		margin 0 2px
-		padding 0
-		display inline-block
-		vertical-align top
+			width 40%
+			margin 0 2px
+			padding 0
+			display inline-block
+			vertical-align top
 
 .miniserv ul
-		padding 0
-		list-style-type none
-		text-align right
+			padding 0
+			list-style-type none
+			text-align right
 
 .miniserv ul li 
-		display inline-block
-		vertical-align top
-		padding 0
-		width 20%
-		margin 0 2px
-	
-.miniserv ul li a
 				display inline-block
 				vertical-align top
 				padding 0
-				font-size 1.8em
-				color #D20033
-				text-shadow 0 0 2px rgba(60,60,60,0.5)
-				transition all 0.5s ease
+				width 20%
+				margin 0 2px
+	
+.miniserv ul li a
+					display inline-block
+					vertical-align top
+					padding 0
+					font-size 1.8em
+					color #D20033
+					text-shadow 0 0 2px rgba(60,60,60,0.5)
+					transition all 0.5s ease
 
 .miniserv ul li a:hover
-				color #00AF64
-				transform scale(1.1)
+					color #00AF64
+					transform scale(1.1)
 
 .miniserv img
-	width 100%
-	margin 0
+			width 100%
+			margin 0
 
 .miniserv:hover
 	transform scale(1.08)
@@ -376,37 +381,37 @@ footer
 	width 100%
 
 .btn_reservar
-	width 80%
-	background red
-	padding 8px 14px 10px
-	border 1px solid red
-	cursor pointer
-	font-size 1.5em
-	font-family Oswald, sans-serif
-	letter-spacing .1em;
-	text-shadow 0 -1px 0px rgba(0, 0, 0, 0.3)
-	color #fff
-	box-shadow inset 0px 1px 0px rgba(255,100,255,0.5), 0px 5px 0px 0px rgba(255,160,200,0.9), 0px 10px 5px #999
-	border-radius 10px
+			width 80%
+			background red
+			padding 8px 14px 10px
+			border 1px solid red
+			cursor pointer
+			font-size 1.5em
+			font-family Oswald, sans-serif
+			letter-spacing .1em
+			text-shadow 0 -1px 0px rgba(0, 0, 0, 0.3)
+			color #fff
+			box-shadow inset 0px 1px 0px rgba(255,100,255,0.5), 0px 5px 0px 0px rgba(255,160,200,0.9), 0px 10px 5px #999
+			border-radius 10px
 
 
 .btn_reservar:hover, .btn_reservar:focus 
-	color #dfe7ea
-	box-shadow inset 0px 1px 0px rgba(255,255,255,0.5), 0px 2px 0px 0px rgba(255,255,255,0.5), 0px 2px 5px #999
+								color #dfe7ea
+								box-shadow inset 0px 1px 0px rgba(255,255,255,0.5), 0px 2px 0px 0px rgba(255,255,255,0.5), 0px 2px 5px #999
 	
 
 .submenu a
-	display block
-	text-decoration none
-	height 25px
-	padding 5px 5px 0 5px
-	transition all 0.5s ease
-	width 100%
+			display block
+			text-decoration none
+			height 25px
+			padding 5px 5px 0 5px
+			transition all 0.5s ease
+			width 100%
 
 .submenu a:hover
-	display block
-	background-color #EE3
-	width 100%
+			display block
+			background-color #EE3
+			width 100%
 
 blockquote
 	font-size 18px
@@ -416,47 +421,6 @@ blockquote
 	width 80%
 	text-align center
 	text-shadow -1px -1px 1px rgba(60,60,60,0.5)
-
-nav
-	margin 0
-	text-align center
-	width 100%
-	display block
-	padding 0
-	border-bottom 1px solid #BF6230
-
-nav ul
-	padding 0
-	background-color #FE4900
-	font-size  0
-	padding-bottom 5px
-
-nav ul li
-	background-color #FFBC00
-	color #FFF
-	display inline-block
-	font-size 16px
-	height 45px
-	line-height 45px
-	margin 0
-	text-align right
-	width 19.8%
-	vertical-align top
-
-nav ul li a
-		display block
-		color #FFF
-		transition all 1s ease
-		height 100%
-		padding 0
-		margin 0
-		font-size 100%
-
-nav ul li a:hover
-	background-color yellow
-	text-align center
-	color #ee0000
-	font-weight: bold
 
 section
 	display block
@@ -531,7 +495,6 @@ section
 	position relative
 	width 100%
 	z-index 1
-
 
 #item
 	border 1px solid #cdcdcd
@@ -613,17 +576,17 @@ section
 	border 2px solid #F60
 
 #contact-area input.submit-button
-	background-color #FE3F1D
-	border-radius 5px
-	font-family Helvetica, sans-serif
-	font-size 1.4em
-	font-weight bolder
-	height 70px
-	margin 0 auto
-	text-align center
-	width 100%
-	border 1px solid #900
-	transition 1s all ease
+			background-color #FE3F1D
+			border-radius 5px
+			font-family Helvetica, sans-serif
+			font-size 1.4em
+			font-weight bolder
+			height 70px
+			margin 0 auto
+			text-align center
+			width 100%
+			border 1px solid #900
+			transition 1s all ease
 
 #contact-area input.submit-button:hover
 	border 2px solid yellow
