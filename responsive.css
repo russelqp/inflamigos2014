@@ -3,18 +3,20 @@ nav ul{text-align:left}
 }@media screen and (max-width:800px){.p2,.p3{display:none}
 nav ul li{width:19.7%}
 .menu_inflables figure{width:30%;margin:0 auto}
+#welcome{padding:0;margin:0;}
+#welcome #wowslider-container1{display:block;width:98%;padding:0;margin:0}
+#welcome #box-ofer{display:none}
+.miniserv{width:28%;margin:2px auto}
 }@media screen and (max-width:650px){nav ul li{width:33%;padding:0}
 h3{text-align:left}
 .lista-imagenes,.datos{width:100%;display:block;margin:auto}
-article,aside{width:100%;display:block}
+section,article,aside{width:100%;display:block}
 aside{margin-top:10px;text-align:center}
-section,article{paddin:0;width:100%}
-.miniserv{width:42%;margin:2px auto}
+.miniserv{width:40%;margin:2px auto}
 .submenu{display:none}
 #welcome{padding:0;margin:0;}
 #welcome #wowslider-container1{display:block;width:98%;padding:0;margin:0}
 #welcome #box-ofer{display:none}
-#welcome figure .fb-like{display:none}
 #banner_video,#vp1XqISc{text-align:center;padding:0;margin:0;width:100%}
 }@media screen and (max-width:600px){.menu_inflables figure{width:40%}
 }@media screen and (max-width:520px){header,header nav{padding:0;margin:0 auto;}
@@ -29,9 +31,4 @@ h4{padding:0;margin:0;display:none}
 section,article{padding:0;margin:0 auto}
 }@media screen and (max-width:480px){nav ul{padding:0}
 nav ul li{width:40%}
-#welcome-servicios{padding:0;margin:0 auto;text-align:center}
-.miniserv{padding:0;margin:5px auto;width:95%;display:block}
-}@media screen and (max-width:240px){h1{font-size:1.6em}
-#info{padding:0;width:100%}
-nav ul li{width:100%;padding:0;margin:0}
 }

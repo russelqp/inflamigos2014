@@ -66,6 +66,7 @@ body{background-color:#cef;color:#fff;font-family:'Noto Sans',sans-serif;font-si
 img{border:0}
 h1,h2,h3,h4,h5,h6{margin:0 auto;font-family:'Wendy One',sans-serif;text-shadow:1px 1px 1px rgba(60,60,60,0.5);text-align:center}
 h1{color:#fc3;font-size:3em;display:inline-block;margin:0 auto}
+h1 img{float:left}
 h2{text-align:center}
 h3{font-size:2em;padding:2px;padding-left:30px;color:#fc0;background-color:#fe4900;width:96%;margin:15px auto 0 auto;box-sizing:border-box;text-align:left;border-radius:5px}
 h4{color:#efefef;font-size:1.6em;padding:2px 10px;background-color:#fe4900;margin:2px auto 10px auto;border-radius:2px;width:90%}
@@ -212,18 +213,20 @@ nav ul{text-align:left}
 }@media screen and (max-width:800px){.p2,.p3{display:none}
 nav ul li{width:19.7%}
 .menu_inflables figure{width:30%;margin:0 auto}
+#welcome{padding:0;margin:0;}
+#welcome #wowslider-container1{display:block;width:98%;padding:0;margin:0}
+#welcome #box-ofer{display:none}
+.miniserv{width:28%;margin:2px auto}
 }@media screen and (max-width:650px){nav ul li{width:33%;padding:0}
 h3{text-align:left}
 .lista-imagenes,.datos{width:100%;display:block;margin:auto}
-article,aside{width:100%;display:block}
+section,article,aside{width:100%;display:block}
 aside{margin-top:10px;text-align:center}
-section,article{paddin:0;width:100%}
-.miniserv{width:42%;margin:2px auto}
+.miniserv{width:40%;margin:2px auto}
 .submenu{display:none}
 #welcome{padding:0;margin:0;}
 #welcome #wowslider-container1{display:block;width:98%;padding:0;margin:0}
 #welcome #box-ofer{display:none}
-#welcome figure .fb-like{display:none}
 #banner_video,#vp1XqISc{text-align:center;padding:0;margin:0;width:100%}
 }@media screen and (max-width:600px){.menu_inflables figure{width:40%}
 }@media screen and (max-width:520px){header,header nav{padding:0;margin:0 auto;}
@@ -238,9 +241,4 @@ h4{padding:0;margin:0;display:none}
 section,article{padding:0;margin:0 auto}
 }@media screen and (max-width:480px){nav ul{padding:0}
 nav ul li{width:40%}
-#welcome-servicios{padding:0;margin:0 auto;text-align:center}
-.miniserv{padding:0;margin:5px auto;width:95%;display:block}
-}@media screen and (max-width:240px){h1{font-size:1.6em}
-#info{padding:0;width:100%}
-nav ul li{width:100%;padding:0;margin:0}
 }
