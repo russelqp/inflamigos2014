@@ -10,7 +10,7 @@
 			 		
 			 		<div class="menu_inflables">
 			 			
-			 					<figure class="fondoli-griz">
+			 					<figure>
 			 				<img src="http://www.inflamigos.com.mx/inflables/angry-box.jpg" alt="castillo_aventura_middle" />
 			 				<h4>Angry Box<br />(3 x 4)</h4>
 
@@ -19,7 +19,7 @@
 
 			 				<h5>$700.00</h5>
 			 				<div class="fb-like" data-href="http://www.inflamigos.com.mx/brincolines/angry-box/" data-width="450" data-layout="button_count" data-show-faces="true" data-send="true"></div>
-			 				<a href="https://www.inflamigos.com.mx/appcatalogo/inflable.php?inflable=angry-box" class="btn_ir" title="ver imagenes de: Angry Box">Mas detalles</a>
+			 				<a href="https://www.inflamigos.com.mx/appcatalogo/inflable.php?inflable=angry-box" title="ver imagenes de: Angry Box" class="mas">Mas detalles</a>
 			 			</figure>
 			 			<figure class="fondoli-griz">
 			 				<img src="http://www.inflamigos.com.mx/inflables/caventura_middle.jpg" alt="castillo_aventura_middle" />
@@ -30,7 +30,7 @@
 
 			 				<h5>$600.00</h5>
 			 				<div class="fb-like" data-href="http://www.inflamigos.com.mx/brincolines/castillo-aventura/" data-width="450" data-layout="button_count" data-show-faces="true" data-send="true"></div>
-			 				<a href="https://www.inflamigos.com.mx/appcatalogo/inflable.php?inflable=castillo-aventura" title="ver imagenes de: Castillo Aventura">Mas detalles</a>
+			 				<a href="https://www.inflamigos.com.mx/appcatalogo/inflable.php?inflable=castillo-aventura" title="ver imagenes de: Castillo Aventura" class="mas">Mas detalles</a>
 			 			</figure>
 			 			<figure class="fondoli-griz">
 				 			<img src="http://www.inflamigos.com.mx/inflables/cprincess_middle.jpg" alt="castillo_princess_middle" />
@@ -41,7 +41,7 @@
 
 				 			<h5>$600.00</h5>
 				 			<div class="fb-like" data-href="http://www.inflamigos.com.mx/brincolines/castillo-princess/" data-width="450" data-layout="button_count" data-show-faces="true" data-send="true"></div>
-				 			<a href="https://www.inflamigos.com.mx/appcatalogo/inflable.php?inflable=castillo-princess" title="ver imagenes de: Castillo Princess">Mas detalles</a>
+				 			<a href="https://www.inflamigos.com.mx/appcatalogo/inflable.php?inflable=castillo-princess" title="ver imagenes de: Castillo Princess" class="mas">Mas detalles</a>
 			 			</figure>
 						<figure class="fondoli-griz">
 						 	<img src="http://www.inflamigos.com.mx/inflables/escaladrilo-middle.jpg" alt="Escaladrilo-middle"/>
@@ -52,7 +52,7 @@
 
 						 	<h5>$600.00</h5>
 						 	<div class="fb-like" data-href="http://www.inflamigos.com.mx/brincolines/escaladrilo/" data-width="450" data-layout="button_count" data-show-faces="true" data-send="true"></div>
-			 				<a href="https://www.inflamigos.com.mx/appcatalogo/inflable.php?inflable=escaladrilo" title="ver imagenes de: Escaladrilo">Mas detalles</a>
+			 				<a href="https://www.inflamigos.com.mx/appcatalogo/inflable.php?inflable=escaladrilo" title="ver imagenes de: Escaladrilo" class="mas">Mas detalles</a>
 						</figure>
 						<figure class="fondoli-griz">
 							<img src="http://www.inflamigos.com.mx/inflables/bob-esponja-middle.jpg" alt="Bob-Esponja-Resbaladilla-middle"/>
@@ -63,7 +63,7 @@
 
 							<h5>$1,000.00</h5>
 							<div class="fb-like" data-href="http://www.inflamigos.com.mx/brincolines/resbaladilla-bob-esponja/" data-width="450" data-layout="button_count" data-show-faces="true" data-send="true"></div>
-							<a href="https://www.inflamigos.com.mx/appcatalogo/inflable.php?inflable=resbaladilla-bob-esponja" title="ver imagenes de: Resbaladilla Bob Esponja">Mas detalles</a>
+							<a href="https://www.inflamigos.com.mx/appcatalogo/inflable.php?inflable=resbaladilla-bob-esponja" title="ver imagenes de: Resbaladilla Bob Esponja" class="mas">Mas detalles</a>
 						</figure>
 						<figure class="fondoli-griz">
 							<img src="http://www.inflamigos.com.mx/inflables/ucubo_middle.jpg" alt="ultra_cubo_middle" />
@@ -74,7 +74,7 @@
 
 							<h5>$1,200.00</h5>
 							<div class="fb-like" data-href="http://www.inflamigos.com.mx/brincolines/ultra-cubo/" data-width="450" data-layout="button_count" data-show-faces="true" data-send="true"></div>
-							<a href="https://www.inflamigos.com.mx/appcatalogo/inflable.php?inflable=ultra-cubo" title="ver imagenes de: Ultra Cubo">Mas detalles</a>
+							<a href="https://www.inflamigos.com.mx/appcatalogo/inflable.php?inflable=ultra-cubo" title="ver imagenes de: Ultra Cubo" class="mas">Mas detalles</a>
 						</figure>
 						<figure class="fondoli-griz">
 							<img src="http://www.inflamigos.com.mx/inflables/aslide_middle.jpg" alt="arco_slide_middle" /> 
@@ -85,7 +85,7 @@
 
 							<h5>$1,200.00</h5>
 							<div class="fb-like" data-href="http://www.inflamigos.com.mx/brincolines/arco-slide/" data-width="450" data-layout="button_count" data-show-faces="true" data-send="true"></div>
-							<a href="https://www.inflamigos.com.mx/appcatalogo/inflable.php?inflable=arco-slide" title="ver imagenes de: Arco Slide">Mas detalles</a>
+							<a href="https://www.inflamigos.com.mx/appcatalogo/inflable.php?inflable=arco-slide" title="ver imagenes de: Arco Slide" class="mas">Mas detalles</a>
 						</figure>
 						<figure class="fondoli-griz">
 							<img src="http://www.inflamigos.com.mx/inflables/space-lab-middle.jpg" alt="Space-Lab-middle"/> 
@@ -96,7 +96,7 @@
 
 							<h5>$1,500.00</h5>
 							<div class="fb-like" data-href="http://www.inflamigos.com.mx/brincolines/space-lab/" data-width="450" data-layout="button_count" data-show-faces="true" data-send="true"></div>
-							<a hrefs="https://www.inflamigos.com.mx/appcatalogo/inflable.php?inflable=space-lab" title="ver imagenes de: Space Lab">Mas detalles</a>
+							<a hrefs="https://www.inflamigos.com.mx/appcatalogo/inflable.php?inflable=space-lab" title="ver imagenes de: Space Lab" class="mas">Mas detalles</a>
 						</figure>
 						<br />
 						<h3>Aquaticos</h3>
@@ -110,7 +110,7 @@
 
 						 	<h5>$1,200.00</h5>
 						 	<div class="fb-like" data-href="http://www.inflamigos.com.mx/brincolines/aqualand/" data-width="450" data-layout="button_count" data-show-faces="true" data-send="true"></div>
-						 	<a href="https://www.inflamigos.com.mx/appcatalogo/inflable.php?inflable=aqualand" title="ver imagenes de: Aqualand">Mas detalles</a>
+						 	<a href="https://www.inflamigos.com.mx/appcatalogo/inflable.php?inflable=aqualand" title="ver imagenes de: Aqualand" class="mas">Mas detalles</a>
 						</figure>
 						<figure class="fondoli-griz">
 							<img src="http://www.inflamigos.com.mx/inflables/splash-pool-middle.jpg" alt="Splash-Pool_middle"/> 
@@ -122,7 +122,7 @@
 
 							<h5>$1,800.00</h5>
 							<div class="fb-like" data-href="http://www.inflamigos.com.mx/brincolines/splash-pool/" data-width="450" data-layout="button_count" data-show-faces="true" data-send="true"></div>
-							<a href="https://www.inflamigos.com.mx/appcatalogo/inflable.php?inflable=splash-pool" title="ver imagenes de: Splash Pool">Mas detalles</a>
+							<a href="https://www.inflamigos.com.mx/appcatalogo/inflable.php?inflable=splash-pool" title="ver imagenes de: Splash Pool" class="mas">Mas detalles</a>
 						</figure>
 </div>
 		</article>
