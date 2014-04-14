@@ -1,8 +1,8 @@
 @media screen and (max-width:945px){nav ul li{vertical-align:top;text-align:center}
 nav ul{text-align:left}
+.menu_inflables figure{width:30%;margin:0 auto}
 }@media screen and (max-width:800px){.p2,.p3{display:none}
 nav ul li{width:19.7%}
-.menu_inflables figure{width:30%;margin:0 auto}
 #welcome{padding:0;margin:0;}
 #welcome #wowslider-container1{display:block;width:98%;padding:0;margin:0}
 #welcome #box-ofer{display:none}
@@ -21,7 +21,7 @@ aside{margin-top:10px;text-align:center}
 }@media screen and (max-width:600px){.menu_inflables figure{width:40%}
 }@media screen and (max-width:520px){header,header nav{padding:0;margin:0 auto;}
 header nav ul,header nav nav ul{padding:1px;margin:0 auto}
-header nav ul li,header nav nav ul li{border:0;width:49.1%;margin:1px}
+header nav ul li,header nav nav ul li{border:0;width:49%;margin:1px}
 header nav #bk-home,#bk-brincolines,#bk-mobiliarioytoldos,#bk-faq,#bk-contacto,#bk-blog{background-image:none;border:0}
 #wowslider-container1{display:block;width:100%}
 h4{padding:0;margin:0;display:none}
@@ -29,6 +29,10 @@ h4{padding:0;margin:0;display:none}
 .menu_inflables figure{width:40%}
 .lista-imagenes ul li{width:45%}
 section,article{padding:0;margin:0 auto}
-}@media screen and (max-width:480px){nav ul{padding:0}
-nav ul li{width:40%}
+#item figure{width:90%}
+}@media screen and (max-width:480px){nav,nav ul{padding:0}
+#welcome-servicios{padding:0;margin:0 auto;text-align:center}
+.miniserv{padding:0;margin:5px auto;width:95%;display:block}
+figure .fb-like{display:none}
+}@media screen and (max-width: 280px){.menu_inflables figure{width:95%}
 }

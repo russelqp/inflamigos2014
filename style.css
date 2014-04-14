@@ -57,11 +57,11 @@ table{border-collapse:collapse;border-spacing:0}
 .bnt_ir{width:90%;display:block;background-color:#ddd;margin:2px auto;border-radius:2px}
 .btn_ir a:link{color:#ccc}
 .bnt_ir:hover{background-color:#6ff}
-.menu_inflables figure{border-radius:5px;border:2px solid #eee;background-color:#fff;color:#333;padding:5px;margin:5px;width:28%;display:inline-block;vertical-align:top;transition:all 1s ease;text-align:center;box-shadow:0 0 2px 2px rgba(46,49,50,0.3)}
-.menu_inflables figure a{display:block;border-radius:3px;background-color:#ff4900;color:#fff}
+.menu_inflables figure{border-radius:5px;border:2px solid #eee;background-color:#fff;color:#333;padding:5px;margin:5px;width:22%;display:inline-block;vertical-align:top;transition:all 1s ease;text-align:center;box-shadow:0 0 2px 2px rgba(46,49,50,0.3)}
 .menu_inflables figure a:hover{background-color:#fb0;color:#fff}
 .menu_inflables figure img{width:100%;padding:0;margin:0;border-radius:5px}
 .menu_inflables figure:hover{transform:scale(1.08)}
+.btn_mas{width:50%;float:right;margin:5px auto;background-color:#00c90d;border-radius:2px;color:#fff;box-shadow:0 0 5px #888}
 body{background-color:#cef;color:#fff;font-family:'Noto Sans',sans-serif;font-size:16px;margin:0 auto;padding:0}
 img{border:0}
 h1,h2,h3,h4,h5,h6{margin:0 auto;font-family:'Wendy One',sans-serif;text-shadow:1px 1px 1px rgba(60,60,60,0.5);text-align:center}
@@ -210,9 +210,9 @@ margin 0 auto,.submenu ul{margin:0 auto;width:80%;padding:0}
 .clearfloat{clear:both}
 @media screen and (max-width:945px){nav ul li{vertical-align:top;text-align:center}
 nav ul{text-align:left}
+.menu_inflables figure{width:30%;margin:0 auto}
 }@media screen and (max-width:800px){.p2,.p3{display:none}
 nav ul li{width:19.7%}
-.menu_inflables figure{width:30%;margin:0 auto}
 #welcome{padding:0;margin:0;}
 #welcome #wowslider-container1{display:block;width:98%;padding:0;margin:0}
 #welcome #box-ofer{display:none}
@@ -231,7 +231,7 @@ aside{margin-top:10px;text-align:center}
 }@media screen and (max-width:600px){.menu_inflables figure{width:40%}
 }@media screen and (max-width:520px){header,header nav{padding:0;margin:0 auto;}
 header nav ul,header nav nav ul{padding:1px;margin:0 auto}
-header nav ul li,header nav nav ul li{border:0;width:49.1%;margin:1px}
+header nav ul li,header nav nav ul li{border:0;width:49%;margin:1px}
 header nav #bk-home,#bk-brincolines,#bk-mobiliarioytoldos,#bk-faq,#bk-contacto,#bk-blog{background-image:none;border:0}
 #wowslider-container1{display:block;width:100%}
 h4{padding:0;margin:0;display:none}
@@ -239,6 +239,10 @@ h4{padding:0;margin:0;display:none}
 .menu_inflables figure{width:40%}
 .lista-imagenes ul li{width:45%}
 section,article{padding:0;margin:0 auto}
-}@media screen and (max-width:480px){nav ul{padding:0}
-nav ul li{width:40%}
+#item figure{width:90%}
+}@media screen and (max-width:480px){nav,nav ul{padding:0}
+#welcome-servicios{padding:0;margin:0 auto;text-align:center}
+.miniserv{padding:0;margin:5px auto;width:95%;display:block}
+figure .fb-like{display:none}
+}@media screen and (max-width: 280px){.menu_inflables figure{width:95%}
 }
