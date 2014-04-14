@@ -36,11 +36,11 @@ flush();
 <!--<div class="ayudaonline"><a href="#">Ayuda en Linea</a></div>-->
 <header>
        <div id="logo">
-        <a href="https://apps.facebook.com/inflamigos/"><img src="http://www.inflamigos.com.mx/imagenes/logoinflamigos.png" alt="logo_inflamigos" title="ir al home"/></a>
+        <a href="https://www.facebook.com/inflamigos/app_478839412179968"><img src="http://www.inflamigos.com.mx/imagenes/logoinflamigos.png" alt="logo_inflamigos" title="ir al home"/></a>
        </div>
        <div id="info"><h1>Inflamigos</h1>
-         <h2>Renta de brincolines inflables</h2>
-         <p>En Playa del Carmen y toda la Riviera Maya | <strong class="icon-phone"> 9841416137</strong></p>
+         <h2>Renta de brincolines en Playa del Carmen</h2>
+         <p>y toda la Riviera Maya | <strong class="icon-phone"> 9841416137</strong></p>
        </div>
     
 </header>  <!-- end #header -->
