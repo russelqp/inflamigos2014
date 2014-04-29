@@ -82,8 +82,8 @@ $url = $servicio;
 						{
 							$h3 = "Toldo de 3 x 6";
 							$capacidad="3 mesas tablones";
-							$precio = "$600.00";
-							$detalles ="Recomendado para espacios pequeños, para talleres u otros juegos.";
+							$precio = "$700.00";
+							$detalles ="Recomendado para espacios pequeños, para realización de talleres o actividades.";
 							$id_video = "";
 							$img = "toldo_3x6";
 						}
@@ -101,7 +101,7 @@ $url = $servicio;
 							$h3= "Toldo de 6 x 12";
 							$capacidad="8";
 							$precio = "$2,500.00";
-							$detalles ="Patra espacios amplios, tus invitados estaran bien resguardados de el sol o la lluvia.";
+							$detalles ="Para espacios amplios, tus invitados estaran bien resguardados de el sol o la lluvia.";
 							$id_video = "";
 							$img = "toldo_6x12";
 						}
