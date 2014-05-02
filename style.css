@@ -204,11 +204,18 @@ margin 0 auto,.submenu ul{margin:0 auto;width:80%;padding:0}
 #mapadesitio{margin:0 auto;width:80%;padding:0}
 #mapadesitio li{color:#f60;float:none;font-size:1.2em;list-style:disc;margin-left:20px}
 #mapadesitio a,#mapadesitio a:link,#mapadesitio a:visited{text-decoration:underline}
-.fb-comments{width:95% !important;background-color:#efefef;margin:5px auto}
-#fb-root,display none,.fb_iframe_widget,.fb_iframe_widget span,.fb_iframe_widget span iframe[style],max-width 100%,width 100%,.fltrt,float right{margin-left:8px}
+.fltrt,float right{margin-left:8px}
 .fltlft,float left{margin-right:8px}
 .clearfloat{clear:both}
-@media screen and (max-width:945px){nav ul li{vertical-align:top;text-align:center}
+@media only screen and (max-width:767px){.fb-comments{width:100% !important}
+.fb-comments iframe[style]{width:100% !important}
+.fb-like-box{width:100% !important}
+.fb-like-box iframe[style]{width:100% !important}
+.fb-comments span{width:100% !important}
+.fb-comments iframe span[style]{width:100% !important}
+.fb-like-box span{width:100% !important}
+.fb-like-box iframe span[style]{width:100% !important}
+}@media screen and (max-width:945px){nav ul li{vertical-align:top;text-align:center}
 nav ul{text-align:left}
 .menu_inflables figure{width:30%;margin:0 auto}
 }@media screen and (max-width:800px){.p2,.p3{display:none}

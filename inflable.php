@@ -319,7 +319,7 @@ echo "</p>";
 <?php
 echo "<p>";
 echo '<g:plusone href="http://www.inflamigos.com.mx/brincolines/'.$inflable.'/"></g:plusone>';
-echo '<div class="fb-like" data-href="http://www.inflamigos.com.mx/brincolines/'.$inflable.'/" data-width="450" data-layout="button_count" data-show-faces="true" data-send="true"></div>';
+echo '<div data-href="http://www.inflamigos.com.mx/brincolines/'.$inflable.'/" data-width="450" data-layout="button_count" data-show-faces="true" data-send="true"></div>';
 echo "<br />";
 echo "Ancho: ".$ancho." m";
 echo "<br />";

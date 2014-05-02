@@ -907,20 +907,6 @@ section
 #mapadesitio a, #mapadesitio a:link, #mapadesitio a:visited
 	text-decoration underline
 
-
-.fb-comments
-			width 95% !important
-			background-color #EFEFEF
-			margin 5px auto
-
-#fb-root 
-  display none
-
-.fb_iframe_widget, .fb_iframe_widget span, .fb_iframe_widget span iframe[style] 
- 																				 max-width 100% !important
- 																				 width 100% !important
-
-
 .fltrt
  	float right
 	margin-left 8px
@@ -932,5 +918,22 @@ section
 .clearfloat
 	clear both
 
+@media only screen and (max-width:767px)
+	.fb-comments
+		width 100% !important
+	.fb-comments iframe[style]
+		width 100% !important
+	.fb-like-box
+		width 100% !important
+	.fb-like-box iframe[style]
+		width 100% !important
+	.fb-comments span
+		width 100% !important
+	.fb-comments iframe span[style]
+		width 100% !important
+	.fb-like-box span
+		width 100% !important
+	.fb-like-box iframe span[style]
+		width 100% !important
 
 @import "responsive.styl"
