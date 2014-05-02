@@ -82,8 +82,8 @@ $url = $servicio;
 						{
 							$h3 = "Toldo de 3 x 6";
 							$capacidad="3 mesas tablones";
-							$precio = "$700.00";
-							$detalles ="Recomendado para espacios pequeños, para realización de talleres o actividades.";
+							$precio = "$800.00";
+							$detalles ="Recomendado para espacios pequeños, para realización de talleres o actividades. Puedes añadirles paredes, $50.00 pesos extra por cada lado.";
 							$id_video = "";
 							$img = "toldo_3x6";
 						}

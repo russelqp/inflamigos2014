@@ -54,35 +54,41 @@
 <section id="welcome-servicios">
 <article>
 <h3>Nuestros servicios</h3>
+<a href="<?php echo $Myurl; ?>brincolines/" title="Catálogo de Brincolines">
 <figure class="miniserv">
   <img src="<?php echo $Myurl; ?>imagenes/inflamigos-renta-de-brincolines.jpg" alt="" />
   <h4>Renta de Brincolines</h4>
   <figcaption>Gran variedad de brincolines: Escaladoras, Castillos, Tobogan, Chapoteadero, Slides.</figcaption>
-   <p><a href="<?php echo $Myurl; ?>brincolines/" title="">Ver más</a><p><br />
+   <p><a href="<?php echo $Myurl; ?>brincolines/" title="Catálogo de brincolines">Ver más</a><p><br />
   <p class="compartir">
    <div class="fb-like" data-href="http://www.inflamigos.com.mx/brincolines/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
   </p>
 </figure>
+</a>
 
+<a href="<?php echo $Myurl; ?>mobiliario-y-toldos/toldos/" title="Mobiliario y toldos">
 <figure class="miniserv">
   <img src="<?php echo $Myurl; ?>imagenes/servicios/inflamigos_toldo_6x6.jpg" alt="" />
    <h4>Renta de Toldos</h4>
   <figcaption>Contamos con toldos de diferentes medidas: 3 x 6, 6 x 6 y 6 x 12.</figcaption>
-  <p><a href="<?php echo $Myurl; ?>mobiliario-y-toldos/toldos/" title="">Ver más</a><p><br />
+  <p><a href="<?php echo $Myurl; ?>mobiliario-y-toldos/toldos/" title="Mobiliario y toldos">Ver más</a><p><br />
   <p class="compartir">
    <div class="fb-like" data-href="http://www.inflamigos.com.mx/mobiliario-y-toldos/toldos/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
-  </p>
-  
+  </p>  
 </figure>
+</a>
+
+<a href="<?php echo $Myurl; ?>mobiliario-y-toldos/sillas-y-mesas/" title="Sillas y Mesas">
 <figure class="miniserv">
   <img src="<?php echo $Myurl; ?>imagenes/servicios/inflamigos_silla_adulto_plegable.jpg" alt="" />
    <h4>Alquiler de sillas y mesas</h4>
   <figcaption>Manejamos paquetes de un tablón con 10 sillas, para niños y adultos.</figcaption>
-   <p><a href="<?php echo $Myurl; ?>mobiliario-y-toldos/sillas-y-mesas/" title="">Ver más</a><p><br />
+   <p><a href="<?php echo $Myurl; ?>mobiliario-y-toldos/sillas-y-mesas/" title="Sillas y Mesas">Ver más</a><p><br />
   <p class="compartir">
    <div class="fb-like" data-href="http://www.inflamigos.com.mx/mobiliario-y-toldos/sillas-y-mesas/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
   </p>
 </figure>
+</a>
 </article>
 </section>
 
