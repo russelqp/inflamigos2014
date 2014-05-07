@@ -78,6 +78,7 @@
 </figure>
 </a>
 
+<!--
 <a href="<?php echo $Myurl; ?>mobiliario-y-toldos/sillas-y-mesas/" title="Sillas y Mesas">
 <figure class="miniserv">
   <img src="<?php echo $Myurl; ?>imagenes/servicios/inflamigos_silla_adulto_plegable.jpg" alt="" />
@@ -89,6 +90,7 @@
   </p>
 </figure>
 </a>
+-->
 </article>
 </section>
 

@@ -102,7 +102,7 @@ map.addMarker({
                 <ul>
                     <li id="bk-home" <?php if ($btn_activo == "index") {echo 'class="btn_activo"';} ?> ><a href="<?php echo $Myurl; ?>" title="ir al inicio ;)" >Inicio</a></li>
                     <li id="bk-brincolines" <?php if ($btn_activo == "brincolines") {echo 'class="btn_activo"';} ?>><a href="<?php echo $Myurl; ?>brincolines/" title="ver los brincolines :D" >Brincolines</a></li>
-                    <li id="bk-mobiliarioytoldos" <?php if ($btn_activo == "mobiliario-y-toldos") {echo 'class="btn_activo"';} ?>><a href="<?php echo $Myurl; ?>mobiliario-y-toldos/" title="Renta de Mobiliario y toldos =)">Mobiliario y Toldos</a></li>
+                    <li id="bk-mobiliarioytoldos" <?php if ($btn_activo == "mobiliario-y-toldos") {echo 'class="btn_activo"';} ?>><a href="<?php echo $Myurl; ?>mobiliario-y-toldos/" title="Renta de Mobiliario y toldos =)">Toldos</a></li>
                     <li id="bk-contacto" <?php if ($btn_activo == "contacto") {echo 'class="btn_activo"';} ?>><a href="<?php echo $Myurl; ?>contacto/" title="contactanos =)">Contacto</a></li>
                     <li id="bk-blog" <?php if ($btn_activo == "blog") {echo 'class="btn_activo"';} ?>><a href="<?php echo $Myurl; ?>blog/" title="Blog" >Blog</a></li>
                       <!--
