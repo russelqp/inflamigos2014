@@ -6,7 +6,7 @@
 			 <?php include('header.php');?>
 
 
-			 <section>
+			 <section id="catalogo">
 			 	<article>
 			 		<h3>Brincolines</h3>
 			 		<p><i><strong>Estos son nuestros inflables:</strong></i></p>

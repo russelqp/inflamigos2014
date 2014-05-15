@@ -6,7 +6,7 @@
 			 <?php include('header.php');?>
 
 
-			 <section id="welcome-servicios">
+			 <section id="catalogo">
 <article>
 <h3>Alquiler de Toldos</h3>
 <figure class="miniserv">

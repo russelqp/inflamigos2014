@@ -5,7 +5,7 @@
  ?>
  <?php include('header.php');?>
  
-<section>
+<section id="catalogo">
  
 
   <article>

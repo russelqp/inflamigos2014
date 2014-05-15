@@ -34,15 +34,13 @@ h2
 
 h3
 	font-size 2.0em
-	padding 2px
-	padding-left 30px
-	color #FC0
-	background-color #FE4900
-	width 96%
-	margin 15px auto 0 auto
+	padding 2px 2px 2px 10px
+	color #EEE
+	background-color #FC0
+	margin 10px auto
 	box-sizing border-box
 	text-align left
-	border-radius 5px
+	border-radius 2px
 
 h4
 	color #EFEFEF
@@ -68,11 +66,6 @@ section, article, aside, .lista, .lista img, .lista ol, .lista li, .boletin, .bo
 	color #F30
 	padding 0 10px
 
-section
-	margin-top 0
-	padding 15px
-	background rgba(255,255,255,0.1)
-
 header
 	display block
 	margin 0 auto
@@ -89,7 +82,7 @@ header
 p
 	width 80%
 
-header #info
+#info
 			display block
 			width 100%
 			text-align center
@@ -99,7 +92,7 @@ header #info
 header #logo img
 				width 100%
 
-header h1 a:visited
+#info h1 a:visited
 				color #FC3
 
 	nav
@@ -112,9 +105,8 @@ header h1 a:visited
 
 	nav ul
 			padding 0
-			background-color #FE4900
+			background-color #E7003E
 			font-size  0
-			padding-bottom 5px
 
 	nav ul li
 			background-color #FFBC00
@@ -125,7 +117,7 @@ header h1 a:visited
 			line-height 45px
 			margin 0
 			text-align left
-			width 19.8%
+			width 19.85%
 
 	nav ul li a
 				display block
@@ -181,14 +173,17 @@ article p
 			background-color #FFF
 
 #boletin_video
-			margin 5px auto
 			width 100%
-			padding 15px
-			background none
-			border 0
-			box-shadow none
-			background rgba(255,255,255,0.1)
-			text-align center
+			background rgba(235,0,56,1)
+			border-bottom-left-radius 5px
+			border-bottom-right-radius 5px
+			border-top 1px solid #A63400
+
+#catalogo
+		background rgba(235,0,56,1)
+		border-bottom-left-radius 5px
+		border-bottom-right-radius 5px
+		border-top 1px solid #F53D68
 
 #detalle-brincolin
 				background-color #ededed
@@ -201,29 +196,25 @@ article p
 				border-bottom-right-radius 5px
 				border 1px solid #dedede
 
+
+#welcome
+	width 100%
+	background rgba(255,255,255,0.9)
+	text-align center
+	border-bottom 1px solid #A63400
+	border-top 1px solid #FFF
+
 #welcome-servicios
-			width 100%
-			margin 0 auto
-			padding 10px
-			background rgba(255,255,255,0.1)
-			border-bottom-right-radius 5px
-			border-bottom-left-radius 5px
+			background rgba(235,0,56,1)
+			border-bottom 1px solid #FF4F00
+			border-top 1px solid #FF4F00
 
 #welcome-servicios article
 							width 95%
 
 #welcome-servicios article h3
 								width 100%
-
-#welcome
-	margin 0 auto
-	width 100%
-	padding 15px 10px
-	border 0
-	box-shadow none
-	background rgba(255,255,255,0.9)
-	text-align center
-	border-top 1px solid #fff
+								background-color #FC0
 
 #welcome #wowslider-container1
 					width 67%
@@ -374,13 +365,12 @@ article p
 	transform scale(1.08)
 
 footer
-	background-color #FF4900
+	background-color #EA0037
 	bottom 0%
 	margin 0 auto
 	padding 0
 	position relative
 	text-align center
-	z-index 1
 	width 100%
 
 .btn_reservar
@@ -426,11 +416,11 @@ blockquote
 	text-shadow -1px -1px 1px rgba(60,60,60,0.5)
 
 section
-	display block
 	margin 0 auto
 	width 100%
-	padding 15px 0
+	padding 10px 10px
 	background-color #EFEFEF
+	text-align center
 
 #bk-home,#bk-brincolines,#bk-mobiliarioytoldos,#bk-faq,#bk-contacto,#bk-blog
 	background-repeat no-repeat
@@ -484,35 +474,26 @@ section
 	z-index 0
 
 #container
-	margin 5px auto
+	margin 0 auto
 	max-width 1200px
 	padding 0
 	position relative
-	text-align justify
-	z-index 3
-
-#pasto_agua
-	bottom 0%
-	height 450px
-	margin 0
-	padding 0
-	position relative
-	width 100%
-	z-index 1
+	text-align center
+	box-shadow 0px 0px 10px 0px #444
 
 #item
 	border 1px solid #cdcdcd
 	width 96%
 	margin 5px auto
-	background rgba(255,255,255,0.6)
+	background rgba(250,250,250,1)
 	border-radius 5px
 
 	h3
 		font-size 2.0em
 		padding 2px
 		padding-left 30px
-		color #FC0
-		background-color #FE4900
+		color #FFF
+		background-color #FC0
 		width 96%
 		margin 15px auto 0 auto
 		box-sizing border-box
@@ -598,7 +579,7 @@ section
 	color orange
 
 .btn_activo
-	background-color #FE4900
+	background-color #EA0037
 	border-left 0
 	
 .submenu a link

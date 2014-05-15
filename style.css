@@ -68,22 +68,21 @@ h1,h2,h3,h4,h5,h6{margin:0 auto;font-family:'Wendy One',sans-serif;text-shadow:1
 h1{color:#fc3;font-size:3em;display:inline-block;margin:0 auto}
 h1 img{float:left}
 h2{text-align:center}
-h3{font-size:2em;padding:2px;padding-left:30px;color:#fc0;background-color:#fe4900;width:96%;margin:15px auto 0 auto;box-sizing:border-box;text-align:left;border-radius:5px}
+h3{font-size:2em;padding:2px 2px 2px 10px;color:#eee;background-color:#fc0;margin:10px auto;box-sizing:border-box;text-align:left;border-radius:2px}
 h4{color:#efefef;font-size:1.6em;padding:2px 10px;background-color:#fe4900;margin:2px auto 10px auto;border-radius:2px;width:90%}
 h5{font-size:1.2em}
 h6{font-size:1em}
 a{text-decoration:none}
 section,article,aside,.lista,.lista img,.lista ol,.lista li,.boletin,.boletin p,.menu_inflables ul li,.lista-imagenes ul,.lista-imagenes li,#ubicacion{box-sizing:border-box;margin:0 auto;color:#f30;padding:0 10px}
-section{margin-top:0;padding:15px;background:rgba(255,255,255,0.1)}
 header{display:block;margin:0 auto;width:100%;padding:0;text-align:center;}
 header h1 img{padding:0;margin:0;vertical-align:top;display:inline-block}
 p{width:80%}
-header #info{display:block;width:100%;text-align:center;margin:0 auto;vertical-align:bottom}
+#info{display:block;width:100%;text-align:center;margin:0 auto;vertical-align:bottom}
 header #logo img{width:100%}
-header h1 a:visited{color:#fc3}
+#info h1 a:visited{color:#fc3}
 nav{margin:0;text-align:center;width:100%;display:block;padding:0;border-bottom:1px solid #bf6230}
-nav ul{padding:0;background-color:#fe4900;font-size:0;padding-bottom:5px}
-nav ul li{background-color:#ffbc00;color:#fff;display:inline-block;font-size:16px;height:45px;line-height:45px;margin:0;text-align:left;width:19.8%}
+nav ul{padding:0;background-color:#e7003e;font-size:0}
+nav ul li{background-color:#ffbc00;color:#fff;display:inline-block;font-size:16px;height:45px;line-height:45px;margin:0;text-align:left;width:19.85%}
 nav ul li a{display:block;color:#fff;transition:all 1s ease;height:100%}
 nav ul li a:hover{background-color:#ff0;text-align:center;color:#e00;font-weight:bold}
 nav ul li a:visited{border:1px solid #d30}
@@ -93,12 +92,13 @@ aside{width:30%;margin:0 15px 0 auto;text-align:center;padding:0;color:#fff}
 article .lista li p{width:75%;margin:5px auto;text-align:justify;padding:0;color:#39f}
 article p{font-size:1.1em;margin:15px auto;width:85%}
 #banner_video{width:60%;padding:5px;margin:0 auto;display:inline-block;vertical-align:top;background-color:#fff}
-#boletin_video{margin:5px auto;width:100%;padding:15px;background:none;border:0;box-shadow:none;background:rgba(255,255,255,0.1);text-align:center}
+#boletin_video{width:100%;background:#eb0038;border-bottom-left-radius:5px;border-bottom-right-radius:5px;border-top:1px solid #a63400}
+#catalogo{background:#eb0038;border-bottom-left-radius:5px;border-bottom-right-radius:5px;border-top:1px solid #f53d68}
 #detalle-brincolin{background-color:#ededed;margin:5px auto;padding:5px;width:100%;box-sizing:border-box;text-align:left;border-bottom-left-radius:5px;border-bottom-right-radius:5px;border:1px solid #dedede}
-#welcome-servicios{width:100%;margin:0 auto;padding:10px;background:rgba(255,255,255,0.1);border-bottom-right-radius:5px;border-bottom-left-radius:5px}
+#welcome{width:100%;background:rgba(255,255,255,0.9);text-align:center;border-bottom:1px solid #a63400;border-top:1px solid #fff}
+#welcome-servicios{background:#eb0038;border-bottom:1px solid #ff4f00;border-top:1px solid #ff4f00}
 #welcome-servicios article{width:95%}
-#welcome-servicios article h3{width:100%}
-#welcome{margin:0 auto;width:100%;padding:15px 10px;border:0;box-shadow:none;background:rgba(255,255,255,0.9);text-align:center;border-top:1px solid #fff}
+#welcome-servicios article h3{width:100%;background-color:#fc0}
 #welcome #wowslider-container1{width:67%;margin:0 auto;display:inline-block;vertical-align:top;background:rgba(255,255,255,0.2);position:relative}
 #welcome #wowslider-container1  img{width:100%;padding:0;margin:0;max-width:600px}
 #welcome #box-ofer{width:30%;margin:0 auto;padding:0;display:inline-block;vertical-align:top}
@@ -120,13 +120,13 @@ article p{font-size:1.1em;margin:15px auto;width:85%}
 .miniserv ul li a:hover{color:#00af64;transform:scale(1.1)}
 .miniserv img{width:100%;margin:0}
 .miniserv:hover{transform:scale(1.08)}
-footer{background-color:#ff4900;bottom:0%;margin:0 auto;padding:0;position:relative;text-align:center;z-index:1;width:100%}
+footer{background-color:#ea0037;bottom:0%;margin:0 auto;padding:0;position:relative;text-align:center;width:100%}
 .btn_reservar{width:80%;background:#f00;padding:8px 14px 10px;border:1px solid #f00;cursor:pointer;font-size:1.5em;font-family:Oswald,sans-serif;letter-spacing:.1em;text-shadow:0 -1px 0 rgba(0,0,0,0.3);color:#fff;box-shadow:inset 0 1px 0 rgba(255,100,255,0.5),0 5px 0 0 rgba(255,160,200,0.9),0 10px 5px #999;border-radius:10px}
 .btn_reservar:hover,.btn_reservar:focus{color:#dfe7ea;box-shadow:inset 0 1px 0 rgba(255,255,255,0.5),0 2px 0 0 rgba(255,255,255,0.5),0 2px 5px #999}
 .submenu a{display:block;text-decoration:none;height:25px;padding:5px 5px 0 5px;transition:all .5s ease;width:100%}
 .submenu a:hover{display:block;background-color:#ee3;width:100%}
 blockquote{font-size:18px;color:#09f;font-weight:600;margin:10px auto;width:80%;text-align:center;text-shadow:-1px -1px 1px rgba(60,60,60,0.5)}
-section{display:block;margin:0 auto;width:100%;padding:15px 0;background-color:#efefef}
+section{margin:0 auto;width:100%;padding:10px 10px;background-color:#efefef;text-align:center}
 #bk-home,#bk-brincolines,#bk-mobiliarioytoldos,#bk-faq,#bk-contacto,#bk-blog{background-repeat:no-repeat;background-size:20%;background-position:right}
 #bk-home{background-image:url("img/menu/ico_inicio.png");border-right:1px solid #bf6230}
 #bk-brincolines{background-image:url("img/menu/ico_brincolines.png");border-left:1px solid #ffdc73;border-right:1px solid #bf6230}
@@ -136,10 +136,9 @@ section{display:block;margin:0 auto;width:100%;padding:15px 0;background-color:#
 #bk-blog{background-image:url("img/menu/ico_blog.png");border-left:1px solid #ffdc73}
 #mapa{width:80%;height:200px;margin:10px auto;display:block;border:1px solid #f33;padding:0}
 #background{box-sizing:border-box;height:100%;margin:0;padding:0;position:absolute;top:0%;width:100%;z-index:0}
-#container{margin:5px auto;max-width:1200px;padding:0;position:relative;text-align:justify;z-index:3}
-#pasto_agua{bottom:0%;height:450px;margin:0;padding:0;position:relative;width:100%;z-index:1}
-#item{border:1px solid #cdcdcd;width:96%;margin:5px auto;background:rgba(255,255,255,0.6);border-radius:5px;}
-#item h3{font-size:2em;padding:2px;padding-left:30px;color:#fc0;background-color:#fe4900;width:96%;margin:15px auto 0 auto;box-sizing:border-box;text-align:left;border-radius:5px}
+#container{margin:0 auto;max-width:1200px;padding:0;position:relative;text-align:center;box-shadow:0 0 10px 0 #444}
+#item{border:1px solid #cdcdcd;width:96%;margin:5px auto;background:#fafafa;border-radius:5px;}
+#item h3{font-size:2em;padding:2px;padding-left:30px;color:#fff;background-color:#fc0;width:96%;margin:15px auto 0 auto;box-sizing:border-box;text-align:left;border-radius:5px}
 #item figure{width:60%;margin:0;padding:5px;vertical-align:top;display:inline-block;border:1px solid #cdcdcd;border-radius:5px;background-color:#efefef;}
 #item figure figcaption{border-top:1px solid #ddd}
 #item figure img{max-width:500px;width:100%;padding:0;margin:5px}
@@ -153,7 +152,7 @@ section{display:block;margin:0 auto;width:100%;padding:15px 0;background-color:#
 #contact-area textarea focus,#contact-area input focus{border:2px solid #f60}
 #contact-area input.submit-button{background-color:#fe3f1d;border-radius:5px;font-family:Helvetica,sans-serif;font-size:1.4em;font-weight:bolder;height:70px;margin:0 auto;text-align:center;width:100%;border:1px solid #900;transition:1s all ease}
 #contact-area input.submit-button:hover{border:2px solid #ff0;color:#ff0;color:#ffa500}
-.btn_activo{background-color:#fe4900;border-left:0}
+.btn_activo{background-color:#ea0037;border-left:0}
 .submenu a link{color:#09f}
 .ayudaonline{width:100%;height:40px;margin:0;color:#fc3;padding:0;text-align:right;background-image:url("imagenes/ayudaonline.png");background-position:right;background-repeat:no-repeat;margin-right:20px;padding-right:50px}
 .lista{margin:20px auto;width:100%;padding:10px;text-align:center}
