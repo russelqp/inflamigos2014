@@ -5,7 +5,7 @@
  ?>
  <?php include('header.php');?>
 
-  <section>
+  <section id="section-rounded">
    <article>
   
 <!-- Inicia Arma tu evento-->

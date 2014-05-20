@@ -66,7 +66,7 @@ $url = $servicio;
  <?php include('header.php');?>
  
 
-<section>
+<section id="section-rounded">
 
 <?php 
 	if ($servicio == "toldos")

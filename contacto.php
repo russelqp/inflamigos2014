@@ -5,7 +5,7 @@
  ?>
  <?php include('header.php');?>
  
-<section>
+<section id="section-rounded">
   <article>
   
     <h3>Contactanos  <a href="http://www.facebook.com/pages/Playa-Del-Carmen-Mexico/inflamigos/108059039214265?ref=ts" title="ir a nuesta pagina de facebook"><img src="http://www.inflamigos.com.mx/imagenes/mf.png" alt="ico inflamigos facebook" width="60" height="54"/></a><a href="http://www.twitter.com/inflamigos" title="ir a nuesta pagina de twitter"><img src="http://www.inflamigos.com.mx/imagenes/mt.png" alt="ico inflamigos twitter" width="60" height="54"/>  </a> </h3>

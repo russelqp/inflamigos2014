@@ -88,7 +88,6 @@ map.addMarker({
               $('a[data-target="flare"]').peFlareLightbox();
           });
     </script>
-
        
 <div id="info"> <h1> <a href="<?php echo $Myurl; ?>"><img src="<?php echo $Myurl; ?>/imagenes/mini_logo_inflamigos.png" alt="logo_inflamigos" title="ir al home"/>Inflamigos</a></h1>
     <h2>Renta de brincolines en Playa del Carmen</h2>

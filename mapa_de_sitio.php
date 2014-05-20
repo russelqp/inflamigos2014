@@ -5,7 +5,7 @@
   ?>
  <?php include('header.php');?>
 
- <section>
+ <section id="section-rounded">
      <article>
         <h3>Mapa de sitio</h3>
         <h4>Aquí puedes ver el mapa con las secciones del sitio Inflamigos.</h4>

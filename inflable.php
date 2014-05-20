@@ -263,7 +263,7 @@ $url = $inflable;
  <?php include('header.php');?>
  
 
-<section id="catalogo">
+<section id="section-rounded">
   <article id="item">
 
 <?php echo "<h3>".$titulo. "</h3>";?>

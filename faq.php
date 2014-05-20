@@ -5,7 +5,7 @@
  ?>
  <?php include('header.php');?>
 
-  <section> <article>
+  <section id="section-rounded"> <article>
 
     <h3>Preguntas m&aacute;s frecuentes (FAQ)</h3>
     <p>&nbsp;</p>
