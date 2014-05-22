@@ -34,26 +34,25 @@ return $url;
 
 ?>
 
-
-
 <?php
 $servicio=$_GET['servicio'];
 if($servicio=="toldos"){
 	$titulo = "Renta de Toldos";
 	$miniDesc = "Toldos de: 3x6, 6x6 y 6x12";
 }
+if($servicio=="skydancers"){
+	$titulo = "SkyDancers";
+	$miniDesc = "Sky Dancers, para tus promociones";
+}
 if($servicio=="sillas-y-mesas"){
-	$titulo = "Sillas y Mesas ";
+	$titulo = "Sillas y Mesas";
 	$miniDesc = "Sillas y mesas para niños y adultos";
 }
 
-?>
 
-
-<?php 
 $titlePage=$titulo." - Inflamigos";
 $descPage= $miniDesc;
- $btn_activo="mobiliario-y-toldos";
+$btn_activo="servicios";
 
 
 // La variable del título de la noticia 
@@ -61,11 +60,8 @@ $url = $servicio;
 ?>
 
 
-
-
- <?php include('header.php');?>
+<?php include('header.php');?>
  
-
 <section id="section-rounded">
 
 <?php 
@@ -81,8 +77,8 @@ $url = $servicio;
 				if($modelo[$i] == $modelo[0])
 						{
 							$h3 = "Toldo de 3 x 6";
-							$capacidad="3 mesas tablones";
-							$precio = "$800.00";
+							$capacidad="Tres mesas tablones o dos redondas";
+							$precio = "$750.00";
 							$detalles ="Recomendado para espacios pequeños, para realización de talleres o actividades. Puedes añadirles paredes, $50.00 pesos extra por cada lado.";
 							$id_video = "";
 							$img = "toldo_3x6";
@@ -90,8 +86,8 @@ $url = $servicio;
 				if($modelo[$i] == $modelo[1])
 						{
 							$h3= "Toldo de 6 x 6";
-							$capacidad="4 mesas redondas";
-							$precio = "$1,500.00";
+							$capacidad="5 mesas redondas";
+							$precio = "$1,450.00";
 							$detalles ="Para casi cualquier espacio";
 							$id_video = "";
 							$img = "toldo_6x6";
@@ -99,9 +95,9 @@ $url = $servicio;
 				if($modelo[$i] == $modelo[2])
 						{
 							$h3= "Toldo de 6 x 12";
-							$capacidad="8";
-							$precio = "$2,500.00";
-							$detalles ="Para espacios amplios, tus invitados estaran bien resguardados de el sol o la lluvia.";
+							$capacidad="10 mesas redondas";
+							$precio = "$2,450.00";
+							$detalles ="Para espacios amplios, tus invitados estaran bien resguardados de el sol y de la lluvia.";
 							$id_video = "";
 							$img = "toldo_6x12";
 						}
@@ -131,8 +127,8 @@ $url = $servicio;
 						<div class="datos">
 
 						<p>
-						<g:plusone href="http://www.inflamigos.com.mx/mobiliario-y-toldos/'.$modelo[$i].'/"></g:plusone>
-						<div class="fb-like" data-href="http://www.inflamigos.com.mx/mobiliario-y-toldos/'.$modelo[$i].'/" data-width="450" data-layout="button_count" data-show-faces="true" data-send="true"></div>
+						<g:plusone href="http://www.inflamigos.com.mx/servicios/'.$modelo[$i].'/"></g:plusone>
+						<div class="fb-like" data-href="http://www.inflamigos.com.mx/servicios/'.$modelo[$i].'/" data-width="450" data-layout="button_count" data-show-faces="true" data-send="true"></div>
 						<br />
 						<br />
 						Precio: '.$precio.'
@@ -142,7 +138,85 @@ $url = $servicio;
 						<!--<button class="btn_reservar" type="button">Reservar</button><button class="btn_reservar" type="button">Condiciones</button>-->
 						</div>
 
-						<div class="fb-comments" data-href="http://www.inflamigos.com.mx/mobiliario-y-toldos/'.$modelo[$i].'/"></div>
+						<div class="fb-comments" data-href="http://www.inflamigos.com.mx/servicios/'.$modelo[$i].'/"></div>
+						<br />
+					</article>
+
+
+			';}
+
+	}
+	if ($servicio == "skydancers")
+		{
+		$modelo = array("vino", "welcome", "lila");
+		
+			$i = 0;
+		
+		for ($i=0; $i<count($modelo); $i++)
+			{
+
+				if($modelo[$i] == $modelo[0])
+						{
+							$h3 = "Sky Tube Color Vino";
+							$precio = "$200.00";
+							$detalles ="Skydancer sencillo, color vino, para darle un toque elegante a tus promociones.";
+							$id_video = "";
+							$img = "skydancers_vino";
+						}
+				if($modelo[$i] == $modelo[1])
+						{
+							$h3= "Sky Dancer Welcome";
+							$precio = "$250.00";
+							$detalles ="Divertido Skydancer con brazos y rostro, con las palabras Welcome y Bienvenido, genial para cualquier tipo de evento.";
+							$id_video = "";
+							$img = "skydancers_welcome";
+						}
+				if($modelo[$i] == $modelo[2])
+						{
+							$h3= "Sky Tube Morado";
+							$precio = "$200.00";
+							$detalles ="Skydancer sencillo, color morado, para darle un toque lujoso a tus promociones.";
+							$id_video = "";
+							$img = "skydancers_morado";
+						}
+
+
+				echo '
+			
+			
+					<article id="item">
+
+						<h3>'.$h3.'</h3>
+
+						<br />
+						<!--Inicia lista-imagenes-->
+						<figure>
+							<img src="'.$Myurl.'imagenes/servicios/inflamigos_'.$img.'.jpg" alt="inflamigos-skydancers"/>
+							<figcaption>
+								
+
+									<p>
+									Características: <br />'.$detalles.'
+									</p>
+								
+							</figcaption>
+						</figure>
+							 
+						<div class="datos">
+
+						<p>
+						<g:plusone href="http://www.inflamigos.com.mx/servicios/skydancers/'.$modelo[$i].'/"></g:plusone>
+						<div class="fb-like" data-href="http://www.inflamigos.com.mx/servicios/skydancers/'.$modelo[$i].'/" data-width="450" data-layout="button_count" data-show-faces="true" data-send="true"></div>
+						<br />
+						<br />
+						Precio: '.$precio.'
+						<br />
+						</p>
+						
+						<!--<button class="btn_reservar" type="button">Reservar</button><button class="btn_reservar" type="button">Condiciones</button>-->
+						</div>
+
+						<div class="fb-comments" data-href="http://www.inflamigos.com.mx/servicios/skydancers/'.$modelo[$i].'/"></div>
 						<br />
 					</article>
 
@@ -229,8 +303,8 @@ $url = $servicio;
 						<div class="datos">
 
 						<p>
-						<g:plusone href="http://www.inflamigos.com.mx/mobiliario-y-toldos/'.$modelo[$i].'/"></g:plusone>
-						<div class="fb-like" data-href="http://www.inflamigos.com.mx/mobiliario-y-toldos/'.$modelo[$i].'/" data-width="450" data-layout="button_count" data-show-faces="true" data-send="true"></div>
+						<g:plusone href="http://www.inflamigos.com.mx/servicios/'.$modelo[$i].'/"></g:plusone>
+						<div class="fb-like" data-href="http://www.inflamigos.com.mx/servicios/'.$modelo[$i].'/" data-width="450" data-layout="button_count" data-show-faces="true" data-send="true"></div>
 						<br />
 						<br />
 						Precio: '.$precio.'
@@ -241,7 +315,7 @@ $url = $servicio;
 						</div>
 					
 						
-						<div class="fb-comments" data-href="http://www.inflamigos.com.mx/mobiliario-y-toldos/'.$modelo[$i].'/"></div>
+						<div class="fb-comments" data-href="http://www.inflamigos.com.mx/servicios/'.$modelo[$i].'/"></div>
 						<br />
 					</article>
 
@@ -256,15 +330,15 @@ $url = $servicio;
 
 
 <!--Inicia menu_inflables_mini-->
-<article>
+<!--<article>
 <div class="menu_inflables_mini">
 <h4>Otros servicios</h4>
     <ul>
-    <li>---</li>
+    <li></li>
     </ul>
-  </div><!--End menu_inflables_mini-->
+  </div>
 </article>
-
+-->
 </section>
 <?php include('footer.php');?>
  <?php //Limpia el posible bucle, es decir, se puede volver a hacer el envío.

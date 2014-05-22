@@ -1,15 +1,27 @@
-Options +FollowSymLinks
 RewriteEngine on
-
-#1 variable
-RewriteRule ^inflable/(.*)/$ inflable.php?inflable=$1
-RewriteCond %{REQUEST_FILENAME} !-f 
-RewriteCond %{REQUEST_FILENAME} !-d 
-RewriteRule ^(.*)$ $1.php [L,QSA]
+RewriteBase /appcatalogo/
+Rewriterule ^brincolines/(.*)/$ inflable.php?inflable=$1
+Rewriterule ^servicios/(.*)/$ myt_items.php?servicio=$1
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteRule ^(.*)/$ $1.php [L,QSA]
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTP/
 RewriteRule ^index\.html$ http://www.inflamigos.com.mx/appcatalogo/[R=301,L]
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTP/
 RewriteRule ^index\.php$ http://www.inflamigos.com.mx/appcatalogo/ [R=301,L] 
+
+
+#<IfModule mod_rewrite.c>
+#RewriteEngine On
+#RewriteBase /
+#RewriteRule ^brincolines/(.*)/$ inflable.php?inflable=$1
+#Rewriterule servicios/(.*)/$ myt_items.php?servicio=$1
+#</IfModule>
+
+
+#Redirecciones
+Redirect 301 /inflable/ http://www.inflamigos.com.mx/brincolines/
+
 
 <IfModule mod_expires.c>
 <filesmatch "\.(jpg|JPG|gif|GIF|png|PNG|css|js)$">

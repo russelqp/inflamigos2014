@@ -1,3 +1,35 @@
+ <?php
+function urls_amigables($url) {
+
+// Tranformamos todo a minusculas
+
+$url = strtolower($url);
+
+//Rememplazamos caracteres especiales latinos
+
+$find = array('á', 'é', 'í', 'ó', 'ú', 'ñ');
+
+$repl = array('a', 'e', 'i', 'o', 'u', 'n');
+
+$url = str_replace ($find, $repl, $url);
+
+// Añaadimos los guiones
+
+$find = array(' ', '&', '\r\n', '\n', '+'); 
+$url = str_replace ($find, '-', $url);
+
+// Eliminamos y Reemplazamos demás caracteres especiales
+
+$find = array('/[^a-z0-9\-<>]/', '/[\-]+/', '/<[^>]*>/');
+
+$repl = array('', '-', '');
+
+$url = preg_replace ($find, $repl, $url);
+
+return $url;
+
+}
+?>
 <?php
 $inflable=$_GET['inflable'];
 if($inflable=="angry-box"){
@@ -158,16 +190,25 @@ if($inflable=="splash-pool"){
 	$id_video = "";
 }
 ?>
+
 <?php 
-$titlePage=$titulo." - App Catálogo Inflamigos";
+$titlePage=$titulo." - Inflamigos";
 $descPage= $miniDesc;
- $btn_activo="brincolines";
+$btn_activo="brincolines";
+
+
+// La variable del título de la noticia 
+$url = $inflable;
 ?>
-			 <?php include('header.php');?>
 
 
-			 <section>
-			 	<article>
+
+
+ <?php include('header.php');?>
+ 
+
+<section id="section-rounded">
+  <article id="item">
 
 <?php echo "<h3>".$titulo. "</h3>";?>
 
@@ -175,25 +216,54 @@ $descPage= $miniDesc;
 <!--Inicia lista-imagenes-->
 <div class="lista-imagenes">
 <?php
-   $ext=".jpg";
-   $ruta="inflables/thumbs/".$brincolin."/";
-   $ruta2="inflables/g/".$brincolin."/";
-   $total_imagenes =count(glob($ruta."*_thumb*"));
-   $array_nombres = $total_imagenes;
-   $arr_ext=array("jpg","png","gif");
-   $mydir=opendir($ruta);
+   $ruta="../inflables/thumbs/".$brincolin."/";
+   $ruta2="../inflables/g/".$brincolin."/brincolin_inflable_";
+   $images = glob($ruta . "*");
    echo "<h4>Imagenes:</h4><ul>" ; 
-   for ($i=1; $i<=$total_imagenes;$i++){
-   echo '<li><a href="'.$ruta2."brincolin_inflable_".$brincolin."_0".$i.$ext.'" rel="lightbox[roadtrip]" title="'.$titulo.'"><img src="'.$ruta.$brincolin."_thumb_0".$i.$ext.'" alt="'.$brincolin."_thumb".'" /></a></li>';
-}
+ 
+	  foreach($images as $image)
+	 { 
+	 	  
+	 	
+	 	$ext = ".jpg";/*pathinfo( $ruta2, PATHINFO_EXTENSION );*/
+	 	$name = pathinfo( $image, PATHINFO_FILENAME );
+	    $name = explode("thumb_",$name);
+	  
+	    echo '<li><a href="'.$Myurl.$ruta2.$name[0].$name[1].$ext.'" data-target="flare" data-flare-gallery="gallery1" data-flare-thumb="'.$Myurl.''.$image.'" title="'.$titulo.'"><img src="'.$Myurl.''.$image.'" alt="'.$brincolin."_thumb".'" /></a></li>';
+		
+	}
+	if ($id_video !="")
+		{ 
+			
+			
+
+
+			echo '<li><a data-target="flare" data-flare-gallery="gallery1" data-flare-thumb="images/video.png" href="http://www.youtube.com/watch?v='.$id_video.'" title="Video de '.$titulo.'" ><img src="'.$Myurl.'images/video.png" alt ="video_'.$brincolin.'" /></a></li>';
+			//echo '<li><a href="http://www.youtube.com/embed/'.$id_video.'" rel="LightFrame" title="Video de '.$titulo.'"><img src="images/video.png" alt ="video_'.$brincolin.'" /></a></li>' ;
+		  
+ 		}
+
+		//echo('<div class="uvideo"><iframe class="youtube-player" type="text/html" width="100%" height="50%" src="http://www.youtube.com/embed/'.$id_video.'" frameborder="0"></iframe></div>');}
+
 	echo "</ul>";
 ?>
+<div id ="detalle-brincolin">
+
+<?php
+echo "<p>";
+echo "Características: <br />".$detalles;
+echo "</p>";
+?>
 </div>
+</div>
+
+			
+	 
 <div class="datos">
 <?php
 echo "<p>";
 echo '<g:plusone href="http://www.inflamigos.com.mx/brincolines/'.$inflable.'/"></g:plusone>';
-echo '<div class="fb-like" data-href="http://www.inflamigos.com.mx/brincolines/'.$inflable.'/" data-width="450" data-layout="button_count" data-show-faces="true" data-send="true"></div>';
+echo '<div data-href="http://www.inflamigos.com.mx/brincolines/'.$inflable.'/" data-width="450" data-layout="button_count" data-show-faces="true" data-send="true"></div>';
 echo "<br />";
 echo "Ancho: ".$ancho." m";
 echo "<br />";
@@ -207,31 +277,26 @@ echo "Edad recomendada: ".$edades." años";
 echo "<br />";
 echo "</p>";
 ?>
+<!--<button class="btn_reservar" type="button">Reservar</button><button class="btn_reservar" type="button">Condiciones</button>-->
 </div>
-<?php
-echo "<p>";
-echo "Detalles: <br />".$detalles;
-echo "</p>";
 
-if ($id_video!=""){ echo('<div class="uvideo"><iframe class="youtube-player" type="text/html" width="100%" height="50%" src="http://www.youtube.com/embed/'.$id_video.'" frameborder="0"></iframe></div>');}?>
-
-<div class="fb-comments" data-href="http://www.inflamigos.com.mx/brincolines/<?php echo $inflable;?>/"></div>
-<br />
+<div class="fb-comments" data-href="http://www.inflamigos.com.mx/brincolines/<?php echo $inflable.'/';?>"></div>
 
 <!--Inicia menu_inflables_mini-->
 <div class="menu_inflables_mini">
 <h4>Ver los otros inflables</h4>
     <ul>
-    <li><?php echo '<a href="https://www.inflamigos.com.mx/appcatalogo/inflable.php?inflable=angry-box">'; ?><img src="http://www.inflamigos.com.mx/inflables/thumbs/angry_box.jpg"  alt="angry-box" title="Angry Box" /></a></li>
-    <li><?php echo '<a href="https://www.inflamigos.com.mx/appcatalogo/inflable.php?inflable=castillo-aventura">'; ?><img src="http://www.inflamigos.com.mx/inflables/thumbs/caventura_thumb.png" alt="castillo_aventura_middle" title="Castillo Aventura"/></a></li>
-    <li><?php echo '<a href="https://www.inflamigos.com.mx/appcatalogo/inflable.php?inflable=castillo-princess">'; ?><img src="http://www.inflamigos.com.mx/inflables/thumbs/cprincess_thumb.png" alt="castillo_princess_middle" title="Castillo Princess"/></a></li>
-    <li><?php echo '<a href="https://www.inflamigos.com.mx/appcatalogo/inflable.php?inflable=resbaladilla-bob-esponja">'; ?><img src="http://www.inflamigos.com.mx/inflables/thumbs/bobesponja_thumb.png" alt="bob-esponja-middle" title="Bob Esponja Resbaladilla" /></a></li>
-  	<li><?php echo '<a href="https://www.inflamigos.com.mx/appcatalogo/inflable.php?inflable=arco-slide">'; ?><img src="http://www.inflamigos.com.mx/inflables/thumbs/aslide_thumb.png" alt="arco_slide_middle" title="Arco Slide"/></a></li>
-	<li><?php echo '<a href="https://www.inflamigos.com.mx/appcatalogo/inflable.php?inflable=ultra-cubo">'; ?><img src="http://www.inflamigos.com.mx/inflables/thumbs/ucubo_thumb.png" alt="ultra_cubo_middle" title="Ultra Cubo"/></a></li>
-    <li><?php echo '<a href="https://www.inflamigos.com.mx/appcatalogo/inflable.php?inflable=space-lab">'; ?><img src="http://www.inflamigos.com.mx/inflables/thumbs/spacelab_thumb.png" alt="space-lab-middle" title="Space Lab" /></a></li>
-    <li><?php echo '<a href="https://www.inflamigos.com.mx/appcatalogo/inflable.php?inflable=escaladrilo">'; ?><img src="http://www.inflamigos.com.mx/inflables/thumbs/escaladrilo_thumb.png" alt="escaladrilo-middle" title="Escaladrilo" /></a></li>
-    <li><?php echo '<a href="https://www.inflamigos.com.mx/appcatalogo/inflable.php?inflable=aqualand">'; ?><img src="http://www.inflamigos.com.mx/inflables/thumbs/aqualand_thumb.png" alt="aqualand-middle" title="Aqualand" /></a></li>
-    <li><?php echo '<a href="https://www.inflamigos.com.mx/appcatalogo/inflable.php?inflable=splash-pool">'; ?><img src="http://www.inflamigos.com.mx/inflables/thumbs/splashpool_thumb.png" alt="splash-pool-middle" title="Splash Pool" /></a></li>
+    <li><?php echo '<a href="https://www.inflamigos.com.mx/appcatalogo/brincolines/angry-box/">'; ?><img src="http://www.inflamigos.com.mx/inflables/thumbs/angry_box.jpg"  alt="angry-box" title="Angry Box" /></a></li>
+    <li><?php echo '<a href="https://www.inflamigos.com.mx/appcatalogo/brincolines/castillo-aventura/">'; ?><img src="http://www.inflamigos.com.mx/inflables/thumbs/caventura_thumb.png" alt="castillo_aventura_middle" title="Castillo Aventura"/></a></li>
+    <li><?php echo '<a href="https://www.inflamigos.com.mx/appcatalogo/brincolines/castillo-princess/">'; ?><img src="http://www.inflamigos.com.mx/inflables/thumbs/cprincess_thumb.png" alt="castillo_princess_middle" title="Castillo Princess"/></a></li>
+    <li><?php echo '<a href="https://www.inflamigos.com.mx/appcatalogo/brincolines/escaladora/">'; ?><img src="http://www.inflamigos.com.mx/inflables/thumbs/escaladora_thumb.png" alt="escaladora_middle" title="Nueva Escaladora"/></a></li>
+    <li><?php echo '<a href="https://www.inflamigos.com.mx/appcatalogo/brincolines/resbaladilla-bob-esponja/">'; ?><img src="http://www.inflamigos.com.mx/inflables/thumbs/bobesponja_thumb.png" alt="bob-esponja-middle" title="Bob Esponja Resbaladilla" /></a></li>
+  	<li><?php echo '<a href="https://www.inflamigos.com.mx/appcatalogo/brincolines/arco-slide/">'; ?><img src="http://www.inflamigos.com.mx/inflables/thumbs/aslide_thumb.png" alt="arco_slide_middle" title="Arco Slide"/></a></li>
+	<li><?php echo '<a href="https://www.inflamigos.com.mx/appcatalogo/brincolines/ultra-cubo/">'; ?><img src="http://www.inflamigos.com.mx/inflables/thumbs/ucubo_thumb.png" alt="ultra_cubo_middle" title="Ultra Cubo"/></a></li>
+    <li><?php echo '<a href="https://www.inflamigos.com.mx/appcatalogo/brincolines/space-lab/">'; ?><img src="http://www.inflamigos.com.mx/inflables/thumbs/spacelab_thumb.png" alt="space-lab-middle" title="Space Lab" /></a></li>
+    <li><?php echo '<a href="https://www.inflamigos.com.mx/appcatalogo/brincolines/escaladrilo/">'; ?><img src="http://www.inflamigos.com.mx/inflables/thumbs/escaladrilo_thumb.png" alt="escaladrilo-middle" title="Escaladrilo" /></a></li>
+    <li><?php echo '<a href="https://www.inflamigos.com.mx/appcatalogo/brincolines/aqualand/">'; ?><img src="http://www.inflamigos.com.mx/inflables/thumbs/aqualand_thumb.png" alt="aqualand-middle" title="Aqualand" /></a></li>
+    <li><?php echo '<a href="https://www.inflamigos.com.mx/appcatalogo/brincolines/splash-pool/">'; ?><img src="http://www.inflamigos.com.mx/inflables/thumbs/splashpool_thumb.png" alt="splash-pool-middle" title="Splash Pool" /></a></li>
     </ul>
   </div><!--End menu_inflables_mini--> 
 

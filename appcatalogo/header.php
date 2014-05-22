@@ -5,6 +5,12 @@
 <?php
 flush();
 ?>
+<?php
+flush();
+$url_a = "https://www.inflamigos.com.mx/appcatalogo/";
+$url_r = "http://127.1.0.0/inflamigos2014/appcatalogo/";
+$Myurl = $url_a;
+?>
 <head>
 <meta charset="utf-8">
 
@@ -18,7 +24,7 @@ flush();
 <meta property='fb:app_id' content='478839412179968'/>
 <title><?php echo $titlePage; ?></title>
 
-<link href="style.css" rel="stylesheet" type="text/css" />
+<link href="<?php echo $Myurl;?>style.css" rel="stylesheet" type="text/css" />
 <script src="prefixfree.min.js"></script>
 <link href="css/lightbox.css" rel="stylesheet" />
 </head>
@@ -36,7 +42,7 @@ flush();
 <!--<div class="ayudaonline"><a href="#">Ayuda en Linea</a></div>-->
 <header>
        <div id="logo">
-        <a href="https://www.facebook.com/inflamigos/app_478839412179968"><img src="http://www.inflamigos.com.mx/imagenes/logoinflamigos.png" alt="logo_inflamigos" title="ir al home"/></a>
+        <a href="#"><img src="https://www.inflamigos.com.mx/imagenes/logoinflamigos.png" alt="logo_inflamigos" title="ir al home"/></a>
        </div>
        <div id="info"><h1>Inflamigos</h1>
          <h2>Renta de brincolines en Playa del Carmen</h2>

@@ -10,14 +10,16 @@
       <!-- Start WOWSlider.com BODY section -->
 <div id="wowslider-container1">
 <div class="ws_images"><ul>
+<li><a href="<?php echo $Myurl; ?>servicios/skydancers/" title="Skydancers"><img src="data1/images/banner_4.jpg" alt="Inflamigos_banner_4" title="SkyDancers" id="wows1_0"/></a></li>
 <li><img src="data1/images/banner_1.jpg" alt="Inflamigos_banner_1" title="Eventos Hoteleros" id="wows1_0"/></li>
 <li><img src="data1/images/banner_2.jpg" alt="Inflamigos_banner_2" title="Diversión Acuática" id="wows1_1"/></li>
 <li><img src="data1/images/banner_3.jpg" alt="Inflamigos_banner_3" title="Al aire libre" id="wows1_2"/></li>
 </ul></div>
 <div class="ws_bullets"><div>
-<a href="#" title="Eventos Hoteleros"><img src="data1/tooltips/banner_1.jpg" alt="_banner_1"/>1</a>
-<a href="#" title="Diversión Acuática"><img src="data1/tooltips/banner_2.jpg" alt="_banner2"/>2</a>
-<a href="#" title="Al aire libre"><img src="data1/tooltips/banner_3.jpg" alt="_banner_3"/>3</a>
+<a href="#" title="Sky Dancers"><img src="data1/tooltips/banner_4.jpg" alt="_banner_4"/>1</a>
+<a href="#" title="Eventos Hoteleros"><img src="data1/tooltips/banner_1.jpg" alt="_banner_1"/>2</a>
+<a href="#" title="Diversión Acuática"><img src="data1/tooltips/banner_2.jpg" alt="_banner2"/>3</a>
+<a href="#" title="Al aire libre"><img src="data1/tooltips/banner_3.jpg" alt="_banner_3"/>4</a>
 </div></div>
   <div class="ws_shadow"></div>
   </div>
@@ -56,7 +58,7 @@
 <h3>Nuestros servicios</h3>
 <a href="<?php echo $Myurl; ?>brincolines/" title="Catálogo de Brincolines">
 <figure class="miniserv">
-  <img src="<?php echo $Myurl; ?>imagenes/inflamigos-renta-de-brincolines.jpg" alt="" />
+  <img src="<?php echo $Myurl; ?>imagenes/inflamigos-renta-de-brincolines.jpg" alt="Brincolines" />
   <h4>Renta de Brincolines</h4>
   <figcaption>Gran variedad de brincolines: Escaladoras, Castillos, Tobogan, Chapoteadero, Slides.</figcaption>
    <p><a href="<?php echo $Myurl; ?>brincolines/" title="Catálogo de brincolines">Ver más</a><p><br />
@@ -66,31 +68,42 @@
 </figure>
 </a>
 
-<a href="<?php echo $Myurl; ?>mobiliario-y-toldos/toldos/" title="Mobiliario y toldos">
+<a href="<?php echo $Myurl; ?>servicios/toldos/" title="Renta de toldos">
 <figure class="miniserv">
-  <img src="<?php echo $Myurl; ?>imagenes/servicios/inflamigos_toldo_6x6.jpg" alt="" />
+  <img src="<?php echo $Myurl; ?>imagenes/servicios/inflamigos_toldo_6x6.jpg" alt="Toldos" />
    <h4>Renta de Toldos</h4>
   <figcaption>Contamos con toldos de diferentes medidas: 3 x 6, 6 x 6 y 6 x 12.</figcaption>
-  <p><a href="<?php echo $Myurl; ?>mobiliario-y-toldos/toldos/" title="Mobiliario y toldos">Ver más</a><p><br />
+  <p><a href="<?php echo $Myurl; ?>servicios/toldos/" title="Toldos">Ver más</a><p><br />
   <p class="compartir">
-   <div class="fb-like" data-href="http://www.inflamigos.com.mx/mobiliario-y-toldos/toldos/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+   <div class="fb-like" data-href="http://www.inflamigos.com.mx/servicios/toldos/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+  </p>  
+</figure>
+</a>
+<a href="<?php echo $Myurl; ?>servicios/skydancers/" title="SkyDancers">
+<figure class="miniserv">
+  <img src="<?php echo $Myurl; ?>imagenes/inflamigos_skydancers.jpg" alt="SkyDancers" />
+   <h4>Renta de SkyDancer</h4>
+  <figcaption>SkyDancer para tus campañas publicitarias.</figcaption>
+  <p><a href="<?php echo $Myurl; ?>servicios/skydancers/" title="SkyDancers">Ver más</a><p><br />
+  <p class="compartir">
+   <div class="fb-like" data-href="http://www.inflamigos.com.mx/servicios/skydancers/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
   </p>  
 </figure>
 </a>
 
-<!--
-<a href="<?php echo $Myurl; ?>mobiliario-y-toldos/sillas-y-mesas/" title="Sillas y Mesas">
+
+<a href="<?php echo $Myurl; ?>servicios/sillas-y-mesas/" title="Sillas y Mesas">
 <figure class="miniserv">
   <img src="<?php echo $Myurl; ?>imagenes/servicios/inflamigos_silla_adulto_plegable.jpg" alt="" />
    <h4>Alquiler de sillas y mesas</h4>
   <figcaption>Manejamos paquetes de un tablón con 10 sillas, para niños y adultos.</figcaption>
-   <p><a href="<?php echo $Myurl; ?>mobiliario-y-toldos/sillas-y-mesas/" title="Sillas y Mesas">Ver más</a><p><br />
+   <p><a href="<?php echo $Myurl; ?>servicios/sillas-y-mesas/" title="Sillas y Mesas">Ver más</a><p><br />
   <p class="compartir">
-   <div class="fb-like" data-href="http://www.inflamigos.com.mx/mobiliario-y-toldos/sillas-y-mesas/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+   <div class="fb-like" data-href="http://www.inflamigos.com.mx/servicios/sillas-y-mesas/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
   </p>
 </figure>
 </a>
--->
+
 </article>
 </section>
 

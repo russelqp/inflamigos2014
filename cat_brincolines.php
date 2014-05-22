@@ -1,19 +1,10 @@
-			 <?php
-			 $titlePage="App Catálogo Inflamigos - ";
-			 $descPage="En inflamigos contamos con 10 modelos de brincolines para todos los gustos y edades, desde una alberca de pelotas hasta un gran interactivo.";
-					 ?>
-			 <?php include('header.php');?>
-
-
-			 <section>
-			 	<article>
-			 	<div class="menu_inflables">
+<div class="menu_inflables">
 
 			 			<p>*La renta es por día, dentro de un horario de 8 de la mañana y máximo 12 de la noche.*</p>
 
 
 			 			<figure>
-			 				<img src="../inflables/angry-box.jpg" alt="Angrybox_middle" />
+			 				<img src="<?php echo $Myurl; ?>inflables/angry-box.jpg" alt="Angrybox_middle" />
 			 				<h4>Angry Box<br />(3 x 4)</h4>
 
 
@@ -24,7 +15,7 @@
 			 				<a href="<?php echo $Myurl; ?>brincolines/angry-box/" title="ver imagenes de: Angry Box" class="btn_mas">Mas detalles</a>
 			 			</figure>
 			 			<figure>
-			 				<img src="../inflables/caventura_middle.jpg" alt="castillo_aventura_middle" />
+			 				<img src="<?php echo $Myurl; ?>inflables/caventura_middle.jpg" alt="castillo_aventura_middle" />
 			 				<h4>Castillo Aventura <br />(6 x 3)</h4>
 
 
@@ -35,7 +26,7 @@
 			 				<a href="<?php echo $Myurl; ?>brincolines/castillo-aventura/" title="ver imagenes de: Castillo Aventura" class="btn_mas">Mas detalles</a>
 			 			</figure>
 			 			<figure>
-				 			<img src="../inflables/cprincess_middle.jpg" alt="castillo_princess_middle" />
+				 			<img src="<?php echo $Myurl; ?>inflables/cprincess_middle.jpg" alt="castillo_princess_middle" />
 				 			<h4>Castillo Princess<br />(4 x 3)</h4>
 
 
@@ -46,7 +37,7 @@
 				 			<a href="<?php echo $Myurl; ?>brincolines/castillo-princess/" title="ver imagenes de: Castillo Princess" class="btn_mas">Mas detalles</a>
 			 			</figure>
 						<figure>
-						 	<img src="../inflables/escaladrilo-middle.jpg" alt="Escaladrilo-middle"/>
+						 	<img src="<?php echo $Myurl; ?>inflables/escaladrilo-middle.jpg" alt="Escaladrilo-middle"/>
 						 	<h4>Escaladrilo<br />(4 x 2.5)</h4>
 
 
@@ -59,7 +50,7 @@
 
 							
 						<figure>
-						 	<img src="../inflables/escaladora_middle.jpg" alt="Nueva Escaladora"/>
+						 	<img src="<?php echo $Myurl; ?>inflables/escaladora_middle.jpg" alt="Nueva Escaladora"/>
 						 	<h4>Nueva Escaladora<br />(6 x 3)</h4>
 
 
@@ -84,7 +75,7 @@
 						</figure> -->
 
 						<figure>
-							<img src="../inflables/bob-esponja-middle.jpg" alt="Bob-Esponja-Resbaladilla-middle"/>
+							<img src="<?php echo $Myurl; ?>inflables/bob-esponja-middle.jpg" alt="Bob-Esponja-Resbaladilla-middle"/>
 							<h4>Bob Esponja<br />(7 x 4)</h4>
 
 
@@ -95,7 +86,7 @@
 							<a href="<?php echo $Myurl; ?>brincolines/resbaladilla-bob-esponja/" title="ver imagenes de: Resbaladilla Bob Esponja" class="btn_mas">Mas detalles</a>
 						</figure>
 						<figure>
-							<img src="../inflables/ucubo_middle.jpg" alt="ultra_cubo_middle" />
+							<img src="<?php echo $Myurl; ?>inflables/ucubo_middle.jpg" alt="ultra_cubo_middle" />
 							<h4>Ultra Cubo<br />(7 x 5)</h4>
 
 
@@ -106,7 +97,7 @@
 							<a href="<?php echo $Myurl; ?>brincolines/ultra-cubo/" title="ver imagenes de: Ultra Cubo" class="btn_mas">Mas detalles</a>
 						</figure>
 						<figure>
-							<img src="../inflables/aslide_middle.jpg" alt="arco_slide_middle" /> 
+							<img src="<?php echo $Myurl; ?>inflables/aslide_middle.jpg" alt="arco_slide_middle" /> 
 							<h4>Arco Slide<br />(7 x 5) </h4>
 
 							
@@ -117,7 +108,7 @@
 							<a href="<?php echo $Myurl; ?>brincolines/arco-slide/" title="ver imagenes de: Arco Slide" class="btn_mas">Mas detalles</a>
 						</figure>
 						<figure>
-							<img src="../inflables/space-lab-middle.jpg" alt="Space-Lab-middle"/> 
+							<img src="<?php echo $Myurl; ?>inflables/space-lab-middle.jpg" alt="Space-Lab-middle"/> 
 							 <h4>Space Lab<br />6 x 6) </h4>
 
 
@@ -130,7 +121,7 @@
 						<br />
 						<h3>Aquaticos</h3>
 						<figure>
-							<img src="../inflables/aqualand-middle.jpg" alt="Aqualand-middle" /> 
+							<img src="<?php echo $Myurl; ?>inflables/aqualand-middle.jpg" alt="Aqualand-middle" /> 
 							<h4>Aqualand<br />(4.5 x 5)</h4>
 
 
@@ -142,7 +133,7 @@
 						 	<a href="<?php echo $Myurl; ?>brincolines/aqualand/" title="ver imagenes de: Aqualand" class="btn_mas">Mas detalles</a>
 						</figure>
 						<figure>
-							<img src="../inflables/splash-pool-middle.jpg" alt="Splash-Pool_middle"/> 
+							<img src="<?php echo $Myurl; ?>inflables/splash-pool-middle.jpg" alt="Splash-Pool_middle"/> 
 							<h4>Splash Pool<br />(9 x 5)</h4>
 
 
@@ -155,9 +146,3 @@
 						</figure>
 						<br><p>Nota: Si el evento es fuera de Playa del Carmen, nos vemos en la necesidad de solicitar un cargo extra, por el consumo de combustible debido al trayecto.<p>
 </div> 
-			 		
-				</article>
-	
-				</section>
-		<!-- Este elemento de eliminación siempre debe ir inmediatamente después del div #mainContent para forzar al div #container a que contenga todos los elementos flotantes hijos -->
-		<?php include('footer.php');?>
