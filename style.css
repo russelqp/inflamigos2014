@@ -61,7 +61,7 @@ table{border-collapse:collapse;border-spacing:0}
 .menu_inflables figure a:hover{background-color:#fb0;color:#fff}
 .menu_inflables figure img{width:100%;padding:0;margin:0;border-radius:5px}
 .menu_inflables figure:hover{transform:scale(1.08)}
-.btn_mas{width:50%;float:right;margin:5px auto;background-color:#00c90d;border-radius:2px;color:#fff;box-shadow:0 0 5px #888}
+.btn_mas{width:80%;display:block;margin:5px auto;background-color:#00c90d;border-radius:2px;color:#fff;box-shadow:0 0 5px #888;text-align:center;padding:3px}
 body{background-color:#cef;color:#fff;font-family:'Noto Sans',sans-serif;font-size:16px;margin:0 auto;padding:0}
 img{border:0}
 h1,h2,h3,h4,h5,h6{margin:0 auto;font-family:'Wendy One',sans-serif;text-shadow:1px 1px 1px rgba(60,60,60,0.5);text-align:center}
@@ -127,10 +127,10 @@ footer{background-color:#ea0037;bottom:0%;margin:0 auto;padding:0;position:relat
 .submenu a:hover{display:block;background-color:#ee3;width:100%}
 blockquote{font-size:18px;color:#09f;font-weight:600;margin:10px auto;width:80%;text-align:center;text-shadow:-1px -1px 1px rgba(60,60,60,0.5)}
 section{margin:0 auto;width:100%;padding:10px 10px;background-color:#efefef;text-align:center}
-#bk-home,#bk-brincolines,#bk-mobiliarioytoldos,#bk-faq,#bk-contacto,#bk-blog{background-repeat:no-repeat;background-size:20%;background-position:right}
+#bk-home,#bk-brincolines,#bk-servicios,#bk-faq,#bk-contacto,#bk-blog{background-repeat:no-repeat;background-size:20%;background-position:right}
 #bk-home{background-image:url("img/menu/ico_inicio.png");border-right:1px solid #bf6230}
 #bk-brincolines{background-image:url("img/menu/ico_brincolines.png");border-left:1px solid #ffdc73;border-right:1px solid #bf6230}
-#bk-mobiliarioytoldos{background-image:url("img/menu/ico_acercade.png");border-left:1px solid #ffdc73;border-right:1px solid #bf6230}
+#bk-servicios{background-image:url("img/menu/ico_acercade.png");border-left:1px solid #ffdc73;border-right:1px solid #bf6230}
 #bk-faq{background-image:url("img/menu/ico_faq.png");border-left:1px solid #ffdc73;border-right:1px solid #bf6230}
 #bk-contacto{background-image:url("img/menu/ico_contacto.png");border-left:1px solid #ffdc73;border-right:1px solid #bf6230}
 #bk-blog{background-image:url("img/menu/ico_blog.png");border-left:1px solid #ffdc73}

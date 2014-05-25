@@ -9,7 +9,7 @@ flush();
 flush();
 $url_a = "https://www.inflamigos.com.mx/appcatalogo/";
 $url_r = "http://127.1.0.0/inflamigos2014/appcatalogo/";
-$Myurl = $url_a;
+$Myurl = $url_r;
 ?>
 <head>
 <meta charset="utf-8">
@@ -27,9 +27,14 @@ $Myurl = $url_a;
 <link href="<?php echo $Myurl;?>style.css" rel="stylesheet" type="text/css" />
 <script src="prefixfree.min.js"></script>
 <link href="css/lightbox.css" rel="stylesheet" />
+<script type="text/javascript" src="<?php echo $Myurl;?>js/jquery.js"></script>
+<link href="<?php echo $Myurl;?>js/pe.flare/jquery.pixelentity.flare.min.css" rel="stylesheet"/>
+<script type="text/javascript" src="<?php echo $Myurl;?>js/pe.flare/jquery.pixelentity.flare.min.js"></script>
+<!--<script type="text/javascript" src="<?php echo $Myurl;?>js/myjs.js"> </script>-->
 </head>
 
-<body>
+<body onload="prettyPrint()">
+<?php $dir_home=""; ?>
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -38,6 +43,13 @@ $Myurl = $url_a;
   js.src = "//connect.facebook.net/es_LA/all.js#xfbml=1&appId=478839412179968";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
+
+  <script type="text/javascript">
+      jQuery(function($){
+              $('a[data-target="flare"]').peFlareLightbox();
+          });
+    </script>
+
 <div id="container">
 <!--<div class="ayudaonline"><a href="#">Ayuda en Linea</a></div>-->
 <header>

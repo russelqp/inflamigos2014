@@ -35,6 +35,7 @@ $inflable=$_GET['inflable'];
 if($inflable=="angry-box"){
 	$brincolin = "angrybox";
 	$titulo = "Angry Box";
+	$precio = "700";
 	$miniDesc = "¡Para los más peques!, con rótulos de Angry Birds.";
 	$ancho = "3";
 	$largo = "4";
@@ -47,6 +48,7 @@ if($inflable=="angry-box"){
 if($inflable=="castillo-aventura"){
 	$brincolin = "caventura";
 	$titulo = "Castillo Aventura";
+	$precio = "600";
 	$miniDesc = "¡Un divertido castillo inflable!, con rótulos de los Backyardigans. Puedes usarlo junto a la piscina, a los niños les encantará";
 	$ancho = "3";
 	$largo = "6";
@@ -59,6 +61,7 @@ if($inflable=="castillo-aventura"){
 if($inflable=="castillo-princess"){
 	$brincolin= "cprincess";
 	$titulo = "Castillo Princess";
+	$precio = "600";
 	$miniDesc = "Un castillo inflable para las princesas, con rótulos de Blanca Nieves y Cenicienta. Ideal para espacios pequeños.";
 	$ancho = "3";
 	$largo = "4";
@@ -71,6 +74,7 @@ if($inflable=="castillo-princess"){
 if($inflable=="escaladora"){
 	$brincolin= "escaladora";
 	$titulo = "Escaladora";
+	$precio = "700";
 	$miniDesc = "Haz que se ejerciten tus niños con esta divertida escaladora, tiene 4 cuerdas para escalar y  rótulos de Spiderman y Batman.";
 	$ancho = "3";
 	$largo = "6";
@@ -95,6 +99,7 @@ if($inflable=="la-cajita"){
 if($inflable=="resbaladilla-bob-esponja"){
 	$brincolin = "bobesponja";
 	$titulo = "Bob Esponja Resbaladilla";
+	$precio = "1000";
 	$miniDesc = "Un brincolin con colores alegres, en la parte frontal se encuentra el rostro de Bob Esponja";
 	$ancho = "4";
 	$largo = "7";
@@ -107,6 +112,7 @@ if($inflable=="resbaladilla-bob-esponja"){
 if($inflable=="ultra-cubo"){
 	$brincolin= "ucubo";
 	$titulo = "Ultra Cubo";
+	$precio = "1200";
 	$miniDesc = "El gran brincolin interactivo, cuenta con dos entradas y una emocionante resbaladilla que sin duda mantendrá entretenidos a los niños";
 	$ancho = "5";
 	$largo = "7";
@@ -120,6 +126,7 @@ if(
 	$inflable=="arco-slide"){
 	$brincolin= "aslide";
 	$titulo = "Arco Slide";
+	$precio = "1200";
 	$miniDesc = "El brincolin ideal para la diversión en la alberca. Cuenta con una gran resbaladilla doble de 2 m de alto y 3mts de largo.";
 	$ancho = "5";
 	$largo = "7";
@@ -132,6 +139,7 @@ if(
 if($inflable=="space-lab"){
 	$brincolin = "spacelab";
 	$titulo = "Space Lab";
+	$precio = "1500";
 	$miniDesc = "Es el brincolin que vino del espacio, sus tripulantes, dos alienígenas que los esperan en la entrada del laboratorio espacial";
 	$ancho = "6";
 	$largo = "6";
@@ -144,6 +152,7 @@ if($inflable=="space-lab"){
 if($inflable=="escaladrilo"){
 	$brincolin = "escaladrilo";
 	$titulo = "Escaladrilo";
+	$precio = "600";
 	$miniDesc = "Una divertida resbaladilla para la alberca";
 	$ancho = "2.5";
 	$largo = "4";
@@ -168,6 +177,7 @@ if($inflable=="aventura-palmeras"){
 if($inflable=="aqualand"){
 	$brincolin = "aqualand";
 	$titulo = "Aqualand";
+	$precio = "1300";
 	$miniDesc = "Un inflable muy completo, el Aqualand cuenta con chapoteadero, resbaladilla, túnel  y espacio para brincar.";
 	$ancho = "5";
 	$largo = "4.5";
@@ -180,6 +190,7 @@ if($inflable=="aqualand"){
 if($inflable=="splash-pool"){
 	$brincolin = "splashpool";
 	$titulo = "Splash Pool";
+	$precio = "1800";
 	$miniDesc = "";
 	$ancho = "5";
 	$largo = "9";
@@ -265,6 +276,7 @@ echo "<p>";
 echo '<g:plusone href="http://www.inflamigos.com.mx/brincolines/'.$inflable.'/"></g:plusone>';
 echo '<div data-href="http://www.inflamigos.com.mx/brincolines/'.$inflable.'/" data-width="450" data-layout="button_count" data-show-faces="true" data-send="true"></div>';
 echo "<br />";
+echo "<h5>Precio por día: $".$precio.".00</h5>";
 echo "Ancho: ".$ancho." m";
 echo "<br />";
 echo "Largo: ". $largo." m";
