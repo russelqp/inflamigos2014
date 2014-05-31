@@ -9,7 +9,7 @@ flush();
 flush();
 $url_a = "https://www.inflamigos.com.mx/appcatalogo/";
 $url_r = "http://127.1.0.0/inflamigos2014/appcatalogo/";
-$Myurl = $url_r;
+$Myurl = $url_a;
 ?>
 <head>
 <meta charset="utf-8">
@@ -52,13 +52,15 @@ $Myurl = $url_r;
 
 <div id="container">
 <!--<div class="ayudaonline"><a href="#">Ayuda en Linea</a></div>-->
-<header>
-       <div id="logo">
+  <!--<header>
+     <div id="logo">
         <a href="#"><img src="https://www.inflamigos.com.mx/imagenes/logoinflamigos.png" alt="logo_inflamigos" title="ir al home"/></a>
        </div>
        <div id="info"><h1>Inflamigos</h1>
          <h2>Renta de brincolines en Playa del Carmen</h2>
          <p>y toda la Riviera Maya | <strong class="icon-phone"> 9841416137</strong></p>
        </div>
+
+
     
-</header>  <!-- end #header -->
+</header> --> <!-- end #header -->
