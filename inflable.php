@@ -285,7 +285,7 @@ if($inflable=="aqualand"){
 if($inflable=="splash-pool"){
 	$brincolin = "splashpool";
 	$titulo = "Splash Pool";
-	$precio = "1800";
+	$precio = "1900";
 	$miniDesc = "";
 	$ancho = "5";
 	$largo = "9";

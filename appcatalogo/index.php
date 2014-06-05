@@ -183,7 +183,7 @@
 							<figcaption>El inflamigo extremo, doble tobogán y un refrescante chapoteadero.</figcaption>
 
 
-							<h5>$1,800.00</h5>
+							<h5>$1,900.00</h5>
 							<a href="<?php echo $Myurl; ?>brincolines/splash-pool/" title="ver imagenes de: Splash Pool" class="btn_mas">Mas detalles</a>
 							<div class="fb-like" data-href="http://www.inflamigos.com.mx/brincolines/splash-pool/" data-layout="button_count" data-show-faces="true" data-send="true"></div>
 							
