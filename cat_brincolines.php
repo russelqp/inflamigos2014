@@ -2,18 +2,31 @@
 
 			 			<p>*La renta es por día, dentro de un horario de 8 de la mañana y máximo 12 de la noche.*</p>
 
-
 			 			<figure>
-			 				<img src="<?php echo $Myurl; ?>inflables/angry-box.jpg" alt="Angrybox_middle" />
-			 				<h4>Angry Box<br />(3 x 4)</h4>
+						 	<img src="<?php echo $Myurl; ?>inflables/escaladrilo-middle.jpg" alt="Escaladrilo-middle"/>
+						 	<h4>Escaladrilo<br />(4 x 2.5)</h4>
 
 
-			 				<figcaption>Con un estilo moderno, y recomendado para los más peques.</figcaption>	
+						 	<figcaption>Especial para la alberca y espacios pequeños.</figcaption>
 
-			 				<h5>$700.00</h5>
-			 				<a href="<?php echo $Myurl; ?>brincolines/angry-box/" title="ver imagenes de: Angry Box" class="btn_mas">Mas detalles</a>
-			 				<div class="fb-like" data-href="http://www.inflamigos.com.mx/brincolines/angry-box/" data-layout="button_count" data-show-faces="true" data-send="true"></div>
+						 	<h5>$600.00</h5>
+						 	<a href="<?php echo $Myurl; ?>brincolines/escaladrilo/" title="ver imagenes de: Escaladrilo" class="btn_mas">Mas detalles</a>
+						 	<div class="fb-like" data-href="http://www.inflamigos.com.mx/brincolines/escaladrilo/" data-layout="button_count" data-show-faces="true" data-send="true"></div>
 			 				
+						</figure>
+
+			 			
+			 			<figure>
+				 			<img src="<?php echo $Myurl; ?>inflables/cprincess_middle.jpg" alt="castillo_princess_middle" />
+				 			<h4>Castillo Princess<br />(4 x 3)</h4>
+
+
+				 			<figcaption>Para consentir a las princesitas del hogar.</figcaption>
+
+				 			<h5>$600.00</h5>
+				 			<a href="<?php echo $Myurl; ?>brincolines/castillo-princess/" title="ver imagenes de: Castillo Princess" class="btn_mas">Mas detalles</a>
+				 			<div class="fb-like" data-href="http://www.inflamigos.com.mx/brincolines/castillo-princess/" data-layout="button_count" data-show-faces="true" data-send="true"></div>
+				 			
 			 			</figure>
 			 			<figure>
 			 				<img src="<?php echo $Myurl; ?>inflables/caventura_middle.jpg" alt="castillo_aventura_middle" />
@@ -27,31 +40,31 @@
 			 				<div class="fb-like" data-href="http://www.inflamigos.com.mx/brincolines/castillo-aventura/" data-layout="button_count" data-show-faces="true" data-send="true"></div>
 			 				
 			 			</figure>
-			 			<figure>
-				 			<img src="<?php echo $Myurl; ?>inflables/cprincess_middle.jpg" alt="castillo_princess_middle" />
-				 			<h4>Castillo Princess<br />(4 x 3)</h4>
+						
+						<figure>
+			 				<img src="<?php echo $Myurl; ?>inflables/minions_box_middle.jpg" alt="Minionsbox_middle" />
+			 				<h4>Minions Box<br />(3 x 4)</h4>
 
 
-				 			<figcaption>Para consentir a las princesitas del hogar.</figcaption>
+			 				<figcaption>Unos divertidos Minios que harán maravillas en tu evento.</figcaption>	
 
-				 			<h5>$600.00</h5>
-				 			<a href="<?php echo $Myurl; ?>brincolines/castillo-princess/" title="ver imagenes de: Castillo Princess" class="btn_mas">Mas detalles</a>
-				 			<div class="fb-like" data-href="http://www.inflamigos.com.mx/brincolines/castillo-princess/" data-layout="button_count" data-show-faces="true" data-send="true"></div>
-				 			
+			 				<h5>$700.00</h5>
+			 				<a href="<?php echo $Myurl; ?>brincolines/minions-box/" title="ver imagenes de: Minions Box" class="btn_mas">Mas detalles</a>
+			 				<div class="fb-like" data-href="http://www.inflamigos.com.mx/brincolines/minions-box/" data-layout="button_count" data-show-faces="true" data-send="true"></div>
+			 				
 			 			</figure>
 						<figure>
-						 	<img src="<?php echo $Myurl; ?>inflables/escaladrilo-middle.jpg" alt="Escaladrilo-middle"/>
-						 	<h4>Escaladrilo<br />(4 x 2.5)</h4>
+			 				<img src="<?php echo $Myurl; ?>inflables/angry-box.jpg" alt="Angrybox_middle" />
+			 				<h4>Angry Box<br />(3 x 4)</h4>
 
 
-						 	<figcaption>Especial para la alberca y espacios pequeños.</figcaption>
+			 				<figcaption>Un diseño muy atractivo, y recomendado para los más peques.</figcaption>	
 
-						 	<h5>$600.00</h5>
-						 	<a href="<?php echo $Myurl; ?>brincolines/escaladrilo/" title="ver imagenes de: Escaladrilo" class="btn_mas">Mas detalles</a>
-						 	<div class="fb-like" data-href="http://www.inflamigos.com.mx/brincolines/escaladrilo/" data-layout="button_count" data-show-faces="true" data-send="true"></div>
+			 				<h5>$700.00</h5>
+			 				<a href="<?php echo $Myurl; ?>brincolines/angry-box/" title="ver imagenes de: Angry Box" class="btn_mas">Mas detalles</a>
+			 				<div class="fb-like" data-href="http://www.inflamigos.com.mx/brincolines/angry-box/" data-layout="button_count" data-show-faces="true" data-send="true"></div>
 			 				
-						</figure>
-
+			 			</figure>
 							
 						<figure>
 						 	<img src="<?php echo $Myurl; ?>inflables/escaladora_middle.jpg" alt="Nueva Escaladora"/>
@@ -63,6 +76,19 @@
 						 	<h5>$700.00</h5>
 						 	<a href="<?php echo $Myurl; ?>brincolines/escaladora/" title="ver imagenes de: Nueva escaladora" class="btn_mas">Mas detalles</a>
 						 	<div class="fb-like" data-href="http://www.inflamigos.com.mx/brincolines/escaladora/" data-layout="button_count" data-show-faces="true" data-send="true"></div>
+			 				
+						</figure>
+
+						<figure>
+						 	<img src="<?php echo $Myurl; ?>inflables/dora_box_middle.jpg" alt="Dora Box"/>
+						 	<h4>Dora Box<br />(4 x 5.5)</h4>
+
+
+						 	<figcaption>Fabuloso para la diversión en la alberca con Dora</figcaption>
+
+						 	<h5>$900.00</h5>
+						 	<a href="<?php echo $Myurl; ?>brincolines/dora-box/" title="ver imagenes de: Dora Box" class="btn_mas">Mas detalles</a>
+						 	<div class="fb-like" data-href="http://www.inflamigos.com.mx/brincolines/dora-box/" data-layout="button_count" data-show-faces="true" data-send="true"></div>
 			 				
 						</figure>
 

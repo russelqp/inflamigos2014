@@ -92,6 +92,7 @@ figure{border:2px solid #eee;background-color:#fff;color:#333;padding:5px;margin
 .mas:hover{background-color:#fb0}
 figure img{width:100%;padding:0;margin:0;border-radius:5px}
 figure:hover{transform:scale(1.08)}
+p span{color:#fff;font-weight:bold;border-radius:5px;background-color:#0cf;padding:1px 5px}
 @media screen and (max-width:945px){nav ul li{width:15%}
 }@media screen and (max-width:800px){.p2,.p3{display:none}
 .menu_inflables figure{width:28%}

@@ -94,7 +94,8 @@ article p{font-size:1.1em;margin:15px auto;width:85%}
 #banner_video{width:60%;padding:5px;margin:0 auto;display:inline-block;vertical-align:top;background-color:#fff}
 #boletin_video{width:100%;background:#eb0038;border-bottom-left-radius:5px;border-bottom-right-radius:5px;border-top:1px solid #a63400}
 #section-rounded{background:#f0f0f0;border-bottom-left-radius:5px;border-bottom-right-radius:5px;border-top:1px solid #f53d68}
-#detalle-brincolin{background-color:#ededed;margin:5px auto;padding:5px;width:100%;box-sizing:border-box;text-align:left;border-bottom-left-radius:5px;border-bottom-right-radius:5px;border:1px solid #dedede}
+#detalle-brincolin{background-color:#ededed;margin:5px auto;padding:5px;width:100%;box-sizing:border-box;text-align:left;border-bottom-left-radius:5px;border-bottom-right-radius:5px;border:1px solid #dedede;}
+#detalle-brincolin p span{color:#fff;font-weight:bold;border-radius:5px;background-color:#0cf;padding:1px 5px}
 #welcome{width:100%;background:rgba(255,255,255,0.9);text-align:center;border-bottom:1px solid #a63400;border-top:1px solid #fff}
 #welcome-servicios{background:#eb0038;border-bottom:1px solid #ff4f00;border-top:1px solid #ff4f00}
 #welcome-servicios article{width:95%}
