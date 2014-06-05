@@ -9,7 +9,7 @@
 
 						 	<figcaption>Especial para la alberca y espacios pequeños.</figcaption>
 
-						 	<h5>$600.00</h5>
+						 	<h5><span class="precio">$600.00</span></h5>
 						 	<a href="<?php echo $Myurl; ?>brincolines/escaladrilo/" title="ver imagenes de: Escaladrilo" class="btn_mas">Mas detalles</a>
 						 	<div class="fb-like" data-href="http://www.inflamigos.com.mx/brincolines/escaladrilo/" data-layout="button_count" data-show-faces="true" data-send="true"></div>
 			 				
@@ -23,7 +23,7 @@
 
 				 			<figcaption>Para consentir a las princesitas del hogar.</figcaption>
 
-				 			<h5>$600.00</h5>
+				 			<h5><span class="precio">$600.00</span></h5>
 				 			<a href="<?php echo $Myurl; ?>brincolines/castillo-princess/" title="ver imagenes de: Castillo Princess" class="btn_mas">Mas detalles</a>
 				 			<div class="fb-like" data-href="http://www.inflamigos.com.mx/brincolines/castillo-princess/" data-layout="button_count" data-show-faces="true" data-send="true"></div>
 				 			
@@ -35,7 +35,7 @@
 
 			 				<figcaption>El clásico y popular, para toda ocasión.</figcaption>
 
-			 				<h5>$600.00</h5>
+			 				<h5><span class="precio">$600.00</span></h5>
 			 				<a href="<?php echo $Myurl; ?>brincolines/castillo-aventura/" title="ver imagenes de: Castillo Aventura" class="btn_mas">Mas detalles</a>
 			 				<div class="fb-like" data-href="http://www.inflamigos.com.mx/brincolines/castillo-aventura/" data-layout="button_count" data-show-faces="true" data-send="true"></div>
 			 				
@@ -46,9 +46,9 @@
 			 				<h4>Minions Box<br />(3 x 4)</h4>
 
 
-			 				<figcaption>Unos divertidos Minios que harán maravillas en tu evento.</figcaption>	
+			 				<figcaption>Unos divertidos Minions que harán maravillas en tu evento.</figcaption>	
 
-			 				<h5>$700.00</h5>
+			 				<h5><span class="precio">$700.00</span></h5>
 			 				<a href="<?php echo $Myurl; ?>brincolines/minions-box/" title="ver imagenes de: Minions Box" class="btn_mas">Mas detalles</a>
 			 				<div class="fb-like" data-href="http://www.inflamigos.com.mx/brincolines/minions-box/" data-layout="button_count" data-show-faces="true" data-send="true"></div>
 			 				
@@ -60,7 +60,7 @@
 
 			 				<figcaption>Un diseño muy atractivo, y recomendado para los más peques.</figcaption>	
 
-			 				<h5>$700.00</h5>
+			 				<h5><span class="precio">$700.00</span></h5>
 			 				<a href="<?php echo $Myurl; ?>brincolines/angry-box/" title="ver imagenes de: Angry Box" class="btn_mas">Mas detalles</a>
 			 				<div class="fb-like" data-href="http://www.inflamigos.com.mx/brincolines/angry-box/" data-layout="button_count" data-show-faces="true" data-send="true"></div>
 			 				
@@ -73,7 +73,7 @@
 
 						 	<figcaption>Agregale más diversión a tu alberca</figcaption>
 
-						 	<h5>$700.00</h5>
+						 	<h5><span class="precio">$700.00</span></h5>
 						 	<a href="<?php echo $Myurl; ?>brincolines/escaladora/" title="ver imagenes de: Nueva escaladora" class="btn_mas">Mas detalles</a>
 						 	<div class="fb-like" data-href="http://www.inflamigos.com.mx/brincolines/escaladora/" data-layout="button_count" data-show-faces="true" data-send="true"></div>
 			 				
@@ -86,7 +86,7 @@
 
 						 	<figcaption>Fabuloso para la diversión en la alberca con Dora</figcaption>
 
-						 	<h5>$900.00</h5>
+						 	<h5><span class="precio">$900.00</span></h5>
 						 	<a href="<?php echo $Myurl; ?>brincolines/dora-box/" title="ver imagenes de: Dora Box" class="btn_mas">Mas detalles</a>
 						 	<div class="fb-like" data-href="http://www.inflamigos.com.mx/brincolines/dora-box/" data-layout="button_count" data-show-faces="true" data-send="true"></div>
 			 				
@@ -112,7 +112,7 @@
 
 							<figcaption>Atractivos y alegres colores que daran vida a tus fiestas.</figcaption>
 
-							<h5>$1,000.00</h5>
+							<h5><span class="precio">$1,000.00</span></h5>
 							<a href="<?php echo $Myurl; ?>brincolines/resbaladilla-bob-esponja/" title="ver imagenes de: Resbaladilla Bob Esponja" class="btn_mas">Mas detalles</a>
 							<div class="fb-like" data-href="http://www.inflamigos.com.mx/brincolines/resbaladilla-bob-esponja/" data-layout="button_count" data-show-faces="true" data-send="true"></div>
 							
@@ -124,7 +124,7 @@
 
 							<figcaption>El gran interactivo inflamigo, acompañado con rótulos de Yoshi y Mario.</figcaption>
 
-							<h5>$1,200.00</h5>
+							<h5><span class="precio">$1,200.00</span></h5>
 							<a href="<?php echo $Myurl; ?>brincolines/ultra-cubo/" title="ver imagenes de: Ultra Cubo" class="btn_mas">Mas detalles</a>
 							<div class="fb-like" data-href="http://www.inflamigos.com.mx/brincolines/ultra-cubo/" data-layout="button_count" data-show-faces="true" data-send="true"></div>
 							
@@ -136,7 +136,7 @@
 							
 							<figcaption>Colócalo junto a tu alberca y prepárense para la diversión.</figcaption>
 
-							<h5>$1,200.00</h5>
+							<h5><span class="precio">$1,200.00</span></h5>
 							<a href="<?php echo $Myurl; ?>brincolines/arco-slide/" title="ver imagenes de: Arco Slide" class="btn_mas">Mas detalles</a>
 							<div class="fb-like" data-href="http://www.inflamigos.com.mx/brincolines/arco-slide/" data-layout="button_count" data-show-faces="true" data-send="true"></div>
 							
@@ -148,7 +148,7 @@
 
 							 <figcaption>El laboratorio espacial invadido por aliens.</figcaption>
 
-							<h5>$1,500.00</h5>
+							<h5><span class="precio">$1,500.00</span></h5>
 							<a href="<?php echo $Myurl; ?>brincolines/space-lab/" title="ver imagenes de: Space Lab" class="btn_mas">Mas detalles</a>
 							<div class="fb-like" data-href="http://www.inflamigos.com.mx/brincolines/space-lab/" data-layout="button_count" data-show-faces="true" data-send="true"></div>
 							
@@ -163,7 +163,7 @@
 							<figcaption>Un inflable muy completo, resbaladilla, área para brincar y chapoteadero.</figcaption>
 
 
-						 	<h5>$1,300.00</h5>
+						 	<h5><span class="precio">$1,300.00</span></h5>
 						 	<a href="<?php echo $Myurl; ?>brincolines/aqualand/" title="ver imagenes de: Aqualand" class="btn_mas">Mas detalles</a>
 						 	<div class="fb-like" data-href="http://www.inflamigos.com.mx/brincolines/aqualand/" data-layout="button_count" data-show-faces="true" data-send="true"></div>
 						 	
@@ -176,7 +176,7 @@
 							<figcaption>El inflamigo extremo, doble tobogán y un refrescante chapoteadero.</figcaption>
 
 
-							<h5>$1,900.00</h5>
+							<h5><span class="precio">$1,900.00</span></h5>
 							<a href="<?php echo $Myurl; ?>brincolines/splash-pool/" title="ver imagenes de: Splash Pool" class="btn_mas">Mas detalles</a>
 							<div class="fb-like" data-href="http://www.inflamigos.com.mx/brincolines/splash-pool/" data-layout="button_count" data-show-faces="true" data-send="true"></div>
 							

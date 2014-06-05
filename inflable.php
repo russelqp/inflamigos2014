@@ -160,15 +160,15 @@ if($inflable=="castillo-princess"){
 }
 if($inflable=="escaladora"){
 	$brincolin= "escaladora";
-	$titulo = "Escaladora";
+	$titulo = "Nueva Escaladora";
 	$precio = "700";
-	$miniDesc = "Haz que se ejerciten tus niños con esta divertida escaladora, tiene 4 cuerdas para escalar y  rótulos de Spiderman y Batman.";
+	$miniDesc = "Haz que se ejerciten tus niños con esta divertida escaladora, tiene 4 cuerdas para escalar con rótulos de Mario y Luigi de un lado, y del otro Peach y Daisy.";
 	$ancho = "3";
 	$largo = "6";
 	$alto = "2";
 	$capacidad = "7";
 	$edades = "4 a 10";
-	$detalles = "Para mantener en forma a los niños, este brincolin cuenta con 4 cuerdas para escalar, y doble punching bag en uno de sus extremos. Tiene dos rótulos: de un costado Spiderman y del otro Batman.";
+	$detalles = "Para mantener en forma a los niños, este brincolin cuenta con 4 cuerdas para escalar, y doble punching bag en uno de sus extremos. Tiene dos rótulos: de un costado Mario y Luigi y del otro Peach y Daisy.";
 	$id_video = "";
 	$acuatico = 1;
 }
@@ -377,7 +377,7 @@ echo "<p>";
 echo '<g:plusone href="http://www.inflamigos.com.mx/brincolines/'.$inflable.'/"></g:plusone>';
 echo '<div data-href="http://www.inflamigos.com.mx/brincolines/'.$inflable.'/" data-width="450" data-layout="button_count" data-show-faces="true" data-send="true"></div>';
 echo "<br />";
-echo "<h5>Precio por día: $".$precio.".00</h5>";
+echo '<h5>Precio por día: <span class="precio">$'.$precio.'.00</span></h5>';
 echo "Ancho: ".$ancho." m";
 echo "<br />";
 echo "Largo: ". $largo." m";
@@ -404,9 +404,9 @@ echo "</p>";
     <li><?php echo '<a href='.$Myurl.'brincolines/castillo-princess/>'; ?><img src="<?php echo $Myurl; ?>inflables/thumbs/cprincess_thumb.png" alt="castillo_princess_middle" title="Castillo Princess"/></a></li>
     <li><?php echo '<a href='.$Myurl.'brincolines/escaladrilo/>'; ?><img src="<?php echo $Myurl; ?>inflables/thumbs/escaladrilo_thumb.png" alt="escaladrilo-middle" title="Escaladrilo" /></a></li>
     <li><?php echo '<a href='.$Myurl.'brincolines/angry-box/>'; ?><img src="<?php echo $Myurl; ?>inflables/thumbs/angry_box.jpg"  alt="angry-box-middle" title="Angry Box" /></a></li>
-    <li><?php echo '<a href='.$Myurl.'brincolines/minions-box/>'; ?><img src="<?php echo $Myurl; ?>inflables/thumbs/minions_box_thumb.png"  alt="minions-box-middle" title="Minions Box" /></a></li>
+    <li><?php echo '<a href='.$Myurl.'brincolines/minions-box/>'; ?><img src="<?php echo $Myurl; ?>inflables/thumbs/minions_box_thumb.jpg"  alt="minions-box-middle" title="Minions Box" /></a></li>
     <li><?php echo '<a href='.$Myurl.'brincolines/escaladora/>'; ?><img src="<?php echo $Myurl; ?>inflables/thumbs/escaladora_thumb.png" alt="escaladora_middle" title="Escaladora"/></a></li>
-    <li><?php echo '<a href='.$Myurl.'brincolines/dora-box/>'; ?><img src="<?php echo $Myurl; ?>inflables/thumbs/dora_box_thumb.png" alt="dora-box_middle" title="Dora Box"/></a></li>
+    <li><?php echo '<a href='.$Myurl.'brincolines/dora-box/>'; ?><img src="<?php echo $Myurl; ?>inflables/thumbs/dora_box_thumb.jpg" alt="dora-box_middle" title="Dora Box"/></a></li>
     <li><?php echo '<a href='.$Myurl.'brincolines/resbaladilla-bob-esponja/>'; ?><img src="<?php echo $Myurl; ?>inflables/thumbs/bobesponja_thumb.png" alt="bob-esponja-middle" title="Bob Esponja Resbaladilla" /></a></li>
   	<li><?php echo '<a href='.$Myurl.'brincolines/arco-slide/>'; ?><img src="<?php echo $Myurl; ?>inflables/thumbs/aslide_thumb.png" alt="arco_slide_middle" title="Arco Slide"/></a></li>
 	<li><?php echo '<a href='.$Myurl.'brincolines/ultra-cubo/>'; ?><img src="<?php echo $Myurl; ?>inflables/thumbs/ucubo_thumb.png" alt="ultra_cubo_middle" title="Ultra Cubo"/></a></li>

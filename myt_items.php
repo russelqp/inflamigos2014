@@ -78,7 +78,7 @@ $url = $servicio;
 						{
 							$h3 = "Toldo de 3 x 6";
 							$capacidad="Tres mesas tablones o dos redondas";
-							$precio = "$750.00";
+							$precio = "750";
 							$detalles ="Recomendado para espacios pequeños, para realización de talleres o actividades. Puedes añadirles paredes, $50.00 pesos extra por cada lado.";
 							$id_video = "";
 							$img = "toldo_3x6";
@@ -87,7 +87,7 @@ $url = $servicio;
 						{
 							$h3= "Toldo de 6 x 6";
 							$capacidad="5 mesas redondas";
-							$precio = "$1,450.00";
+							$precio = "1450";
 							$detalles ="Para casi cualquier espacio";
 							$id_video = "";
 							$img = "toldo_6x6";
@@ -96,7 +96,7 @@ $url = $servicio;
 						{
 							$h3= "Toldo de 6 x 12";
 							$capacidad="10 mesas redondas";
-							$precio = "$2,450.00";
+							$precio = "2450";
 							$detalles ="Para espacios amplios, tus invitados estaran bien resguardados de el sol y de la lluvia.";
 							$id_video = "";
 							$img = "toldo_6x12";
@@ -131,7 +131,7 @@ $url = $servicio;
 						<div class="fb-like" data-href="http://www.inflamigos.com.mx/servicios/'.$modelo[$i].'/" data-width="450" data-layout="button_count" data-show-faces="true" data-send="true"></div>
 						<br />
 						<br />
-						Precio: '.$precio.'
+						Precio: <span class="precio">$'.$precio.'.00</span>
 						<br />
 						</p>
 						
@@ -158,7 +158,7 @@ $url = $servicio;
 				if($modelo[$i] == $modelo[0])
 						{
 							$h3 = "Sky Tube Color Vino";
-							$precio = "$200.00";
+							$precio = "200";
 							$detalles ="Skydancer sencillo, color vino, para darle un toque elegante a tus promociones.";
 							$id_video = "";
 							$img = "skydancers_vino";
@@ -166,7 +166,7 @@ $url = $servicio;
 				if($modelo[$i] == $modelo[1])
 						{
 							$h3= "Sky Dancer Welcome";
-							$precio = "$250.00";
+							$precio = "250";
 							$detalles ="Divertido Skydancer con brazos y rostro, con las palabras Welcome y Bienvenido, genial para cualquier tipo de evento.";
 							$id_video = "";
 							$img = "skydancers_welcome";
@@ -174,7 +174,7 @@ $url = $servicio;
 				if($modelo[$i] == $modelo[2])
 						{
 							$h3= "Sky Tube Morado";
-							$precio = "$200.00";
+							$precio = "200";
 							$detalles ="Skydancer sencillo, color morado, para darle un toque lujoso a tus promociones.";
 							$id_video = "";
 							$img = "skydancers_morado";
@@ -209,7 +209,7 @@ $url = $servicio;
 						<div class="fb-like" data-href="http://www.inflamigos.com.mx/servicios/skydancers/'.$modelo[$i].'/" data-width="450" data-layout="button_count" data-show-faces="true" data-send="true"></div>
 						<br />
 						<br />
-						Precio: '.$precio.'
+						Precio: <span class="precio">$'.$precio.'.00</span>
 						<br />
 						</p>
 						
@@ -236,7 +236,7 @@ $url = $servicio;
 				if($modelo[$i] == $modelo[0])
 						{
 							$h3 = "Silla adulto plegable";
-							$precio = "$7.00";
+							$precio = "7";
 							$detalles ="Silla plegable, de plastico con metal, en color negro.";
 							$id_video = "";
 							$img = "silla_adulto_plegable"; 
@@ -244,7 +244,7 @@ $url = $servicio;
 				if($modelo[$i] == $modelo[1])
 						{
 							$h3= "Silla infantil plegable";
-							$precio = "$7";
+							$precio = "7";
 							$detalles ="Silla infantil plegable. Contamos con varios colores.";
 							$id_video = "";
 							$img = "silla_infantil_plegable";
@@ -253,7 +253,7 @@ $url = $servicio;
 						{
 							$h3= "Mesa adulto Tablón";
 							$capacidad="10 sillas";
-							$precio = "$70.00";
+							$precio = "70";
 							$detalles ="Mesa para adulto, modelo tablón, de acero y fibra de vidrio.";
 							$id_video = "";
 							$img ="mesa_adulto_tablon";
@@ -263,7 +263,7 @@ $url = $servicio;
 						{
 							$h3= "Mesa adulto redonda";
 							$capacidad="10 sillas";
-							$precio = "$70.00";
+							$precio = "70";
 							$detalles ="Mesa para adulto, modelo redonda, de acero y fibra de vidrio.";
 							$id_video = "";
 							$img ="mesa_adulto_redonda";
@@ -273,7 +273,7 @@ $url = $servicio;
 						{
 							$h3= "Mesa infantil Tablón";
 							$capacidad="10 sillas infantiles";
-							$precio = "$70.00";
+							$precio = "70";
 							$detalles ="Mesa para niños, modelo tablón, de acero y fibra de vidrio.";
 							$id_video = "";
 							$img = "mesa_infantil";
@@ -307,7 +307,7 @@ $url = $servicio;
 						<div class="fb-like" data-href="http://www.inflamigos.com.mx/servicios/'.$modelo[$i].'/" data-width="450" data-layout="button_count" data-show-faces="true" data-send="true"></div>
 						<br />
 						<br />
-						Precio: '.$precio.'
+						Precio: <span class="precio">$'.$precio.'.00</span>
 						<br />
 						</p>
 						

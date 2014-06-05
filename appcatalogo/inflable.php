@@ -104,9 +104,9 @@ if($inflable=="castillo-princess"){
 }
 if($inflable=="escaladora"){
 	$brincolin= "escaladora";
-	$titulo = "Escaladora";
+	$titulo = "Nueva Escaladora";
 	$precio = "700";
-	$miniDesc = "Haz que se ejerciten tus niños con esta divertida escaladora, tiene 4 cuerdas para escalar y  rótulos de Spiderman y Batman.";
+	$miniDesc = "Haz que se ejerciten tus niños con esta divertida escaladora, tiene 4 cuerdas para escalar y  rótulos de Mario y Luigi de un costado, y del otro Peach y Daisy.";
 	$ancho = "3";
 	$largo = "6";
 	$alto = "2";
@@ -320,7 +320,7 @@ echo "<p>";
 echo '<g:plusone href="http://www.inflamigos.com.mx/brincolines/'.$inflable.'/"></g:plusone>';
 echo '<div data-href="http://www.inflamigos.com.mx/brincolines/'.$inflable.'/" data-width="450" data-layout="button_count" data-show-faces="true" data-send="true"></div>';
 echo "<br />";
-echo "<h5>Precio por día: $".$precio.".00</h5>";
+echo '<h5>Precio por día: <span class="precio">$'.$precio.'.00</span></h5>';
 echo "Ancho: ".$ancho." m";
 echo "<br />";
 echo "Largo: ". $largo." m";
@@ -346,9 +346,9 @@ echo "</p>";
     <li><?php echo '<a href="https://www.inflamigos.com.mx/appcatalogo/brincolines/castillo-princess/">'; ?><img src="http://www.inflamigos.com.mx/inflables/thumbs/cprincess_thumb.png" alt="castillo_princess_middle" title="Castillo Princess"/></a></li>
     <li><?php echo '<a href="https://www.inflamigos.com.mx/appcatalogo/brincolines/escaladrilo/">'; ?><img src="http://www.inflamigos.com.mx/inflables/thumbs/escaladrilo_thumb.png" alt="escaladrilo-middle" title="Escaladrilo" /></a></li>
     <li><?php echo '<a href="https://www.inflamigos.com.mx/appcatalogo/brincolines/angry-box/">'; ?><img src="http://www.inflamigos.com.mx/inflables/thumbs/angry_box.jpg"  alt="angry-box-middle" title="Angry Box" /></a></li>
-    <li><?php echo '<a href="https://www.inflamigos.com.mx/appcatalogo/brincolines/minions-box/">'; ?><img src="http://www.inflamigos.com.mx/inflables/thumbs/minions_box_thumb.png"  alt="minions-box-middle" title="Minions Box" /></a></li>
+    <li><?php echo '<a href="https://www.inflamigos.com.mx/appcatalogo/brincolines/minions-box/">'; ?><img src="http://www.inflamigos.com.mx/inflables/thumbs/minions_box_thumb.jpg"  alt="minions-box-middle" title="Minions Box" /></a></li>
     <li><?php echo '<a href="https://www.inflamigos.com.mx/appcatalogo/brincolines/escaladora/">'; ?><img src="http://www.inflamigos.com.mx/inflables/thumbs/escaladora_thumb.png" alt="escaladora_middle" title="Escaladora"/></a></li>
-    <li><?php echo '<a href="https://www.inflamigos.com.mx/appcatalogo/brincolines/dora-box/">'; ?><img src="http://www.inflamigos.com.mx/inflables/thumbs/dora_box_thumb.png" alt="dora-box_middle" title="Dora Box"/></a></li>
+    <li><?php echo '<a href="https://www.inflamigos.com.mx/appcatalogo/brincolines/dora-box/">'; ?><img src="http://www.inflamigos.com.mx/inflables/thumbs/dora_box_thumb.jpg" alt="dora-box_middle" title="Dora Box"/></a></li>
    	<li><?php echo '<a href="https://www.inflamigos.com.mx/appcatalogo/brincolines/resbaladilla-bob-esponja/">'; ?><img src="http://www.inflamigos.com.mx/inflables/thumbs/bobesponja_thumb.png" alt="bob-esponja-middle" title="Bob Esponja Resbaladilla" /></a></li>
   	<li><?php echo '<a href="https://www.inflamigos.com.mx/appcatalogo/brincolines/arco-slide/">'; ?><img src="http://www.inflamigos.com.mx/inflables/thumbs/aslide_thumb.png" alt="arco_slide_middle" title="Arco Slide"/></a></li>
 	<li><?php echo '<a href="https://www.inflamigos.com.mx/appcatalogo/brincolines/ultra-cubo/">'; ?><img src="http://www.inflamigos.com.mx/inflables/thumbs/ucubo_thumb.png" alt="ultra_cubo_middle" title="Ultra Cubo"/></a></li>

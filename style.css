@@ -29,7 +29,7 @@ legend{border:0;padding:0;}
 button,input,select,textarea{font-family:inherit;font-size:100%;margin:0;}
 button,input{line-height:normal}
 button,select{text-transform:none}
-button,html input[type="button"],* 1 */,input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer;}
+button,html input[type="button"],/* 1 */,input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer;}
 button[disabled],html input[disabled]{cursor:default}
 input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;}
 input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}
@@ -70,12 +70,12 @@ h1 img{float:left}
 h2{text-align:center}
 h3{font-size:2em;padding:2px 2px 2px 10px;color:#eee;background:#eb0038;margin:10px auto;box-sizing:border-box;text-align:left;border-radius:2px}
 h4{color:#efefef;font-size:1.6em;padding:2px 10px;background-color:#fe4900;margin:2px auto 10px auto;border-radius:2px;width:90%}
-h5{font-size:1.2em}
 h6{font-size:1em}
 a{text-decoration:none}
 section,article,aside,.lista,.lista img,.lista ol,.lista li,.boletin,.boletin p,.menu_inflables ul li,.lista-imagenes ul,.lista-imagenes li,#ubicacion{box-sizing:border-box;margin:0 auto;color:#f30;padding:0 10px}
 header{display:block;margin:0 auto;width:100%;padding:0;text-align:center;}
 header h1 img{padding:0;margin:0;vertical-align:top;display:inline-block}
+span{color:#ff5c00;font-size:1.3em}
 p{width:80%}
 #info{display:block;width:100%;text-align:center;margin:0 auto;vertical-align:bottom}
 header #logo img{width:100%}
@@ -180,7 +180,7 @@ section{margin:0 auto;width:100%;padding:10px 10px;background-color:#efefef;text
 .boletin .btn-bol:hover{background-color:#00bf32;color:#fff}
 .boletin #tlemail{width:90%;font-size:1.2em;color:#09f}
 .submenu{background-color:#fc3;color:#9c0;padding:0;text-align:center}
-margin 0 auto,.submenu ul{margin:0 auto;width:80%;padding:0}
+margin 0auto,.submenu ul{margin:0 auto;width:80%;padding:0}
 .submenu li{border-left:2px solid #ff9;border-right:2px solid #f90;display:inline-block;vertical-align:top;height:30px;list-style-type:none;margin:0;padding:0}
 .submenu li.nb-left{border-left:0}
 .submenu li.nb-right{border-right:0}
