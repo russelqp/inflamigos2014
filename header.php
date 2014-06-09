@@ -4,7 +4,7 @@
 flush();
 $url_a = "http://www.inflamigos.com.mx/";
 $url_r = "http://127.1.0.0/inflamigos2014/";
-$Myurl = $url_a;
+$Myurl = $url_r;
 ?>
 <head>
 <meta charset="utf-8">

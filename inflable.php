@@ -375,9 +375,10 @@ echo "</p>";
 <?php
 echo "<p>";
 echo '<g:plusone href="http://www.inflamigos.com.mx/brincolines/'.$inflable.'/"></g:plusone>';
-echo '<div data-href="http://www.inflamigos.com.mx/brincolines/'.$inflable.'/" data-width="450" data-layout="button_count" data-show-faces="true" data-send="true"></div>';
+echo '<div class="fb-like" data-href="http://www.inflamigos.com.mx/brincolines/'.$inflable.'/" data-layout="button_count" data-show-faces="true" data-send="true"></div>';
 echo "<br />";
-echo '<h5>Precio por día: <span class="precio">$'.$precio.'.00</span></h5>';
+echo 'Precio por día: <span class="precio">$'.$precio.'.00</span>';
+echo "<br />";
 echo "Ancho: ".$ancho." m";
 echo "<br />";
 echo "Largo: ". $largo." m";

@@ -2,6 +2,7 @@
 @import "normalize.styl"
 @import "iconos.styl"
 @import "style-catalogo.styl"
+@import "style-item.styl"
 
 body
 	background-color #CCEEFF
@@ -57,7 +58,7 @@ h6
 a
 	text-decoration none
 
-section, article, aside, .lista, .lista img, .lista ol, .lista li, .boletin, .boletin p, .menu_inflables ul li, .lista-imagenes ul, .lista-imagenes li, #ubicacion
+section, article, aside, .lista, .lista img, .lista ol, .lista li, .boletin, .boletin p, .menu_inflables ul li, #ubicacion
 	box-sizing border-box
 	margin 0 auto
 	color #F30
@@ -185,26 +186,6 @@ article p
 		border-bottom-left-radius 5px
 		border-bottom-right-radius 5px
 		border-top 1px solid #F53D68
-
-#detalle-brincolin
-				background-color #ededed
-				margin 5px auto
-				padding 5px
-				width 100%
-				box-sizing border-box
-				text-align left
-				border-bottom-left-radius 5px
-				border-bottom-right-radius 5px
-				border 1px solid #dedede
-
-				p
-					span
-						color #fff
-						font-weight bold
-						border-radius 5px
-						background-color #0cf
-						padding 1px 5px
-
 
 #welcome
 	width 100%
@@ -690,7 +671,6 @@ section
 	transform scale(1.1)
 
 
-
 .fb-like-box
 	margin 10px auto
 	text-align center
@@ -802,74 +782,6 @@ section
 	text-align center
 	width 80%
 
-
-.lista-imagenes
-	display inline-block
-	vertical-align top
-	width 60%
-	padding 2%
-	text-align center
-	margin 0 auto
-
-.lista-imagenes h4
-	text-align left
-	margin 5px auto
-
-.lista-imagenes ul
-	padding 0
-	margin 0
-	text-align left
-
-.lista-imagenes li
-	display inline-block
-	list-style-type none
-	margin 2px
-	transition all 0.3s ease
-	width 25%
-
-.lista-imagenes li img
-	width 100%
-	padding 0
-	box-shadow 3px 3px 2px rgba(46, 49, 50, 0.3)
-	border 1px solid #ccc
-	border-radius 5px
-
-.lista-imagenes li:hover
-	width 31%
-
-.datos
-	display inline-block
-	vertical-align top
-	width 30%
-	padding 2%
-
-.menu_inflables_mini
-	margin 0 auto 20px auto
-	padding 2%
-	width 92%
-	background-color #ffb600
-	border-radius 5px
-	text-align center
-
-.menu_inflables_mini li
-	list-style none
-	margin 0
-	padding 0
-	text-decoration none
-	width 13%
-	display inline-block
-	text-align center
-	transition all .5s ease
-
-.menu_inflables_mini li img
-	width 100%
-	padding 0
-	margin 0
-
-.menu_inflables_mini li:hover
-	width 12%
-	padding 0
-	margin 0
 
 .cat
 	margin 5px auto
