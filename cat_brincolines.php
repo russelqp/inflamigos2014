@@ -51,6 +51,7 @@
 			 				<h5><span class="precio">$700.00</span></h5>
 			 				<a href="<?php echo $Myurl; ?>brincolines/minions-box/" title="ver imagenes de: Minions Box" class="btn_mas">Mas detalles</a>
 			 				<div class="fb-like" data-href="http://www.inflamigos.com.mx/brincolines/minions-box/" data-layout="button_count" data-show-faces="true" data-send="true"></div>
+			 			
 			 				
 			 			</figure>
 						<figure>
@@ -89,7 +90,6 @@
 						 	<h5><span class="precio">$900.00</span></h5>
 						 	<a href="<?php echo $Myurl; ?>brincolines/dora-box/" title="ver imagenes de: Dora Box" class="btn_mas">Mas detalles</a>
 						 	<div class="fb-like" data-href="http://www.inflamigos.com.mx/brincolines/dora-box/" data-layout="button_count" data-show-faces="true" data-send="true"></div>
-			 				
 						</figure>
 
 
