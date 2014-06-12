@@ -94,12 +94,15 @@ header{display:block;margin:0 auto;width:100%;padding:0;text-align:center;}
 header h1 img{padding:0;margin:0;vertical-align:top;display:inline-block}
 span{color:#ff5c00;font-size:1.3em}
 p{width:80%}
-#info{display:block;width:100%;text-align:center;margin:0 auto;vertical-align:bottom}
-header #logo img{width:100%}
+#top_cintilla{padding:5px 5%;text-align:center}
+#logo,#info{text-align:center;display:inline-block}
+#logo{width:20%;}
+#logo img{display:block}
+#info{text-align:center;margin:0 auto;vertical-align:bottom}
 #info h1 a:visited{color:#fc3}
 nav{margin:0;text-align:center;width:100%;display:block;padding:0;border-bottom:1px solid #bf6230}
 nav ul{padding:0;background-color:#e7003e;font-size:0}
-nav ul li{background-color:#ffbc00;color:#fff;display:inline-block;font-size:16px;height:45px;line-height:45px;margin:0;text-align:left;width:19.85%}
+nav ul li{background-color:#ffbc00;color:#fff;display:inline-block;font-size:16px;height:45px;line-height:45px;margin:0;text-align:left;width:19%}
 nav ul li a{display:block;color:#fff;transition:all 1s ease;height:100%;padding-left:5px}
 nav ul li a:hover{background-color:#ff0;text-align:center;color:#e00;font-weight:bold}
 nav ul li a:visited{border:1px solid #d30}
@@ -211,7 +214,7 @@ margin 0auto,.submenu ul{margin:0 auto;width:80%;padding:0}
 .fltrt,float right{margin-left:8px}
 .fltlft,float left{margin-right:8px}
 .clearfloat{clear:both}
-@media screen and (max-width:945px){nav ul li{vertical-align:top;text-align:center}
+@media screen and (max-width:945px){nav ul li{vertical-align:top}
 nav ul{text-align:left}
 .menu_inflables figure{width:30%;margin:0 auto}
 }@media screen and (max-width:800px){.p2,.p3{display:none}
@@ -232,10 +235,11 @@ aside{margin-top:10px;text-align:center}
 #welcome #box-ofer{display:none}
 #banner_video,#vp1XqISc{text-align:center;padding:0;margin:0;width:100%}
 }@media screen and (max-width:600px){.menu_inflables figure{width:40%}
-}@media screen and (max-width:520px){header,header nav{padding:0;margin:0 auto;}
+}@media screen and (max-width:520px){#logo{display:none}
+header,header nav{padding:0;margin:0 auto;}
 header nav ul,header nav nav ul{padding:1px;margin:0 auto}
 header nav ul li,header nav nav ul li{border:0;width:49%;margin:1px}
-header nav #bk-home,#bk-brincolines,#bk-mobiliarioytoldos,#bk-faq,#bk-contacto,#bk-blog{background-image:none;border:0}
+header nav #bk-home,#bk-brincolines,#bk-mobiliarioytoldos,#bk-faq,#bk-contacto,#bk-blog,#bk-servicios{background-image:none;border:0}
 #wowslider-container1{display:block;width:100%}
 h4{padding:0;margin:0;display:none}
 #social-holder{width:auto;margin:auto;text-align:center}
