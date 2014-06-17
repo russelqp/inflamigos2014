@@ -401,58 +401,73 @@ echo "</p>";
 
 						function cambiaImagen()
 						{	
+							function cambio()
+							{
+								var imagen = document.getElementById("seleccionado");
+								imagen.setAttribute("src", "http://127.1.0.0/inflamigos2014/inflables/thumbs/"+brincolin+"_thumb.png");
+							}
+							
 							var brincolin = document.getElementById("select1").selectedIndex;
 							switch (brincolin)
 							{
 								case 0:
-									alert("Escaladrilo")
+									brincolin="escaladrilo"
+									cambio();
 									break;
 								case 1:
-									alert("cprincess")
+									brincolin="cprincess"
+									cambio();
 									break;
 								case 2:
-									alert("caventura")
+									brincolin="caventura"
+									cambio();
 									break;
 								case 3:
-									alert("minionsbox")
+									brincolin="minionsbox"
+									cambio();
 									break;
 								case 4:
-									alert("angrybox")
+									brincolin="angrybox"
+									cambio();
 									break;
 								case 5:
-									alert("escaladora")
+									brincolin="escaladora"
+									cambio();
 									break;
 								case 6:
-									alert("doraboz")
+									brincolin="dorabox"
+									cambio();
 									break;
 								case 7:
-									alert("bobesponja")
+									brincolin="bobesponja"
+									cambio();
 									break;
 								case 8:
-									alert("ucubo")
+									brincolin="ucubo"
+									cambio();
 									break;
 								case 9:
-									alert("aslide")
+									brincolin="aslide"
+									cambio();
 									break;
 								case 10:
-									alert("aqualand")
+									brincolin="spacelab"
+									cambio();
 									break;
 								case 11:
-									alert("splaspool")
+									brincolin="aqualand"
+									cambio();
 									break;
 								case 12:
-									alert("spacelab")
-									break;
-								case 13:
-									alert("Escaladrilo")
+									brincolin="splashpool"
+									cambio();
 									break;
 								default:
 									alert("Debes elegir un elemento de la lista");
 							}
 
 							
-							var imagen = document.getElementById("seleccionado");
-							imagen.setAttribute("src", brincolin);
+							
 						}
 					
 					</script>
