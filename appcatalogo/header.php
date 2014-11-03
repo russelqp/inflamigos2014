@@ -52,15 +52,15 @@ $Myurl = $url_a;
 
 <div id="container">
 <!--<div class="ayudaonline"><a href="#">Ayuda en Linea</a></div>-->
-  <!--<header>
-     <div id="logo">
+  <header>
+     <!--<div id="logo">
         <a href="#"><img src="https://www.inflamigos.com.mx/imagenes/logoinflamigos.png" alt="logo_inflamigos" title="ir al home"/></a>
        </div>
        <div id="info"><h1>Inflamigos</h1>
          <h2>Renta de brincolines en Playa del Carmen</h2>
          <p>y toda la Riviera Maya | <strong class="icon-phone"> 9841416137</strong></p>
        </div>
+       --> 
 
-
-    
-</header> --> <!-- end #header -->
+<nav><a href="https://www.facebook.com/inflamigos/app_478839412179968" title=" Catalogo Inicio" class="btn_inicio">Catálogo</a></nav>
+</header> 
