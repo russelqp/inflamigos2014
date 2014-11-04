@@ -62,5 +62,5 @@ $Myurl = $url_a;
        </div>
        --> 
 
-<nav><a href="https://www.facebook.com/inflamigos/app_478839412179968" title=" Catalogo Inicio" class="btn_inicio">Catálogo</a></nav>
+<?php if ($boton_act==1){echo '<nav><a href="javascript:history.back();" title=" Catalogo Inicio" class="btn_volver">Volver al Catálogo</a></nav>';} ?>
 </header> 

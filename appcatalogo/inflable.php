@@ -246,7 +246,7 @@ if($inflable=="splash-pool"){
 $titlePage=$titulo." - Inflamigos";
 $descPage= $miniDesc;
 $btn_activo="brincolines";
-
+$boton_act = 1;
 
 // La variable del título de la noticia 
 $url = $inflable;
