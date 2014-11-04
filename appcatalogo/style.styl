@@ -34,9 +34,9 @@ h2
 h3
 	font-size 1.4em
 	color #fff
-	width 100%
+	width 95%
 	display block
-	background-color rgba(235,0,56,1)
+	background-color #FE4900
 	padding 5px
 
 h4
@@ -112,7 +112,7 @@ article p
 	padding 10px
 
 footer
-	background-color rgba(235,0,56,1)
+	background-color #FF4900
 	bottom 0%
 	margin 0 auto
 	padding 0
@@ -122,34 +122,33 @@ footer
 	width 100%
 
 section
+	background-color #fffefe
+	box-shadow 0 0 3px 2px rgba(60,60,60,0.8)
 	display block
 	margin 0 auto
-	width 96%
+	width 100%
 	padding 10px 0
 
 #container
 	margin 5px auto
-	max-width 1000px
+	width 100%
 	padding 0
 	position relative
 	text-align justify
 	z-index 3
-	border-radius 5px
-	border 3px solid rgba(235,0,56,1)
 
-.btn_mas
+.bnt_ir
 	width 90%
 	display block
-	background-color #FFCB00
+	background-color #FE4900
 	margin 2px auto
 	border-radius 2px
-	color #fff 
 
-.btn_mas a
-	color #fff 
+.btn_ir a:link
+	color #ccc 
 
-.btn_mas:hover
-	background-color #FFDF00
+.bnt_ir:hover
+	background-color #6ff
 
 .credits
 	margin 0 auto
@@ -170,9 +169,10 @@ section
 
 
 .menu_inflables
-	width 98%
+	width 100%
 	margin 0 auto
 	text-align center
+	padding 0
 
 
 figure
@@ -180,14 +180,32 @@ figure
 	background-color #fff
 	color #333
 	padding 5px
-	margin 5px
-	width 22%
+	margin 10px 5px
+	width 29%
 	display inline-block
 	vertical-align top
 	transition all 1s ease
 	border-radius 5px
 	text-align center
 	box-shadow 0 0 2px 2px rgba(46, 49, 50, 0.3)
+
+figure a 
+	display block
+	border-radius 3px
+	background-color #FF4900
+	color #FFF
+
+figure a:hover
+	background-color #FFBB00	
+
+figure img
+	width 100%
+	padding 0
+	margin 0
+	border-radius 5px
+
+figure:hover
+	transform scale(1.08)
 
 .datos
 	display inline-block
@@ -249,7 +267,7 @@ figure
 	border 1px solid #D30
 	border-radius 5px
 
-.lista-imagenes li:hover
+.lista-imagenes li img:hover
 	transform scale(1.08)
 
 .datos
@@ -290,35 +308,5 @@ figure
 	padding-top 10px
 	text-align center
 	width 80%
-
-.mas
-	width 70%
-	display block
-	display block
-	border-radius 3px
-	background-color rgba(235,0,56,1)
-	color #FFF
-	text-align center
-	margin 2px auto
-
-.mas:hover
-		background-color #FFBB00	
-
-figure img
-	width 100%
-	padding 0
-	margin 0
-	border-radius 5px
-
-figure:hover
-	transform scale(1.08)
-
-p
-					span
-						color #fff
-						font-weight bold
-						border-radius 5px
-						background-color #0cf
-						padding 1px 5px
 
 @import "responsive.styl"

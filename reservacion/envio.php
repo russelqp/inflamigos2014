@@ -3,7 +3,7 @@ $email = $_POST['email'];
 $mensaje = $_POST['mensaje'];
 $item = $_POST['item'];
 $para = 'buzon@inflamigos.com.mx';
-$titulo = 'INFLAMIGOS WEBSITE: RESERVACIÓN RÁPIDA';
+$titulo = 'ASUNTO DEL MENSAJE';
 $header = 'From: ' . $email;
 $msjCorreo = "E-Mail: $email\n Mensaje:\n $mensaje\n Item: $item\n";
   

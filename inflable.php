@@ -53,8 +53,6 @@ $_URL_BASE=$url1;
   }
 ?>-->
 
-
-
  <?php
 function urls_amigables($url) {
 
@@ -358,7 +356,6 @@ $url = $inflable;
 ?>
 <div id ="detalle-brincolin">
 
-
 <?php
 echo "<p>";
 echo "Características: <br />".$detalles;
@@ -394,120 +391,7 @@ echo "Edad recomendada: ".$edades." años";
 echo "<br />";
 echo "</p>";
 ?>
-<a href="#openModal"><button class="btn_reservar" type="button">Reservar</button><!--<button class="btn_reservar" type="button">Condiciones</button>-->
-<div id="openModal" class="modalDialog">
-
-					<script type="text/javascript">
-
-						function cambiaImagen()
-						{	
-							function cambio()
-							{
-								var imagen = document.getElementById("seleccionado");
-								imagen.setAttribute("src", "http://127.1.0.0/inflamigos2014/inflables/thumbs/"+brincolin+"_thumb.png");
-							}
-							
-							var brincolin = document.getElementById("select1").selectedIndex;
-							switch (brincolin)
-							{
-								case 0:
-									brincolin="escaladrilo"
-									cambio();
-									break;
-								case 1:
-									brincolin="cprincess"
-									cambio();
-									break;
-								case 2:
-									brincolin="caventura"
-									cambio();
-									break;
-								case 3:
-									brincolin="minionsbox"
-									cambio();
-									break;
-								case 4:
-									brincolin="angrybox"
-									cambio();
-									break;
-								case 5:
-									brincolin="escaladora"
-									cambio();
-									break;
-								case 6:
-									brincolin="dorabox"
-									cambio();
-									break;
-								case 7:
-									brincolin="bobesponja"
-									cambio();
-									break;
-								case 8:
-									brincolin="ucubo"
-									cambio();
-									break;
-								case 9:
-									brincolin="aslide"
-									cambio();
-									break;
-								case 10:
-									brincolin="spacelab"
-									cambio();
-									break;
-								case 11:
-									brincolin="aqualand"
-									cambio();
-									break;
-								case 12:
-									brincolin="splashpool"
-									cambio();
-									break;
-								default:
-									alert("Debes elegir un elemento de la lista");
-							}
-
-							
-							
-						}
-					
-					</script>
-	<div>
-		<a href="#close" title="Close" class="close">X</a>
-		<h2>Formulario de Reservación</h2>
-		<p>Por favor rellena todos los datos, para poder ofrecerte la mejor atención</p>
-		<ol>
-			<li><label for="nombre">Nombre: </label><input type="text" name="rnombre" id="rnombre"></li>
-			<li><label for="telefono">Telefono: </label><input type="tel" name="rtelefono" id="rtelefono"></li>
-			<li><label for="email">E-mail: </label><input type="email" name="remail" id="remail"></li>
-			<li><label for="fecha">Fecha de evento: </label><input type="text" name="rfecha" id="rfecha"></li>
-			<li><label for="brincolin">Brincolin: </label>
-				
-					<select id="select1" name="rbrincolin" size="1" onchange="cambiaImagen()">
-
-						<option value="escaladrilo">Escaladrilo</option>
-						<option value="cprincess">Castillo Princess</option>
-						<option value="caventura">Castillo Aventura</option>
-						<option value="minionsbox">Minions Box</option>
-						<option value="angrybox">Angry Box</option>
-						<option value="escaladora">Escaladora</option>
-						<option value="dorabox">Dora Box</option>
-						<option value="bobesponja">Bob Esponja</option>
-						<option value="ultracubo">Ultra Cubo</option>
-						<option value="arcoslide">Arco Slide</option>
-						<option value="spacelab">Space Lab</option>
-						<option value="aqualand">Aqualand</option>
-						<option value="splashpool">Splash Pool</option>
-					</select></li>
-			<li>	
-					<img src="<?php echo $Myurl; ?>inflables/thumbs/<?php echo $brincolin; ?>_thumb.png" alt="<?php echo $brincolin; ?>_thumb.png" id="seleccionado"></li>
-					
-			<li><input type="submit" value="Enviar"></li>
-		</ol>
-
-	</div>
-
-</div>
-
+<!--<button class="btn_reservar" type="button">Reservar</button><button class="btn_reservar" type="button">Condiciones</button>-->
 </div>
 
 <div class="fb-comments" data-href="http://www.inflamigos.com.mx/brincolines/<?php echo $inflable.'/';?>"></div>
@@ -520,10 +404,10 @@ echo "</p>";
     <li><?php echo '<a href='.$Myurl.'brincolines/castillo-aventura/>'; ?><img src="<?php echo $Myurl; ?>inflables/thumbs/caventura_thumb.png" alt="castillo_aventura_middle" title="Castillo Aventura"/></a></li>
     <li><?php echo '<a href='.$Myurl.'brincolines/castillo-princess/>'; ?><img src="<?php echo $Myurl; ?>inflables/thumbs/cprincess_thumb.png" alt="castillo_princess_middle" title="Castillo Princess"/></a></li>
     <li><?php echo '<a href='.$Myurl.'brincolines/escaladrilo/>'; ?><img src="<?php echo $Myurl; ?>inflables/thumbs/escaladrilo_thumb.png" alt="escaladrilo-middle" title="Escaladrilo" /></a></li>
-    <li><?php echo '<a href='.$Myurl.'brincolines/angry-box/>'; ?><img src="<?php echo $Myurl; ?>inflables/thumbs/angrybox.jpg"  alt="angry-box-middle" title="Angry Box" /></a></li>
-    <li><?php echo '<a href='.$Myurl.'brincolines/minions-box/>'; ?><img src="<?php echo $Myurl; ?>inflables/thumbs/minionsbox_thumb.jpg"  alt="minions-box-middle" title="Minions Box" /></a></li>
+    <li><?php echo '<a href='.$Myurl.'brincolines/angry-box/>'; ?><img src="<?php echo $Myurl; ?>inflables/thumbs/angry_box.jpg"  alt="angry-box-middle" title="Angry Box" /></a></li>
+    <li><?php echo '<a href='.$Myurl.'brincolines/minions-box/>'; ?><img src="<?php echo $Myurl; ?>inflables/thumbs/minions_box_thumb.jpg"  alt="minions-box-middle" title="Minions Box" /></a></li>
     <li><?php echo '<a href='.$Myurl.'brincolines/escaladora/>'; ?><img src="<?php echo $Myurl; ?>inflables/thumbs/escaladora_thumb.png" alt="escaladora_middle" title="Escaladora"/></a></li>
-    <li><?php echo '<a href='.$Myurl.'brincolines/dora-box/>'; ?><img src="<?php echo $Myurl; ?>inflables/thumbs/dorabox_thumb.jpg" alt="dora-box_middle" title="Dora Box"/></a></li>
+    <li><?php echo '<a href='.$Myurl.'brincolines/dora-box/>'; ?><img src="<?php echo $Myurl; ?>inflables/thumbs/dora_box_thumb.jpg" alt="dora-box_middle" title="Dora Box"/></a></li>
     <li><?php echo '<a href='.$Myurl.'brincolines/resbaladilla-bob-esponja/>'; ?><img src="<?php echo $Myurl; ?>inflables/thumbs/bobesponja_thumb.png" alt="bob-esponja-middle" title="Bob Esponja Resbaladilla" /></a></li>
   	<li><?php echo '<a href='.$Myurl.'brincolines/arco-slide/>'; ?><img src="<?php echo $Myurl; ?>inflables/thumbs/aslide_thumb.png" alt="arco_slide_middle" title="Arco Slide"/></a></li>
 	<li><?php echo '<a href='.$Myurl.'brincolines/ultra-cubo/>'; ?><img src="<?php echo $Myurl; ?>inflables/thumbs/ucubo_thumb.png" alt="ultra_cubo_middle" title="Ultra Cubo"/></a></li>

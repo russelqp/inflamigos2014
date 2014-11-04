@@ -92,7 +92,7 @@
 </a>
 
 
-<a href="<?php echo $Myurl; ?>servicios/sillas-y-mesas/" title="Sillas y Mesas">
+<!--<a href="<?php echo $Myurl; ?>servicios/sillas-y-mesas/" title="Sillas y Mesas">
 <figure class="miniserv">
   <img src="<?php echo $Myurl; ?>imagenes/servicios/inflamigos_silla_adulto_plegable.jpg" alt="" />
    <h4>Alquiler de sillas y mesas</h4>
@@ -102,7 +102,7 @@
    <div class="fb-like" data-href="http://www.inflamigos.com.mx/servicios/sillas-y-mesas/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
   </p>
 </figure>
-</a>
+</a>-->
 
 </article>
 </section>

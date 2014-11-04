@@ -1,0 +1,203 @@
+[08-Sep-2013 01:22:42] PHP Fatal error:  Call to undefined function  php_info() in /home3/yan/public_html/info.php on line 1
+[08-Sep-2013 01:24:23] PHP Fatal error:  Call to undefined function  php_info() in /home3/yan/public_html/info.php on line 1
+[08-Sep-2013 01:26:45] PHP Fatal error:  Call to undefined function  php_info() in /home3/yan/public_html/info.php on line 2
+[04-Oct-2013 23:14:08] PHP Warning:  opendir(http://www.inflamigos.com.mx/inflables/thumbs/escaladrilo/) [<a href='function.opendir'>function.opendir</a>]: failed to open dir: not implemented in /home3/yan/public_html/inflable.php on line 235
+[04-Oct-2013 23:15:40] PHP Warning:  opendir(http://www.inflamigos.com.mx/inflables/thumbs/escaladrilo/) [<a href='function.opendir'>function.opendir</a>]: failed to open dir: not implemented in /home3/yan/public_html/inflable.php on line 235
+[04-Oct-2013 23:17:02] PHP Warning:  opendir(http://www.inflamigos.com.mx/inflables/thumbs/escaladrilo/) [<a href='function.opendir'>function.opendir</a>]: failed to open dir: not implemented in /home3/yan/public_html/inflable.php on line 235
+[04-Oct-2013 23:19:04] PHP Warning:  opendir(http://www.inflamigos.com.mx/inflables/thumbs/escaladrilo/) [<a href='function.opendir'>function.opendir</a>]: failed to open dir: not implemented in /home3/yan/public_html/inflable.php on line 235
+[04-Oct-2013 23:19:17] PHP Warning:  opendir(http://www.inflamigos.com.mx/inflables/thumbs/escaladrilo/) [<a href='function.opendir'>function.opendir</a>]: failed to open dir: not implemented in /home3/yan/public_html/inflable.php on line 235
+[04-Oct-2013 23:21:14] PHP Warning:  opendir(http://www.inflamigos.com.mx/inflables/thumbs/escaladrilo/) [<a href='function.opendir'>function.opendir</a>]: failed to open dir: not implemented in /home3/yan/public_html/inflable.php on line 235
+[04-Oct-2013 23:21:20] PHP Warning:  opendir(http://www.inflamigos.com.mx/inflables/thumbs/escaladrilo/) [<a href='function.opendir'>function.opendir</a>]: failed to open dir: not implemented in /home3/yan/public_html/inflable.php on line 235
+[04-Oct-2013 23:24:11] PHP Warning:  opendir(http://www.inflamigos.com.mx/inflables/thumbs/escaladrilo/) [<a href='function.opendir'>function.opendir</a>]: failed to open dir: not implemented in /home3/yan/public_html/inflable.php on line 235
+[04-Oct-2013 23:25:09] PHP Warning:  opendir(http://www.inflamigos.com.mx/inflables/thumbs/bobesponja/) [<a href='function.opendir'>function.opendir</a>]: failed to open dir: not implemented in /home3/yan/public_html/inflable.php on line 235
+[04-Oct-2013 23:25:18] PHP Warning:  opendir(http://www.inflamigos.com.mx/inflables/thumbs/ucubo/) [<a href='function.opendir'>function.opendir</a>]: failed to open dir: not implemented in /home3/yan/public_html/inflable.php on line 235
+[11-Oct-2013 18:53:39] PHP Parse error:  syntax error, unexpected '<' in /home3/yan/public_html/inflable.php on line 261
+[11-Oct-2013 18:53:44] PHP Parse error:  syntax error, unexpected '<' in /home3/yan/public_html/inflable.php on line 261
+[12-Oct-2013 00:56:55] PHP Warning:  opendir(/inflables/thumbs/angrybox/) [<a href='function.opendir'>function.opendir</a>]: failed to open dir: No such file or directory in /home3/yan/public_html/inflable.php on line 281
+[12-Oct-2013 00:58:15] PHP Warning:  opendir(/inflables/thumbs/angrybox/) [<a href='function.opendir'>function.opendir</a>]: failed to open dir: No such file or directory in /home3/yan/public_html/inflable.php on line 281
+[12-Oct-2013 00:58:27] PHP Warning:  opendir(/inflables/thumbs/angrybox/) [<a href='function.opendir'>function.opendir</a>]: failed to open dir: No such file or directory in /home3/yan/public_html/inflable.php on line 281
+[12-Oct-2013 00:59:39] PHP Warning:  opendir(www.inflamigos.com.mx/inflables/thumbs/angrybox/) [<a href='function.opendir'>function.opendir</a>]: failed to open dir: No such file or directory in /home3/yan/public_html/inflable.php on line 281
+[12-Oct-2013 01:04:08] PHP Warning:  opendir(../inflables/thumbs/angrybox/) [<a href='function.opendir'>function.opendir</a>]: failed to open dir: No such file or directory in /home3/yan/public_html/inflable.php on line 281
+[12-Oct-2013 01:04:55] PHP Warning:  opendir(/inflables/thumbs/angrybox/) [<a href='function.opendir'>function.opendir</a>]: failed to open dir: No such file or directory in /home3/yan/public_html/inflable.php on line 281
+[12-Oct-2013 01:05:12] PHP Warning:  opendir(..inflables/thumbs/angrybox/) [<a href='function.opendir'>function.opendir</a>]: failed to open dir: No such file or directory in /home3/yan/public_html/inflable.php on line 281
+[12-Oct-2013 01:07:06] PHP Warning:  opendir(../inflables/thumbs/angrybox/) [<a href='function.opendir'>function.opendir</a>]: failed to open dir: No such file or directory in /home3/yan/public_html/inflable.php on line 281
+[12-Oct-2013 01:07:24] PHP Warning:  opendir(../inflables/thumbs//) [<a href='function.opendir'>function.opendir</a>]: failed to open dir: No such file or directory in /home3/yan/public_html/inflable.php on line 281
+[12-Oct-2013 01:17:04] PHP Warning:  opendir(http://www.inflamigos.com.mx/inflables/thumbs/angrybox/) [<a href='function.opendir'>function.opendir</a>]: failed to open dir: not implemented in /home3/yan/public_html/inflable.php on line 281
+[12-Oct-2013 01:17:57] PHP Warning:  opendir(/inflables/thumbs/angrybox/) [<a href='function.opendir'>function.opendir</a>]: failed to open dir: No such file or directory in /home3/yan/public_html/inflable.php on line 281
+[12-Oct-2013 01:20:20] PHP Parse error:  syntax error, unexpected ';' in /home3/yan/public_html/inflable.php on line 284
+[12-Oct-2013 01:20:22] PHP Parse error:  syntax error, unexpected ';' in /home3/yan/public_html/inflable.php on line 284
+[12-Oct-2013 01:21:41] PHP Parse error:  syntax error, unexpected '.' in /home3/yan/public_html/inflable.php on line 285
+[12-Oct-2013 01:21:43] PHP Parse error:  syntax error, unexpected '.' in /home3/yan/public_html/inflable.php on line 285
+[12-Oct-2013 01:30:06] PHP Warning:  opendir(../../inflables/thumbs/angrybox/) [<a href='function.opendir'>function.opendir</a>]: failed to open dir: No such file or directory in /home3/yan/public_html/inflable.php on line 281
+[12-Oct-2013 01:30:31] PHP Warning:  opendir(../inflables/thumbs/angrybox/) [<a href='function.opendir'>function.opendir</a>]: failed to open dir: No such file or directory in /home3/yan/public_html/inflable.php on line 281
+[01-Feb-2014 20:47:59] PHP Parse error:  syntax error, unexpected ',' in /home3/yan/public_html/inflable.php on line 275
+[01-Feb-2014 20:48:02] PHP Parse error:  syntax error, unexpected ',' in /home3/yan/public_html/inflable.php on line 275
+[01-Feb-2014 20:48:03] PHP Parse error:  syntax error, unexpected ',' in /home3/yan/public_html/inflable.php on line 275
+[21-Mar-2014 09:55:50] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[21-Mar-2014 09:55:51] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[21-Mar-2014 09:55:51] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[21-Mar-2014 09:55:52] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[21-Mar-2014 09:55:53] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[21-Mar-2014 09:55:54] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[21-Mar-2014 09:55:55] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[21-Mar-2014 09:55:57] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[17-Apr-2014 20:22:17] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[17-Apr-2014 20:22:18] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[17-Apr-2014 20:22:18] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[17-Apr-2014 20:22:19] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[17-Apr-2014 20:22:19] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[17-Apr-2014 20:22:20] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[17-Apr-2014 20:22:21] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[17-Apr-2014 20:22:21] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[02-May-2014 07:34:26 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[02-May-2014 07:34:28 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[02-May-2014 07:34:30 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[02-May-2014 07:34:32 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[02-May-2014 07:34:34 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[02-May-2014 07:34:36 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[02-May-2014 07:34:38 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[02-May-2014 07:34:40 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[16-May-2014 01:12:37 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[16-May-2014 01:12:39 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[16-May-2014 01:12:40 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[16-May-2014 01:12:42 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[16-May-2014 01:12:44 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[16-May-2014 01:12:45 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[16-May-2014 01:12:47 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[16-May-2014 01:12:48 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[19-May-2014 08:59:04 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[19-May-2014 08:59:06 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[19-May-2014 08:59:07 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[19-May-2014 08:59:09 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[19-May-2014 08:59:10 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[19-May-2014 08:59:12 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[19-May-2014 08:59:13 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[19-May-2014 08:59:14 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[19-May-2014 08:59:37 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[19-May-2014 08:59:38 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[19-May-2014 08:59:40 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[19-May-2014 08:59:41 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[19-May-2014 08:59:42 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[19-May-2014 08:59:42 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[19-May-2014 08:59:44 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[19-May-2014 08:59:45 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[30-May-2014 09:46:26 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[30-May-2014 09:46:28 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[30-May-2014 09:46:30 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[30-May-2014 09:46:32 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[30-May-2014 09:46:33 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[30-May-2014 09:46:35 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[30-May-2014 09:46:37 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[30-May-2014 09:46:39 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[13-Jun-2014 03:04:15 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[13-Jun-2014 03:04:17 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[13-Jun-2014 03:04:18 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[13-Jun-2014 03:04:20 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[13-Jun-2014 03:04:22 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[13-Jun-2014 03:04:24 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[13-Jun-2014 03:04:25 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[13-Jun-2014 03:04:27 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[25-Jun-2014 03:42:33 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[25-Jun-2014 03:42:39 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[25-Jun-2014 03:42:40 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[25-Jun-2014 03:42:44 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[25-Jun-2014 03:42:46 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[25-Jun-2014 03:42:50 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[25-Jun-2014 03:42:51 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[25-Jun-2014 03:42:55 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[25-Jun-2014 03:48:42 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[25-Jun-2014 03:48:43 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[25-Jun-2014 03:48:48 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[25-Jun-2014 03:48:48 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[25-Jun-2014 03:48:53 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[25-Jun-2014 03:48:54 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[25-Jun-2014 03:48:59 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[25-Jun-2014 03:49:04 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[25-Jun-2014 03:49:33 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[25-Jun-2014 03:49:39 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[25-Jun-2014 03:49:44 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[25-Jun-2014 03:49:50 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[25-Jun-2014 03:49:55 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[25-Jun-2014 03:50:01 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[25-Jun-2014 03:50:06 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[25-Jun-2014 03:50:19 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[27-Jun-2014 04:09:44 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[27-Jun-2014 04:09:45 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[27-Jun-2014 04:09:47 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[27-Jun-2014 04:09:48 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[27-Jun-2014 04:09:50 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[27-Jun-2014 04:09:52 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[27-Jun-2014 04:09:53 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[27-Jun-2014 04:09:55 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[10-Jul-2014 21:21:28 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[10-Jul-2014 21:21:30 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[10-Jul-2014 21:21:31 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[10-Jul-2014 21:21:33 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[10-Jul-2014 21:21:35 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[10-Jul-2014 21:21:37 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[10-Jul-2014 21:21:39 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[10-Jul-2014 21:21:41 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[24-Jul-2014 23:54:03 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[24-Jul-2014 23:54:04 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[24-Jul-2014 23:54:06 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[24-Jul-2014 23:54:08 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[24-Jul-2014 23:54:09 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[24-Jul-2014 23:54:11 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[24-Jul-2014 23:54:13 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[24-Jul-2014 23:54:14 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[22-Aug-2014 16:14:37 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[22-Aug-2014 16:14:39 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[22-Aug-2014 16:14:40 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[22-Aug-2014 16:14:41 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[22-Aug-2014 16:14:43 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[22-Aug-2014 16:14:44 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[22-Aug-2014 16:14:46 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[22-Aug-2014 16:14:47 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[06-Sep-2014 07:59:07 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[06-Sep-2014 07:59:09 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[06-Sep-2014 07:59:11 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[06-Sep-2014 07:59:13 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[06-Sep-2014 07:59:15 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[06-Sep-2014 07:59:17 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[06-Sep-2014 07:59:19 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[06-Sep-2014 07:59:21 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[25-Sep-2014 11:50:27 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[25-Sep-2014 11:50:28 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[25-Sep-2014 11:50:30 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[25-Sep-2014 11:50:31 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[25-Sep-2014 11:50:33 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[25-Sep-2014 11:50:34 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[25-Sep-2014 11:50:36 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[25-Sep-2014 11:50:37 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[18-Oct-2014 17:02:00 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[18-Oct-2014 17:02:02 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[18-Oct-2014 17:02:03 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[18-Oct-2014 17:02:04 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[18-Oct-2014 17:02:06 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[18-Oct-2014 17:02:07 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[18-Oct-2014 17:02:08 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[18-Oct-2014 17:02:10 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[28-Oct-2014 18:19:16 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[28-Oct-2014 18:19:17 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[28-Oct-2014 18:19:17 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[28-Oct-2014 18:19:18 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[28-Oct-2014 18:19:19 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[28-Oct-2014 18:19:19 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[28-Oct-2014 18:19:20 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[28-Oct-2014 18:19:20 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[29-Oct-2014 01:08:39 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[29-Oct-2014 01:08:39 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[29-Oct-2014 01:08:39 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[29-Oct-2014 01:08:40 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[29-Oct-2014 01:08:40 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[29-Oct-2014 01:08:41 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[29-Oct-2014 01:08:41 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[29-Oct-2014 01:08:41 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[29-Oct-2014 02:08:34 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[29-Oct-2014 02:08:35 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[29-Oct-2014 02:08:35 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[29-Oct-2014 02:08:35 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[29-Oct-2014 02:08:36 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[29-Oct-2014 03:06:13 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[29-Oct-2014 03:06:13 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
+[29-Oct-2014 03:06:14 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home3/yan/public_html/categoria.php on line 8
