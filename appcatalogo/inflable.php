@@ -27,7 +27,7 @@ $repl = array('', '-', '');
 $url = preg_replace ($find, $repl, $url);
 
 return $url;
-
+$btn_inicio=1;
 }
 ?>
 <?php

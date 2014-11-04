@@ -61,6 +61,6 @@ $Myurl = $url_a;
          <p>y toda la Riviera Maya | <strong class="icon-phone"> 9841416137</strong></p>
        </div>
        --> 
+<?php if ($btn_inicio==1) {echo '<nav><a href="javascript:history.back()" title=" Catalogo Inicio" class="btn_inicio">Catálogo</a></nav> ';} ?>
 
-<nav><a href="https://www.facebook.com/inflamigos/app_478839412179968" title=" Catalogo Inicio" class="btn_inicio">Catálogo</a></nav>
 </header> 
